@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>STEM Explorer Kit – PlayJoy Toys</title>
+    <meta name="description"
+        content="Educational STEM kit for kids. Sparks creativity, problem-solving, and hands-on learning. Perfect for ages 6–10." />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+    <nav class="navbar scrolled" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <div class="logo-icon">🧸</div>Play<span>Joy</span> Toys
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="categories.html">Categories</a></li>
+                <li><a href="products.html" class="active">Products</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <div class="nav-cart" id="navCart">🛒<div class="cart-count" id="cartCount">3</div>
+                </div>
+                <a href="products.html" class="btn btn-primary" style="padding:10px 22px;font-size:0.9rem;">Shop Now</a>
+                <div class="hamburger" id="hamburger"><span></span><span></span><span></span></div>
+            </div>
+        </div>
+    </nav>
+    <div class="mobile-menu" id="mobileMenu">
+        <button class="mobile-close" id="mobileClose">✕</button>
+        <a href="index.html">Home</a><a href="categories.html">Categories</a><a href="products.html">Products</a><a
+            href="blog.html">Blog</a><a href="about.html">About</a><a href="contact.html">Contact</a>
+    </div>
+
+    <!-- BREADCRUMB -->
+    <div style="padding:100px 0 0">
+        <div class="container">
+            <div class="breadcrumb" style="justify-content:flex-start">
+                <a href="index.html">Home</a> › <a href="products.html">Products</a> › <a
+                    href="educational.html">Educational</a> › <span>STEM Explorer Kit</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- PRODUCT DETAIL -->
+    <section class="section" style="padding-top:32px">
+        <div class="container">
+            <div class="product-detail-grid">
+
+                <!-- Gallery -->
+                <div class="product-gallery">
+                    <div class="product-main-img" id="mainImg">🧪</div>
+                    <div class="product-thumbnails">
+                        <div class="product-thumb active" onclick="changeImg(this,'🧪')">🧪</div>
+                        <div class="product-thumb" onclick="changeImg(this,'🔬')">🔬</div>
+                        <div class="product-thumb" onclick="changeImg(this,'⚗️')">⚗️</div>
+                        <div class="product-thumb" onclick="changeImg(this,'🔭')">🔭</div>
+                    </div>
+
+                    <!-- Stock Status -->
+                    <div
+                        style="margin-top:20px;padding:16px 20px;background:rgba(0,200,83,0.08);border:1px solid rgba(0,200,83,0.2);border-radius:var(--radius-sm);display:flex;align-items:center;gap:10px">
+                        <span style="color:var(--accent-green);font-size:1rem">✅</span>
+                        <div>
+                            <div style="font-weight:800;color:var(--accent-green);font-size:0.9rem">In Stock</div>
+                            <div style="font-size:0.8rem;color:var(--text-muted)">Ships within 24 hours</div>
+                        </div>
+                    </div>
+
+                    <!-- Share -->
+                    <div style="margin-top:16px;display:flex;gap:10px">
+                        <span style="font-size:0.85rem;color:var(--text-muted);line-height:36px">Share:</span>
+                        <div class="social-link">📘</div>
+                        <div class="social-link">🐦</div>
+                        <div class="social-link">📌</div>
+                    </div>
+                </div>
+
+                <!-- Product Info -->
+                <div class="product-detail-info">
+                    <div class="product-category-tag">🔬 Educational · STEM</div>
+                    <h1 class="product-detail-name">STEM Explorer Kit for Kids</h1>
+
+                    <div class="product-detail-rating">
+                        <span class="stars" style="font-size:1rem">★★★★★</span>
+                        <span class="rating-value">4.9</span>
+                        <span class="verified-reviews">238 Verified Reviews</span>
+                    </div>
+
+                    <div class="product-detail-price">
+                        <span class="price-big">$34.99</span>
+                        <span class="price-old">$49.99</span>
+                        <span class="price-save">Save 30%</span>
+                    </div>
+
+                    <p class="product-detail-desc">
+                        The STEM Explorer Kit includes hands-on activities that teach kids the basics of science,
+                        technology, engineering, and math. Fun, educational, and safe for kids ages 6–10. Perfect for
+                        home or classroom use.
+                    </p>
+
+                    <ul class="features-list">
+                        <li>
+                            <div class="feature-check">✓</div>
+                            10+ interactive experiments included
+                        </li>
+                        <li>
+                            <div class="feature-check">✓</div>
+                            Non-toxic, CE certified safe materials
+                        </li>
+                        <li>
+                            <div class="feature-check">✓</div>
+                            Encourages creativity and problem-solving
+                        </li>
+                        <li>
+                            <div class="feature-check">✓</div>
+                            Perfect for home or classroom use
+                        </li>
+                        <li>
+                            <div class="feature-check">✓</div>
+                            Illustrated instruction guide included
+                        </li>
+                        <li>
+                            <div class="feature-check">✓</div>
+                            Ages 6–10 recommended
+                        </li>
+                    </ul>
+
+                    <!-- Quantity & Cart -->
+                    <div class="add-to-cart-section">
+                        <div class="quantity-control">
+                            <button class="qty-btn" onclick="changeQty(-1)">−</button>
+                            <span class="qty-value" id="qty">1</span>
+                            <button class="qty-btn" onclick="changeQty(1)">+</button>
+                        </div>
+                        <button class="btn btn-primary btn-lg" id="cartBtn" onclick="addToCart()">🛒 Add to
+                            Cart</button>
+                        <button class="btn btn-outline" style="width:48px;height:52px;padding:0;justify-content:center;"
+                            id="wishBtn" onclick="toggleWish()">♡</button>
+                    </div>
+
+                    <!-- Meta -->
+                    <div class="product-meta">
+                        <div class="meta-item">✅ <span>Free shipping over $49</span></div>
+                        <div class="meta-item">↩️ <span>30-day easy returns</span></div>
+                        <div class="meta-item">🔒 <span>Secure checkout</span></div>
+                    </div>
+
+                    <!-- Age & Safety -->
+                    <div
+                        style="margin-top:24px;padding:20px;background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);display:grid;grid-template-columns:repeat(4,1fr);gap:16px;text-align:center">
+                        <div>
+                            <div style="font-size:1.5rem;margin-bottom:6px">🎯</div>
+                            <div style="font-size:0.8rem;color:white;font-weight:700">Ages 6–10</div>
+                        </div>
+                        <div>
+                            <div style="font-size:1.5rem;margin-bottom:6px">🔒</div>
+                            <div style="font-size:0.8rem;color:white;font-weight:700">CE Certified</div>
+                        </div>
+                        <div>
+                            <div style="font-size:1.5rem;margin-bottom:6px">♻️</div>
+                            <div style="font-size:0.8rem;color:white;font-weight:700">Eco Materials</div>
+                        </div>
+                        <div>
+                            <div style="font-size:1.5rem;margin-bottom:6px">🏆</div>
+                            <div style="font-size:0.8rem;color:white;font-weight:700">Award Winning</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- RELATED PRODUCTS -->
+    <section class="section" style="padding-top:0">
+        <div class="container">
+            <div class="section-header" style="margin-bottom:36px">
+                <h2>You May Also <span class="gradient-text">Like</span></h2>
+            </div>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-img">🧩<button class="product-wishlist">♡</button></div>
+                    <div class="product-info">
+                        <div class="product-category">Educational</div>
+                        <div class="product-name">Wooden ABC Puzzle</div>
+                        <div class="product-rating"><span class="stars">★★★★★</span><span
+                                class="rating-count">(186)</span></div>
+                        <div class="product-footer">
+                            <div class="product-price"><span class="price-current">$24.99</span></div><button
+                                class="btn-add-cart">🛒</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-img">🔭<button class="product-wishlist">♡</button></div>
+                    <div class="product-info">
+                        <div class="product-category">STEM</div>
+                        <div class="product-name">Junior Telescope Kit</div>
+                        <div class="product-rating"><span class="stars">★★★★☆</span><span
+                                class="rating-count">(94)</span></div>
+                        <div class="product-footer">
+                            <div class="product-price"><span class="price-current">$42.99</span></div><button
+                                class="btn-add-cart">🛒</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-img">💡<button class="product-wishlist">♡</button></div>
+                    <div class="product-info">
+                        <div class="product-category">Engineering</div>
+                        <div class="product-name">Build & Circuit Kit</div>
+                        <div class="product-rating"><span class="stars">★★★★★</span><span
+                                class="rating-count">(211)</span></div>
+                        <div class="product-footer">
+                            <div class="product-price"><span class="price-current">$38.99</span></div><button
+                                class="btn-add-cart">🛒</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom" style="border-top:none;padding-top:0">
+                <p>© 2026 PlayJoy Toys. All Rights Reserved.</p>
+                <a href="index.html" class="btn btn-outline" style="padding:8px 20px;font-size:0.85rem;">← Back to
+                    Home</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('hamburger').addEventListener('click', () => document.getElementById('mobileMenu').classList.add('open'));
+        document.getElementById('mobileClose').addEventListener('click', () => document.getElementById('mobileMenu').classList.remove('open'));
+
+        let qty = 1;
+        function changeQty(d) {
+            qty = Math.max(1, qty + d);
+            document.getElementById('qty').textContent = qty;
+        }
+
+        let cartCount = 3;
+        function addToCart() {
+            cartCount += qty;
+            document.getElementById('cartCount').textContent = cartCount;
+            const btn = document.getElementById('cartBtn');
+            btn.textContent = `✓ Added ${qty} to Cart!`;
+            btn.style.background = 'var(--accent-green)';
+            setTimeout(() => {
+                btn.textContent = '🛒 Add to Cart';
+                btn.style.background = '';
+            }, 2000);
+        }
+
+        let wished = false;
+        function toggleWish() {
+            wished = !wished;
+            const btn = document.getElementById('wishBtn');
+            btn.textContent = wished ? '❤️' : '♡';
+            btn.style.borderColor = wished ? 'var(--accent-pink)' : '';
+            btn.style.color = wished ? 'var(--accent-pink)' : '';
+        }
+
+        function changeImg(el, emoji) {
+            document.getElementById('mainImg').textContent = emoji;
+            document.querySelectorAll('.product-thumb').forEach(t => t.classList.remove('active'));
+            el.classList.add('active');
+        }
+    </script>
+</body>
+
+</html>

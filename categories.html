@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>All Toy Categories | Kids Toys Online – PlayJoy Toys</title>
+    <meta name="description"
+        content="Browse all PlayJoy Toys categories. Safe, fun, and educational toys for kids of all ages." />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <nav class="navbar scrolled" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <div class="logo-icon">🧸</div>Play<span>Joy</span> Toys
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="categories.html" class="active">Categories</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <div class="nav-cart">🛒<div class="cart-count">3</div>
+                </div>
+                <a href="products.html" class="btn btn-primary" style="padding:10px 22px;font-size:0.9rem;">Shop Now</a>
+                <div class="hamburger" id="hamburger"><span></span><span></span><span></span></div>
+            </div>
+        </div>
+    </nav>
+    <div class="mobile-menu" id="mobileMenu">
+        <button class="mobile-close" id="mobileClose">✕</button>
+        <a href="index.html">Home</a><a href="categories.html">Categories</a><a href="products.html">Products</a><a
+            href="blog.html">Blog</a><a href="about.html">About</a><a href="contact.html">Contact</a>
+    </div>
+
+    <div class="page-header">
+        <div class="container">
+            <div class="breadcrumb"><a href="index.html">Home</a> › <span>Categories</span></div>
+            <div class="badge">🗂️ All Collections</div>
+            <h1>Explore Our <span class="gradient-text">Collections</span></h1>
+            <p>From STEM kits to outdoor adventures — discover the perfect toy for every child.</p>
+        </div>
+    </div>
+
+    <section class="section" style="padding-top:40px">
+        <div class="container">
+            <!-- Big Category Cards -->
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-bottom:28px">
+                <a href="educational.html"
+                    style="background:linear-gradient(135deg,#1A1A2E,#16213E);border:1px solid rgba(255,107,53,0.2);border-radius:var(--radius-lg);padding:48px;display:flex;align-items:center;gap:32px;text-decoration:none;transition:var(--transition)"
+                    onmouseover="this.style.transform='translateY(-6px)'" onmouseout="this.style.transform=''">
+                    <div style="font-size:5rem">🔬</div>
+                    <div>
+                        <h2 style="color:white;margin-bottom:8px;font-size:1.8rem">Educational Toys</h2>
+                        <p style="color:var(--text-muted);margin-bottom:16px">STEM kits, puzzles, and learning games
+                            that make learning fun for kids ages 3–12.</p>
+                        <span class="btn btn-primary" style="display:inline-flex">Shop Educational →</span>
+                    </div>
+                </a>
+                <a href="outdoor.html"
+                    style="background:linear-gradient(135deg,#0d1b2e,#0a2040);border:1px solid rgba(0,176,255,0.2);border-radius:var(--radius-lg);padding:48px;display:flex;align-items:center;gap:32px;text-decoration:none;transition:var(--transition)"
+                    onmouseover="this.style.transform='translateY(-6px)'" onmouseout="this.style.transform=''">
+                    <div style="font-size:5rem">⚽</div>
+                    <div>
+                        <h2 style="color:white;margin-bottom:8px;font-size:1.8rem">Outdoor Play</h2>
+                        <p style="color:var(--text-muted);margin-bottom:16px">Sports, ride-ons, and active toys that
+                            encourage movement and fresh-air fun.</p>
+                        <span class="btn btn-secondary" style="display:inline-flex">Shop Outdoor →</span>
+                    </div>
+                </a>
+            </div>
+
+            <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:24px">
+                <a href="plush.html" class="category-card"
+                    style="padding:36px 24px;--cat-color:#FF4081;--cat-bg:rgba(255,64,129,0.12)">
+                    <div class="cat-icon" style="width:90px;height:90px;font-size:2.8rem">🧸</div>
+                    <h3 style="font-size:1.3rem;margin-bottom:8px">Plush & Soft Toys</h3>
+                    <p>Cuddly companions for kids of all ages</p>
+                    <div style="margin-top:16px;color:var(--accent-pink);font-weight:700;font-size:0.9rem">Shop Now →
+                    </div>
+                </a>
+                <a href="creative.html" class="category-card"
+                    style="padding:36px 24px;--cat-color:#FFD600;--cat-bg:rgba(255,214,0,0.12)">
+                    <div class="cat-icon" style="width:90px;height:90px;font-size:2.8rem">🎨</div>
+                    <h3 style="font-size:1.3rem;margin-bottom:8px">Creative Toys</h3>
+                    <p>Arts, crafts and DIY kits for creators</p>
+                    <div style="margin-top:16px;color:var(--accent);font-weight:700;font-size:0.9rem">Shop Now →</div>
+                </a>
+                <a href="board-games.html" class="category-card"
+                    style="padding:36px 24px;--cat-color:#7C4DFF;--cat-bg:rgba(124,77,255,0.12)">
+                    <div class="cat-icon" style="width:90px;height:90px;font-size:2.8rem">🎲</div>
+                    <h3 style="font-size:1.3rem;margin-bottom:8px">Board Games</h3>
+                    <p>Fun games for kids and whole families</p>
+                    <div style="margin-top:16px;color:var(--secondary-light);font-weight:700;font-size:0.9rem">Shop Now
+                        →</div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom" style="border-top:none;padding-top:0">
+                <p>© 2026 PlayJoy Toys.</p><a href="index.html" class="btn btn-outline"
+                    style="padding:8px 20px;font-size:0.85rem;">← Home</a>
+            </div>
+        </div>
+    </footer>
+    <script>document.getElementById('hamburger').addEventListener('click', () => document.getElementById('mobileMenu').classList.add('open')); document.getElementById('mobileClose').addEventListener('click', () => document.getElementById('mobileMenu').classList.remove('open'));</script>
+</body>
+
+</html>

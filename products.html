@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>All Products | Kids Toys Online – PlayJoy Toys</title>
+    <meta name="description"
+        content="Shop all PlayJoy Toys products. Safe, fun, and educational toys for kids of all ages with fast shipping." />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <nav class="navbar scrolled" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <div class="logo-icon">🧸</div>Play<span>Joy</span> Toys
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="categories.html">Categories</a></li>
+                <li><a href="products.html" class="active">Products</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <div class="nav-cart">🛒<div class="cart-count">3</div>
+                </div>
+                <a href="products.html" class="btn btn-primary" style="padding:10px 22px;font-size:0.9rem;">Shop Now</a>
+                <div class="hamburger" id="hamburger"><span></span><span></span><span></span></div>
+            </div>
+        </div>
+    </nav>
+    <div class="mobile-menu" id="mobileMenu">
+        <button class="mobile-close" id="mobileClose">✕</button>
+        <a href="index.html">Home</a><a href="categories.html">Categories</a><a href="products.html">Products</a><a
+            href="blog.html">Blog</a><a href="about.html">About</a><a href="contact.html">Contact</a>
+    </div>
+
+    <div class="page-header">
+        <div class="container">
+            <div class="breadcrumb"><a href="index.html">Home</a> › <span>All Products</span></div>
+            <div class="badge">🛍️ Browse Everything</div>
+            <h1>All <span class="gradient-text">Products</span></h1>
+            <p>500+ hand-picked toys for every age, interest, and budget.</p>
+        </div>
+    </div>
+
+    <section class="section" style="padding-top:40px">
+        <div class="container">
+            <!-- Search + Filter Bar -->
+            <div style="display:flex;gap:16px;margin-bottom:28px;flex-wrap:wrap;align-items:center">
+                <div style="flex:1;min-width:260px;position:relative">
+                    <input type="text" class="form-input" placeholder="🔍 Search toys..." style="padding-left:20px"
+                        id="searchInput" oninput="filterProducts()" />
+                </div>
+                <select class="form-select" style="width:180px" id="sortSelect" onchange="filterProducts()">
+                    <option>Sort: Featured</option>
+                    <option>Price: Low to High</option>
+                    <option>Price: High to Low</option>
+                    <option>Best Rated</option>
+                    <option>Newest First</option>
+                </select>
+            </div>
+
+            <div class="filter-bar" style="margin-bottom:36px">
+                <button class="filter-btn active" onclick="filterCat(this,'all')">All</button>
+                <button class="filter-btn" onclick="filterCat(this,'educational')">🔬 Educational</button>
+                <button class="filter-btn" onclick="filterCat(this,'outdoor')">⚽ Outdoor</button>
+                <button class="filter-btn" onclick="filterCat(this,'plush')">🧸 Plush</button>
+                <button class="filter-btn" onclick="filterCat(this,'creative')">🎨 Creative</button>
+                <button class="filter-btn" onclick="filterCat(this,'board')">🎲 Board Games</button>
+            </div>
+
+            <div class="products-grid" id="productsGrid">
+                <div class="product-card" data-cat="educational">
+                    <span class="product-badge hot">🔥 Hot</span>
+                    <div class="product-img">🧪<button class="product-wishlist">♡</button></div>
+                    <div class="product-info">
+                        <div class="product-category">Educational</div>
+                        <div class="product-name">STEM Explorer Kit</div>
+                        <div class="product-desc">10+ hands-on science experiments for ages 6–10.</div>
+                        <div class="product-rating"><span class="stars">★★★★★</span><span
+                                class="rating-count">(238)</span></div>
+                        <div class="product-footer">
+                            <div class="product-price"><span class="price-current">$34.99</span><span
+                                    class="price-original">$49.99</span></div><button class="btn-add-cart">🛒</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card" data-cat="educational">
+                    <span class="product-badge new">✨ New</span>
+                    <div class="product-img">🧩<button class="product-wishlist">♡</button></div>
+                    <div class="product-info">
+                        <div class="product-category">Educational</div>
+                        <div class="product-name">Wooden ABC Puzzle</div>
+                        <div class="product-desc">Multi-layer wooden alphabet puzzle, ages 2–5.</div>
+                        <div class="product-rating"><span class="stars">★★★★★</span><span
+                                class="rating-count">(186)</span></div>
+                        <div class="product-footer">
+                            <div class="product-price"><span class="price-current">$24.99</span><span
+                                    class="price-original">$34.99</span></div><button class="btn-add-cart">🛒</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card" data-cat="plush">
+                    <span class="product-badge sale">💰 Sale</span>
+                    <div class="product-img">🧸<button class="product-wishlist">♡</button></div>
+                    <div class="product-info">
+                        <div class="product-category">Plush & Soft</div>
+                        <div class="product-name">Giant Fluffy Bunny</div>
+                        <div class="product-desc">Super soft plush bunny, perfect for all ages.</div>
+                        <div class="product-rating"><span class="stars">★★★★★</span><span
+                                class="rating-count">(312)</span></div>
+                        <div class="product-footer">
+                            <div class="product-price"><span class="price-current">$19.99</span><span
+                                    class="price-original">$29.99</span></div><button class="btn-add-cart">🛒</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card" data-cat="creative">
+                    <div class="product-img">🎨<button class="product-wishlist">♡</button></div>
+                    <div class="product-info">
+                        <div class="product-category">Creative</div>
+                        <div class="product-name">Rainbow Art Kit Deluxe</div>
+                        <div class="product-desc">Complete art and craft set with 120+ tools.</div>
+                        <div class="product-rating"><span class="stars">★★★★☆</span><span
+                                class="rating-count">(149)</span></div>
+                        <div class="product-footer">
+                            <div class="product-price"><span class="price-current">$29.99</span><span
+                                    class="price-original">$44.99</span></div><button class="btn-add-cart">🛒</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card" data-cat="board">
+                    <span class="product-badge hot">🔥 Hot</span>
+                    <div class="product-img">🎲<button class="product-wishlist">♡</button></div>
+                    <div class="product-info">
+                        <div class="product-category">Board Games</div>
+                        <div class="product-name">Family Quest Game</div>
+                        <div class="product-desc">Epic adventure board game for the whole family.</div>
+                        <div class="product-rating"><span class="stars">★★★★★</span><span
+                                class="rating-count">(271)</span></div>
+                        <div class="product-footer">
+                            <div class="product-price"><span class="price-current">$39.99</span><span
+                                    class="price-original">$54.99</span></div><button class="btn-add-cart">🛒</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card" data-cat="outdoor">
+                    <span class="product-badge new">✨ New</span>
+                    <div class="product-img">⚽<button class="product-wishlist">♡</button></div>
+                    <div class="product-info">
+                        <div class="product-category">Outdoor</div>
+                        <div class="product-name">Pro Sports Starter Set</div>
+                        <div class="product-desc">Complete outdoor sports kit for active play.</div>
+                        <div class="product-rating"><span class="stars">★★★★★</span><span
+                                class="rating-count">(97)</span></div>
+                        <div class="product-footer">
+                            <div class="product-price"><span class="price-current">$44.99</span><span
+                                    class="price-original">$59.99</span></div><button class="btn-add-cart">🛒</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card" data-cat="educational">
+                    <div class="product-img">🔭<button class="product-wishlist">♡</button></div>
+                    <div class="product-info">
+                        <div class="product-category">STEM</div>
+                        <div class="product-name">Junior Telescope Kit</div>
+                        <div class="product-desc">Explore the night sky with this beginner telescope.</div>
+                        <div class="product-rating"><span class="stars">★★★★☆</span><span
+                                class="rating-count">(94)</span></div>
+                        <div class="product-footer">
+                            <div class="product-price"><span class="price-current">$42.99</span><span
+                                    class="price-original">$59.99</span></div><button class="btn-add-cart">🛒</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card" data-cat="plush">
+                    <div class="product-img">🦁<button class="product-wishlist">♡</button></div>
+                    <div class="product-info">
+                        <div class="product-category">Plush & Soft</div>
+                        <div class="product-name">Leo the Lion Plush</div>
+                        <div class="product-desc">Adorable lion stuffed animal, super soft and cuddly.</div>
+                        <div class="product-rating"><span class="stars">★★★★★</span><span
+                                class="rating-count">(204)</span></div>
+                        <div class="product-footer">
+                            <div class="product-price"><span class="price-current">$22.99</span><span
+                                    class="price-original">$32.99</span></div><button class="btn-add-cart">🛒</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card" data-cat="creative">
+                    <div class="product-img">🏺<button class="product-wishlist">♡</button></div>
+                    <div class="product-info">
+                        <div class="product-category">Creative</div>
+                        <div class="product-name">Air-Dry Clay Studio</div>
+                        <div class="product-desc">24-color air-dry clay set with sculpting tools.</div>
+                        <div class="product-rating"><span class="stars">★★★★★</span><span
+                                class="rating-count">(178)</span></div>
+                        <div class="product-footer">
+                            <div class="product-price"><span class="price-current">$18.99</span><span
+                                    class="price-original">$27.99</span></div><button class="btn-add-cart">🛒</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom" style="border-top:none;padding-top:0">
+                <p>© 2026 PlayJoy Toys.</p><a href="index.html" class="btn btn-outline"
+                    style="padding:8px 20px;font-size:0.85rem;">← Home</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('hamburger').addEventListener('click', () => document.getElementById('mobileMenu').classList.add('open'));
+        document.getElementById('mobileClose').addEventListener('click', () => document.getElementById('mobileMenu').classList.remove('open'));
+
+        let currentCat = 'all';
+        function filterCat(btn, cat) {
+            currentCat = cat;
+            document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            filterProducts();
+        }
+        function filterProducts() {
+            const q = document.getElementById('searchInput').value.toLowerCase();
+            document.querySelectorAll('#productsGrid .product-card').forEach(card => {
+                const name = card.querySelector('.product-name').textContent.toLowerCase();
+                const cat = card.dataset.cat;
+                const matchCat = currentCat === 'all' || cat === currentCat;
+                const matchSearch = name.includes(q);
+                card.style.display = matchCat && matchSearch ? '' : 'none';
+            });
+        }
+        document.querySelectorAll('.product-wishlist').forEach(btn => { btn.addEventListener('click', function (e) { e.stopPropagation(); this.textContent = this.textContent === '♡' ? '❤️' : '♡'; }); });
+    </script>
+</body>
+
+</html>
