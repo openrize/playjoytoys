@@ -26,7 +26,7 @@
                 <li><a href="contact.html">Contact</a></li>
             </ul>
             <div class="nav-actions">
-                <div class="nav-cart">🛒<div class="cart-count">3</div>
+                <div class="nav-cart">🛒<div class="cart-count">0</div>
                 </div>
                 <a href="products.html" class="btn btn-primary" style="padding:10px 22px;font-size:0.9rem;">Shop Now</a>
                 <div class="hamburger" id="hamburger"><span></span><span></span><span></span></div>
@@ -74,7 +74,8 @@
                                 class="rating-count">(238)</span></div>
                         <div class="product-footer">
                             <div class="product-price"><span class="price-current">$34.99</span><span
-                                    class="price-original">$49.99</span></div><button class="btn-add-cart">🛒</button>
+                                    class="price-original">$49.99</span></div><button class="btn-add-cart"
+                                onclick="addToCart(this, {id:'stem-kit', name:'STEM Explorer Kit', price:34.99, originalPrice:49.99, emoji:'🧪', category:'Educational'})">🛒</button>
                         </div>
                     </div>
                 </div>
@@ -89,7 +90,8 @@
                                 class="rating-count">(186)</span></div>
                         <div class="product-footer">
                             <div class="product-price"><span class="price-current">$24.99</span><span
-                                    class="price-original">$34.99</span></div><button class="btn-add-cart">🛒</button>
+                                    class="price-original">$34.99</span></div><button class="btn-add-cart"
+                                onclick="addToCart(this, {id:'abc-puzzle', name:'Wooden ABC Puzzle', price:24.99, originalPrice:34.99, emoji:'🧩', category:'Puzzles'})">🛒</button>
                         </div>
                     </div>
                 </div>
@@ -105,7 +107,8 @@
                                 class="rating-count">(94)</span></div>
                         <div class="product-footer">
                             <div class="product-price"><span class="price-current">$42.99</span><span
-                                    class="price-original">$59.99</span></div><button class="btn-add-cart">🛒</button>
+                                    class="price-original">$59.99</span></div><button class="btn-add-cart"
+                                onclick="addToCart(this, {id:'telescope', name:'Junior Telescope Kit', price:42.99, originalPrice:59.99, emoji:'🔭', category:'STEM'})">🛒</button>
                         </div>
                     </div>
                 </div>
@@ -120,7 +123,8 @@
                                 class="rating-count">(163)</span></div>
                         <div class="product-footer">
                             <div class="product-price"><span class="price-current">$27.99</span><span
-                                    class="price-original">$39.99</span></div><button class="btn-add-cart">🛒</button>
+                                    class="price-original">$39.99</span></div><button class="btn-add-cart"
+                                onclick="addToCart(this, {id:'math-game', name:'Math Adventure Game', price:27.99, originalPrice:39.99, emoji:'🔢', category:'Math Games'})">🛒</button>
                         </div>
                     </div>
                 </div>
@@ -135,7 +139,8 @@
                                 class="rating-count">(78)</span></div>
                         <div class="product-footer">
                             <div class="product-price"><span class="price-current">$52.99</span><span
-                                    class="price-original">$74.99</span></div><button class="btn-add-cart">🛒</button>
+                                    class="price-original">$74.99</span></div><button class="btn-add-cart"
+                                onclick="addToCart(this, {id:'microscope', name:'Microscope Starter Set', price:52.99, originalPrice:74.99, emoji:'🔬', category:'Science'})">🛒</button>
                         </div>
                     </div>
                 </div>
@@ -151,7 +156,8 @@
                                 class="rating-count">(211)</span></div>
                         <div class="product-footer">
                             <div class="product-price"><span class="price-current">$38.99</span><span
-                                    class="price-original">$54.99</span></div><button class="btn-add-cart">🛒</button>
+                                    class="price-original">$54.99</span></div><button class="btn-add-cart"
+                                onclick="addToCart(this, {id:'circuit-kit', name:'Build & Circuit Kit', price:38.99, originalPrice:54.99, emoji:'💡', category:'Engineering'})">🛒</button>
                         </div>
                     </div>
                 </div>
@@ -169,7 +175,21 @@
         </div>
     </footer>
 
+    <script src="js/cart.js"></script>
     <script>
+        // Add to cart wrapper
+        function addToCart(btn, product) {
+            Cart.add(product);
+            const originalText = btn.textContent;
+            btn.textContent = '✓';
+            btn.style.background = 'var(--accent-green)';
+            btn.style.color = 'white';
+            setTimeout(() => {
+                btn.textContent = originalText;
+                btn.style.background = '';
+                btn.style.color = '';
+            }, 1500);
+        }
         document.getElementById('hamburger').addEventListener('click', () => document.getElementById('mobileMenu').classList.add('open'));
         document.getElementById('mobileClose').addEventListener('click', () => document.getElementById('mobileMenu').classList.remove('open'));
         document.querySelectorAll('.filter-btn').forEach(btn => { btn.addEventListener('click', function () { document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active')); this.classList.add('active'); }); });

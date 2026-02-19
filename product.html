@@ -26,7 +26,7 @@
                 <li><a href="contact.html">Contact</a></li>
             </ul>
             <div class="nav-actions">
-                <div class="nav-cart" id="navCart">🛒<div class="cart-count" id="cartCount">3</div>
+                <div class="nav-cart" id="navCart">🛒<div class="cart-count" id="cartCount">0</div>
                 </div>
                 <a href="products.html" class="btn btn-primary" style="padding:10px 22px;font-size:0.9rem;">Shop Now</a>
                 <div class="hamburger" id="hamburger"><span></span><span></span><span></span></div>
@@ -194,7 +194,8 @@
                                 class="rating-count">(186)</span></div>
                         <div class="product-footer">
                             <div class="product-price"><span class="price-current">$24.99</span></div><button
-                                class="btn-add-cart">🛒</button>
+                                class="btn-add-cart"
+                                onclick="addToCartRelated(this, {id:'abc-puzzle', name:'Wooden ABC Puzzle', price:24.99, originalPrice:34.99, emoji:'🧩', category:'Puzzles'})">🛒</button>
                         </div>
                     </div>
                 </div>
@@ -207,7 +208,8 @@
                                 class="rating-count">(94)</span></div>
                         <div class="product-footer">
                             <div class="product-price"><span class="price-current">$42.99</span></div><button
-                                class="btn-add-cart">🛒</button>
+                                class="btn-add-cart"
+                                onclick="addToCartRelated(this, {id:'telescope', name:'Junior Telescope Kit', price:42.99, originalPrice:59.99, emoji:'🔭', category:'STEM'})">🛒</button>
                         </div>
                     </div>
                 </div>
@@ -220,7 +222,8 @@
                                 class="rating-count">(211)</span></div>
                         <div class="product-footer">
                             <div class="product-price"><span class="price-current">$38.99</span></div><button
-                                class="btn-add-cart">🛒</button>
+                                class="btn-add-cart"
+                                onclick="addToCartRelated(this, {id:'circuit-kit', name:'Build & Circuit Kit', price:38.99, originalPrice:54.99, emoji:'💡', category:'Engineering'})">🛒</button>
                         </div>
                     </div>
                 </div>
@@ -247,18 +250,44 @@
             qty = Math.max(1, qty + d);
             document.getElementById('qty').textContent = qty;
         }
-
-        let cartCount = 3;
+    </script>
+    <script src="js/cart.js"></script>
+    <script>
+        // Add to cart wrapper for main product
         function addToCart() {
-            cartCount += qty;
-            document.getElementById('cartCount').textContent = cartCount;
+            const product = {
+                id: 'stem-kit',
+                name: 'STEM Explorer Kit',
+                price: 34.99,
+                originalPrice: 49.99,
+                emoji: '🧪',
+                category: 'Educational',
+                qty: qty
+            };
+            Cart.add(product);
+
             const btn = document.getElementById('cartBtn');
+            const originalText = btn.innerHTML;
             btn.textContent = `✓ Added ${qty} to Cart!`;
             btn.style.background = 'var(--accent-green)';
             setTimeout(() => {
-                btn.textContent = '🛒 Add to Cart';
+                btn.innerHTML = originalText;
                 btn.style.background = '';
             }, 2000);
+        }
+
+        // Add to cart wrapper for related products
+        function addToCartRelated(btn, product) {
+            Cart.add(product);
+            const originalText = btn.textContent;
+            btn.textContent = '✓';
+            btn.style.background = 'var(--accent-green)';
+            btn.style.color = 'white';
+            setTimeout(() => {
+                btn.textContent = originalText;
+                btn.style.background = '';
+                btn.style.color = '';
+            }, 1500);
         }
 
         let wished = false;

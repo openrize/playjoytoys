@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Cart – PlayJoy Toys</title>
+    <meta name="description" content="Review your cart and proceed to checkout at PlayJoy Toys." />
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+        .cart-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .cart-table th {
+            text-align: left;
+            padding: 12px 16px;
+            font-size: 0.8rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--text-muted);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .cart-row {
+            border-bottom: 1px solid var(--border);
+            transition: var(--transition);
+        }
+
+        .cart-row:hover {
+            background: rgba(255, 255, 255, 0.02);
+        }
+
+        .cart-row td {
+            padding: 20px 16px;
+            vertical-align: middle;
+        }
+
+        .cart-product {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .cart-emoji {
+            width: 72px;
+            height: 72px;
+            background: var(--bg-card2);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2.2rem;
+            flex-shrink: 0;
+        }
+
+        .cart-product-name {
+            font-weight: 800;
+            color: white;
+            font-size: 0.95rem;
+        }
+
+        .cart-product-cat {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            margin-top: 2px;
+        }
+
+        .cart-qty-ctrl {
+            display: flex;
+            align-items: center;
+            gap: 0;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 50px;
+            overflow: hidden;
+            width: fit-content;
+        }
+
+        .cart-qty-btn {
+            width: 36px;
+            height: 36px;
+            background: transparent;
+            border: none;
+            color: white;
+            font-size: 1.1rem;
+            cursor: pointer;
+            transition: var(--transition);
+        }
+
+        .cart-qty-btn:hover {
+            background: rgba(255, 107, 53, 0.15);
+            color: var(--primary);
+        }
+
+        .cart-qty-val {
+            padding: 0 12px;
+            font-weight: 800;
+            font-size: 0.95rem;
+            color: white;
+            min-width: 32px;
+            text-align: center;
+        }
+
+        .cart-price {
+            font-family: 'Fredoka One', cursive;
+            font-size: 1.2rem;
+            color: var(--primary);
+        }
+
+        .cart-remove {
+            background: transparent;
+            border: 1px solid transparent;
+            color: var(--text-muted);
+            cursor: pointer;
+            font-size: 1.1rem;
+            border-radius: 8px;
+            padding: 6px 10px;
+            transition: var(--transition);
+        }
+
+        .cart-remove:hover {
+            border-color: rgba(255, 64, 129, 0.4);
+            color: var(--accent-pink);
+        }
+
+        .order-summary {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-lg);
+            padding: 32px;
+            position: sticky;
+            top: 100px;
+        }
+
+        .summary-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0;
+            border-bottom: 1px solid var(--border);
+            font-size: 0.92rem;
+        }
+
+        .summary-row:last-of-type {
+            border-bottom: none;
+        }
+
+        .summary-row.total {
+            font-family: 'Fredoka One', cursive;
+            font-size: 1.3rem;
+            color: white;
+            padding-top: 16px;
+            margin-top: 4px;
+            border-top: 2px solid var(--border);
+        }
+
+        .coupon-input {
+            display: flex;
+            gap: 0;
+            margin: 20px 0;
+        }
+
+        .coupon-input input {
+            flex: 1;
+            padding: 12px 16px;
+            background: var(--glass);
+            border: 1px solid var(--border);
+            border-right: none;
+            border-radius: var(--radius-sm) 0 0 var(--radius-sm);
+            color: white;
+            font-family: 'Nunito', sans-serif;
+            font-size: 0.9rem;
+            outline: none;
+        }
+
+        .coupon-input input::placeholder {
+            color: var(--text-muted);
+        }
+
+        .coupon-btn {
+            padding: 12px 18px;
+            background: var(--bg-surface);
+            border: 1px solid var(--border);
+            border-left: none;
+            border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+            color: var(--primary);
+            font-weight: 800;
+            cursor: pointer;
+            font-family: 'Nunito', sans-serif;
+            font-size: 0.9rem;
+            transition: var(--transition);
+        }
+
+        .coupon-btn:hover {
+            background: rgba(255, 107, 53, 0.1);
+        }
+
+        .empty-cart {
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        .empty-cart .empty-emoji {
+            font-size: 5rem;
+            display: block;
+            margin-bottom: 20px;
+        }
+
+        .layout-two-col {
+            display: grid;
+            grid-template-columns: 1fr 360px;
+            gap: 40px;
+            align-items: start;
+        }
+
+        @media(max-width:900px) {
+            .layout-two-col {
+                grid-template-columns: 1fr;
+            }
+
+            .order-summary {
+                position: static;
+            }
+        }
+
+        @media(max-width:600px) {
+            .cart-table thead {
+                display: none;
+            }
+
+            .cart-row td {
+                display: block;
+                padding: 8px 0;
+            }
+
+            .cart-product {
+                margin-bottom: 8px;
+            }
+        }
+
+        .free-shipping-bar {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-sm);
+            padding: 14px 18px;
+            margin-bottom: 20px;
+        }
+
+        .free-shipping-bar p {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            margin-bottom: 8px;
+        }
+
+        .progress-track {
+            height: 6px;
+            background: rgba(255, 255, 255, 0.08);
+            border-radius: 3px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--primary), var(--accent));
+            border-radius: 3px;
+            transition: width 0.5s ease;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar scrolled" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <div class="logo-icon">🧸</div>Play<span>Joy</span> Toys
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="categories.html">Categories</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <div class="nav-cart" id="navCart">🛒<div class="cart-count" id="navCartCount">0</div>
+                </div>
+                <a href="products.html" class="btn btn-primary" style="padding:10px 22px;font-size:0.9rem;">Shop
+                    More</a>
+                <div class="hamburger" id="hamburger"><span></span><span></span><span></span></div>
+            </div>
+        </div>
+    </nav>
+    <div class="mobile-menu" id="mobileMenu">
+        <button class="mobile-close" id="mobileClose">✕</button>
+        <a href="index.html">Home</a><a href="categories.html">Categories</a><a href="products.html">Products</a><a
+            href="blog.html">Blog</a><a href="about.html">About</a><a href="contact.html">Contact</a>
+    </div>
+
+    <!-- PAGE HEADER -->
+    <div class="page-header" style="padding:130px 0 50px">
+        <div class="container">
+            <div class="breadcrumb"><a href="index.html">Home</a> › <span>Shopping Cart</span></div>
+            <h1>Your <span class="gradient-text">Cart</span></h1>
+        </div>
+    </div>
+
+    <section class="section" style="padding-top:0">
+        <div class="container">
+
+            <!-- EMPTY STATE -->
+            <div class="empty-cart" id="emptyCart" style="display:none">
+                <span class="empty-emoji">🛒</span>
+                <h2 style="color:white;margin-bottom:12px">Your cart is empty</h2>
+                <p style="margin-bottom:28px">Looks like you haven't added any toys yet!</p>
+                <a href="products.html" class="btn btn-primary btn-lg">🛍️ Start Shopping</a>
+            </div>
+
+            <!-- CART WITH ITEMS -->
+            <div id="cartContent">
+                <div class="layout-two-col">
+
+                    <!-- LEFT: Cart Items -->
+                    <div>
+                        <!-- Free Shipping Progress -->
+                        <div class="free-shipping-bar" id="shippingBar">
+                            <p id="shippingMsg">🚚 Add <strong id="shippingLeft"></strong> more to get <strong>FREE
+                                    shipping!</strong></p>
+                            <div class="progress-track">
+                                <div class="progress-fill" id="shippingProgress" style="width:0%"></div>
+                            </div>
+                        </div>
+
+                        <table class="cart-table">
+                            <thead>
+                                <tr>
+                                    <th>Product</th>
+                                    <th>Price</th>
+                                    <th>Quantity</th>
+                                    <th>Subtotal</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody id="carttbody"></tbody>
+                        </table>
+
+                        <!-- Continue Shopping -->
+                        <div
+                            style="display:flex;justify-content:space-between;align-items:center;margin-top:24px;flex-wrap:wrap;gap:12px">
+                            <a href="products.html" class="btn btn-outline">← Continue Shopping</a>
+                            <button class="btn btn-outline"
+                                style="color:var(--accent-pink);border-color:rgba(255,64,129,0.3)"
+                                onclick="clearCart()">🗑️ Clear Cart</button>
+                        </div>
+                    </div>
+
+                    <!-- RIGHT: Order Summary -->
+                    <div>
+                        <div class="order-summary">
+                            <h3 style="color:white;margin-bottom:20px">Order Summary</h3>
+
+                            <div class="summary-row">
+                                <span style="color:var(--text-secondary)">Subtotal (<span id="itemCount">0</span>
+                                    items)</span>
+                                <span id="summarySubtotal" style="color:white;font-weight:700">$0.00</span>
+                            </div>
+                            <div class="summary-row">
+                                <span style="color:var(--text-secondary)">Shipping</span>
+                                <span id="summaryShipping" style="color:var(--accent-green);font-weight:700">FREE</span>
+                            </div>
+                            <div class="summary-row">
+                                <span style="color:var(--text-secondary)">Tax (8%)</span>
+                                <span id="summaryTax" style="color:white;font-weight:700">$0.00</span>
+                            </div>
+                            <div id="discountRow" class="summary-row" style="display:none">
+                                <span style="color:var(--accent-green)">🎉 Discount</span>
+                                <span id="discountAmt" style="color:var(--accent-green);font-weight:700"></span>
+                            </div>
+                            <div class="summary-row total">
+                                <span>Total</span>
+                                <span id="summaryTotal" style="color:var(--primary)">$0.00</span>
+                            </div>
+
+                            <!-- Coupon -->
+                            <div class="coupon-input">
+                                <input type="text" id="couponInput" placeholder="Enter coupon code..." />
+                                <button class="coupon-btn" onclick="applyCoupon()">Apply</button>
+                            </div>
+                            <p style="font-size:0.75rem;color:var(--text-muted);margin-top:-10px;margin-bottom:20px">
+                                Try: <strong>PLAY10</strong> (10% off) or <strong>FREESHIP</strong></p>
+
+                            <a href="checkout.html" class="btn btn-primary btn-lg"
+                                style="width:100%;justify-content:center">
+                                🔒 Proceed to Checkout
+                            </a>
+
+                            <div style="display:flex;align-items:center;justify-content:center;gap:8px;margin-top:16px">
+                                <span style="font-size:1.2rem">🔒</span>
+                                <span style="font-size:0.8rem;color:var(--text-muted)">Secure & Encrypted
+                                    Checkout</span>
+                            </div>
+
+                            <div style="display:flex;justify-content:center;gap:10px;margin-top:16px">
+                                <span style="font-size:1.5rem">💳</span>
+                                <span style="font-size:1.5rem">🏦</span>
+                                <span style="font-size:1.5rem">📱</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- RECOMMENDED -->
+    <section class="section" style="padding-top:0" id="recommendedSection">
+        <div class="container">
+            <div class="section-header" style="margin-bottom:32px">
+                <h2>You Might Also <span class="gradient-text">Like</span></h2>
+            </div>
+            <div class="products-grid" style="grid-template-columns:repeat(3,1fr)">
+                <div class="product-card">
+                    <div class="product-img">🎲<button class="product-wishlist">♡</button></div>
+                    <div class="product-info">
+                        <div class="product-category">Board Games</div>
+                        <div class="product-name">Family Quest Game</div>
+                        <div class="product-rating"><span class="stars">★★★★★</span><span
+                                class="rating-count">(271)</span></div>
+                        <div class="product-footer">
+                            <div class="product-price"><span class="price-current">$39.99</span><span
+                                    class="price-original">$54.99</span></div>
+                            <button class="btn-add-cart"
+                                onclick='addRec({id:"rec1",name:"Family Quest Game",price:39.99,originalPrice:54.99,emoji:"🎲",category:"Board Games"})'>🛒</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-img">🧸<button class="product-wishlist">♡</button></div>
+                    <div class="product-info">
+                        <div class="product-category">Plush</div>
+                        <div class="product-name">Giant Fluffy Bunny</div>
+                        <div class="product-rating"><span class="stars">★★★★★</span><span
+                                class="rating-count">(312)</span></div>
+                        <div class="product-footer">
+                            <div class="product-price"><span class="price-current">$19.99</span><span
+                                    class="price-original">$29.99</span></div>
+                            <button class="btn-add-cart"
+                                onclick='addRec({id:"rec2",name:"Giant Fluffy Bunny",price:19.99,originalPrice:29.99,emoji:"🧸",category:"Plush"})'>🛒</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-img">🎨<button class="product-wishlist">♡</button></div>
+                    <div class="product-info">
+                        <div class="product-category">Creative</div>
+                        <div class="product-name">Rainbow Art Kit</div>
+                        <div class="product-rating"><span class="stars">★★★★☆</span><span
+                                class="rating-count">(149)</span></div>
+                        <div class="product-footer">
+                            <div class="product-price"><span class="price-current">$29.99</span><span
+                                    class="price-original">$44.99</span></div>
+                            <button class="btn-add-cart"
+                                onclick='addRec({id:"rec3",name:"Rainbow Art Kit",price:29.99,originalPrice:44.99,emoji:"🎨",category:"Creative"})'>🛒</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom" style="border-top:none;padding-top:0">
+                <p>© 2026 PlayJoy Toys. All Rights Reserved.</p>
+                <a href="index.html" class="btn btn-outline" style="padding:8px 20px;font-size:0.85rem;">← Back to
+                    Home</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/cart.js"></script>
+    <script>
+        document.getElementById('hamburger').addEventListener('click', () => document.getElementById('mobileMenu').classList.add('open'));
+        document.getElementById('mobileClose').addEventListener('click', () => document.getElementById('mobileMenu').classList.remove('open'));
+
+        const FREE_SHIPPING_THRESHOLD = 49;
+        let appliedCoupon = null;
+
+        function renderCart() {
+            const items = Cart.get().filter(i => i); // Filter nulls
+            const tbody = document.getElementById('carttbody');
+
+            if (items.length === 0) {
+                document.getElementById('emptyCart').style.display = 'block';
+                document.getElementById('cartContent').style.display = 'none';
+                return;
+            }
+
+            document.getElementById('emptyCart').style.display = 'none';
+            document.getElementById('cartContent').style.display = 'block';
+
+            try {
+                tbody.innerHTML = items.map(item => {
+                    const price = Number(item.price) || 0;
+                    const qty = Number(item.qty) || 1;
+                    const subtotal = price * qty;
+                    return `
+    <tr class="cart-row" id="row-${item.id}">
+      <td>
+        <div class="cart-product">
+          <div class="cart-emoji">${item.emoji || '📦'}</div>
+          <div>
+            <div class="cart-product-name">${item.name || 'Unknown Item'}</div>
+            <div class="cart-product-cat">${item.category || 'General'}</div>
+          </div>
+        </div>
+      </td>
+      <td><span style="color:var(--text-secondary);font-weight:700">$${price.toFixed(2)}</span></td>
+      <td>
+        <div class="cart-qty-ctrl">
+          <button class="cart-qty-btn" onclick="changeQty('${item.id}', ${qty - 1})">−</button>
+          <span class="cart-qty-val">${qty}</span>
+          <button class="cart-qty-btn" onclick="changeQty('${item.id}', ${qty + 1})">+</button>
+        </div>
+      </td>
+      <td><span class="cart-price">$${subtotal.toFixed(2)}</span></td>
+      <td><button class="cart-remove" onclick="removeItem('${item.id}')" title="Remove">✕</button></td>
+    </tr>
+  `;
+                }).join('');
+
+                updateSummary();
+            } catch (e) {
+                console.error("Cart render error:", e);
+                tbody.innerHTML = '<tr><td colspan="5" style="text-align:center;padding:20px;color:red">Error loading cart items. Please clear cart and try again.</td></tr>';
+            }
+        }
+
+        function updateSummary() {
+            try {
+                const items = Cart.get().filter(i => i);
+                const subtotal = items.reduce((sum, i) => sum + (Number(i.price) || 0) * (Number(i.qty) || 0), 0);
+                const tax = subtotal * 0.08;
+                const shipping = subtotal >= FREE_SHIPPING_THRESHOLD ? 0 : 5.99;
+                let discount = 0;
+
+                if (appliedCoupon === 'PLAY10') {
+                    discount = subtotal * 0.10;
+                } else if (appliedCoupon === 'FREESHIP') {
+                    // Free shipping handled below
+                }
+
+                const total = subtotal + tax + (appliedCoupon === 'FREESHIP' ? 0 : shipping) - discount;
+
+                document.getElementById('itemCount').textContent = items.reduce((sum, i) => sum + (Number(i.qty) || 0), 0);
+                document.getElementById('summarySubtotal').textContent = '$' + subtotal.toFixed(2);
+                document.getElementById('summaryTax').textContent = '$' + tax.toFixed(2);
+
+                const shippingEl = document.getElementById('summaryShipping');
+                if (shipping === 0 || appliedCoupon === 'FREESHIP') {
+                    shippingEl.textContent = 'FREE';
+                    shippingEl.style.color = 'var(--accent-green)';
+                } else {
+                    shippingEl.textContent = '$' + shipping.toFixed(2);
+                    shippingEl.style.color = 'var(--text-secondary)';
+                }
+
+                document.getElementById('summaryTotal').textContent = '$' + total.toFixed(2);
+
+                // Discount row
+                if (discount > 0) {
+                    document.getElementById('discountRow').style.display = 'flex';
+                    document.getElementById('discountAmt').textContent = '-$' + discount.toFixed(2);
+                }
+
+                // Shipping progress
+                const left = Math.max(0, FREE_SHIPPING_THRESHOLD - subtotal);
+                const pct = Math.min(100, (subtotal / FREE_SHIPPING_THRESHOLD) * 100);
+                document.getElementById('shippingProgress').style.width = pct + '%';
+                if (left <= 0 || appliedCoupon === 'FREESHIP') {
+                    document.getElementById('shippingMsg').innerHTML = "🎉 You've got <strong>FREE Shipping!</strong>";
+                } else {
+                    document.getElementById('shippingMsg').innerHTML = `🚚 Add <strong>$${left.toFixed(2)}</strong> more to get <strong>FREE shipping!</strong>`;
+                }
+            } catch (e) {
+                console.error("Summary update error:", e);
+            }
+        }
+
+        function changeQty(id, qty) {
+            Cart.updateQty(id, qty);
+            renderCart();
+        }
+
+        function removeItem(id) {
+            const row = document.getElementById('row-' + id);
+            if (row) {
+                row.style.opacity = '0';
+                row.style.transform = 'translateX(30px)';
+                row.style.transition = 'all 0.3s ease';
+                setTimeout(() => { Cart.remove(id); renderCart(); }, 300);
+            }
+        }
+
+        function clearCart() {
+            if (confirm('Remove all items from your cart?')) {
+                Cart.clear();
+                renderCart();
+            }
+        }
+
+        function applyCoupon() {
+            const code = document.getElementById('couponInput').value.trim().toUpperCase();
+            if (code === 'PLAY10' || code === 'FREESHIP') {
+                appliedCoupon = code;
+                updateSummary();
+                Cart.showToast('🎉 Coupon "' + code + '" applied!');
+                document.getElementById('couponInput').value = code;
+            } else {
+                Cart.showToast('❌ Invalid coupon code.');
+            }
+        }
+
+        function addRec(product) {
+            Cart.add(product);
+            renderCart();
+        }
+
+        // Wishlist toggle
+        document.querySelectorAll('.product-wishlist').forEach(btn => {
+            btn.addEventListener('click', function (e) {
+                e.stopPropagation();
+                this.textContent = this.textContent === '♡' ? '❤️' : '♡';
+            });
+        });
+
+        // Initial render
+        renderCart();
+    </script>
+</body>
+
+</html>

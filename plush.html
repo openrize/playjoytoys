@@ -25,7 +25,7 @@
                 <li><a href="contact.html">Contact</a></li>
             </ul>
             <div class="nav-actions">
-                <div class="nav-cart">🛒<div class="cart-count">3</div>
+                <div class="nav-cart">🛒<div class="cart-count">0</div>
                 </div><a href="products.html" class="btn btn-primary" style="padding:10px 22px;font-size:0.9rem;">Shop
                     Now</a>
                 <div class="hamburger" id="hamburger"><span></span><span></span><span></span></div>
@@ -40,7 +40,8 @@
         style="background:radial-gradient(ellipse at 50% 50%, rgba(255,64,129,0.1) 0%, transparent 65%)">
         <div class="container">
             <div class="breadcrumb"><a href="index.html">Home</a> › <a href="categories.html">Categories</a> ›
-                <span>Plush Toys</span></div>
+                <span>Plush Toys</span>
+            </div>
             <div class="badge"
                 style="background:rgba(255,64,129,0.12);border-color:rgba(255,64,129,0.3);color:var(--accent-pink)">🧸
                 Soft & Cuddly</div>
@@ -64,7 +65,8 @@
                                 class="rating-count">(312)</span></div>
                         <div class="product-footer">
                             <div class="product-price"><span class="price-current">$19.99</span><span
-                                    class="price-original">$29.99</span></div><button class="btn-add-cart">🛒</button>
+                                    class="price-original">$29.99</span></div><button class="btn-add-cart"
+                                onclick="addToCart(this, {id:'bunny-plush', name:'Giant Fluffy Bunny', price:19.99, originalPrice:29.99, emoji:'🐰', category:'Plush'})">🛒</button>
                         </div>
                     </div>
                 </div>
@@ -79,7 +81,8 @@
                                 class="rating-count">(204)</span></div>
                         <div class="product-footer">
                             <div class="product-price"><span class="price-current">$22.99</span><span
-                                    class="price-original">$32.99</span></div><button class="btn-add-cart">🛒</button>
+                                    class="price-original">$32.99</span></div><button class="btn-add-cart"
+                                onclick="addToCart(this, {id:'leo-lion', name:'Leo the Lion Plush', price:22.99, originalPrice:32.99, emoji:'🦁', category:'Plush'})">🛒</button>
                         </div>
                     </div>
                 </div>
@@ -94,7 +97,8 @@
                                 class="rating-count">(167)</span></div>
                         <div class="product-footer">
                             <div class="product-price"><span class="price-current">$17.99</span><span
-                                    class="price-original">$24.99</span></div><button class="btn-add-cart">🛒</button>
+                                    class="price-original">$24.99</span></div><button class="btn-add-cart"
+                                onclick="addToCart(this, {id:'panda-bear', name:'Panda Bear Softie', price:17.99, originalPrice:24.99, emoji:'🐼', category:'Plush'})">🛒</button>
                         </div>
                     </div>
                 </div>
@@ -108,7 +112,8 @@
                                 class="rating-count">(98)</span></div>
                         <div class="product-footer">
                             <div class="product-price"><span class="price-current">$21.99</span><span
-                                    class="price-original">$29.99</span></div><button class="btn-add-cart">🛒</button>
+                                    class="price-original">$29.99</span></div><button class="btn-add-cart"
+                                onclick="addToCart(this, {id:'felix-fox', name:'Felix the Fox', price:21.99, originalPrice:29.99, emoji:'🦊', category:'Plush'})">🛒</button>
                         </div>
                     </div>
                 </div>
@@ -122,7 +127,8 @@
                                 class="rating-count">(76)</span></div>
                         <div class="product-footer">
                             <div class="product-price"><span class="price-current">$16.99</span><span
-                                    class="price-original">$22.99</span></div><button class="btn-add-cart">🛒</button>
+                                    class="price-original">$22.99</span></div><button class="btn-add-cart"
+                                onclick="addToCart(this, {id:'waddles-penguin', name:'Waddles Penguin Plush', price:16.99, originalPrice:22.99, emoji:'🐧', category:'Plush'})">🛒</button>
                         </div>
                     </div>
                 </div>
@@ -136,7 +142,8 @@
                                 class="rating-count">(289)</span></div>
                         <div class="product-footer">
                             <div class="product-price"><span class="price-current">$26.99</span><span
-                                    class="price-original">$36.99</span></div><button class="btn-add-cart">🛒</button>
+                                    class="price-original">$36.99</span></div><button class="btn-add-cart"
+                                onclick="addToCart(this, {id:'rainbow-unicorn', name:'Rainbow Unicorn Plush', price:26.99, originalPrice:36.99, emoji:'🦄', category:'Plush'})">🛒</button>
                         </div>
                     </div>
                 </div>
@@ -152,7 +159,24 @@
             </div>
         </div>
     </footer>
-    <script>document.getElementById('hamburger').addEventListener('click', () => document.getElementById('mobileMenu').classList.add('open')); document.getElementById('mobileClose').addEventListener('click', () => document.getElementById('mobileMenu').classList.remove('open'));</script>
+    <script src="js/cart.js"></script>
+    <script>
+        // Add to cart wrapper
+        function addToCart(btn, product) {
+            Cart.add(product);
+            const originalText = btn.textContent;
+            btn.textContent = '✓';
+            btn.style.background = 'var(--accent-green)';
+            btn.style.color = 'white';
+            setTimeout(() => {
+                btn.textContent = originalText;
+                btn.style.background = '';
+                btn.style.color = '';
+            }, 1500);
+        }
+        document.getElementById('hamburger').addEventListener('click', () => document.getElementById('mobileMenu').classList.add('open'));
+        document.getElementById('mobileClose').addEventListener('click', () => document.getElementById('mobileMenu').classList.remove('open'));
+    </script>
 </body>
 
 </html>

@@ -1,620 +1,638 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>PlayJoy Toys | Fun & Educational Toys for Kids – Safe & Affordable</title>
-  <meta name="description" content="Discover PlayJoy Toys, your online store for safe, fun, and educational toys for kids of all ages. Fast delivery, high-quality, and parent-approved."/>
-  <meta name="keywords" content="buy kids toys online, educational toys for children, safe toys for toddlers, STEM toys for kids, learning toys for preschoolers"/>
-  <link rel="canonical" href="https://playjoytoys.com"/>
-  <link rel="stylesheet" href="css/style.css"/>
+  <meta name="description"
+    content="Discover PlayJoy Toys, your online store for safe, fun, and educational toys for kids of all ages. Fast delivery, high-quality, and parent-approved." />
+  <meta name="keywords"
+    content="buy kids toys online, educational toys for children, safe toys for toddlers, STEM toys for kids, learning toys for preschoolers" />
+  <link rel="canonical" href="https://playjoytoys.com" />
+  <link rel="stylesheet" href="css/style.css" />
 </head>
+
 <body>
 
-<!-- ===== NAVBAR ===== -->
-<nav class="navbar" id="navbar">
-  <div class="nav-container">
-    <a href="index.html" class="nav-logo">
-      <div class="logo-icon">🧸</div>
-      Play<span>Joy</span> Toys
-    </a>
-    <ul class="nav-links">
-      <li><a href="index.html" class="active">Home</a></li>
-      <li><a href="categories.html">Categories</a></li>
-      <li><a href="products.html">Products</a></li>
-      <li><a href="blog.html">Blog</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-    <div class="nav-actions">
-      <div class="nav-cart" onclick="alert('Cart coming soon!')">
-        🛒
-        <div class="cart-count">3</div>
-      </div>
-      <a href="products.html" class="btn btn-primary" style="padding:10px 22px;font-size:0.9rem;">Shop Now</a>
-      <div class="hamburger" id="hamburger">
-        <span></span><span></span><span></span>
-      </div>
-    </div>
-  </div>
-</nav>
-
-<!-- Mobile Menu -->
-<div class="mobile-menu" id="mobileMenu">
-  <button class="mobile-close" id="mobileClose">✕</button>
-  <a href="index.html">Home</a>
-  <a href="categories.html">Categories</a>
-  <a href="products.html">Products</a>
-  <a href="blog.html">Blog</a>
-  <a href="about.html">About</a>
-  <a href="contact.html">Contact</a>
-</div>
-
-<!-- ===== HERO ===== -->
-<section class="hero">
-  <div class="hero-bg"></div>
-  <div class="hero-particles" id="particles"></div>
-  <div class="container">
-    <div class="hero-grid">
-      <div class="hero-content">
-        <div class="hero-badge">🌟 #1 Rated Kids Toy Store Online</div>
-        <h1>Fun & Educational <span class="gradient-text">Toys</span> Delivered to Your Door</h1>
-        <p class="hero-sub">Explore our curated collection of safe, durable, and imaginative toys that spark learning and joy for kids ages 0–12.</p>
-        <div class="hero-actions">
-          <a href="products.html" class="btn btn-primary btn-lg">🛒 Shop Now</a>
-          <a href="categories.html" class="btn btn-outline btn-lg">Explore Categories</a>
-        </div>
-        <div class="hero-stats">
-          <div class="stat-item">
-            <div class="stat-number">500+</div>
-            <div class="stat-label">Toy Varieties</div>
-          </div>
-          <div class="stat-item">
-            <div class="stat-number">50K+</div>
-            <div class="stat-label">Happy Kids</div>
-          </div>
-          <div class="stat-item">
-            <div class="stat-number">4.9★</div>
-            <div class="stat-label">Parent Rating</div>
-          </div>
-        </div>
-      </div>
-      <div class="hero-visual">
-        <div class="hero-float-card card-1">
-          <div class="float-icon" style="background:rgba(255,214,0,0.15)">🏆</div>
-          <div class="float-text">
-            <strong>Award Winning</strong>
-            <span>Certified Safe Toys</span>
-          </div>
-        </div>
-        <div class="hero-emoji-bg">
-          <div class="hero-emoji-grid">
-            <div class="hero-toy-item">🧪</div>
-            <div class="hero-toy-item">🧩</div>
-            <div class="hero-toy-item">🚗</div>
-            <div class="hero-toy-item">🎨</div>
-            <div class="hero-toy-item">🏀</div>
-            <div class="hero-toy-item">🧸</div>
-            <div class="hero-toy-item">🎯</div>
-            <div class="hero-toy-item">🎲</div>
-          </div>
-        </div>
-        <div class="hero-float-card card-2">
-          <div class="float-icon" style="background:rgba(0,200,83,0.15)">🚚</div>
-          <div class="float-text">
-            <strong>Free Shipping</strong>
-            <span>Orders over $49</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ===== MARQUEE ===== -->
-<div class="marquee-section">
-  <div class="marquee-track">
-    <div class="marquee-item">🧪 STEM Toys</div>
-    <div class="marquee-item">🔒 100% Safe & Non-Toxic</div>
-    <div class="marquee-item">🚚 Fast Delivery</div>
-    <div class="marquee-item">🧩 Educational Games</div>
-    <div class="marquee-item">🌟 Parent Approved</div>
-    <div class="marquee-item">🎨 Creative Kits</div>
-    <div class="marquee-item">♻️ Eco-Friendly</div>
-    <div class="marquee-item">💯 Satisfaction Guaranteed</div>
-    <!-- Duplicate for infinite loop -->
-    <div class="marquee-item">🧪 STEM Toys</div>
-    <div class="marquee-item">🔒 100% Safe & Non-Toxic</div>
-    <div class="marquee-item">🚚 Fast Delivery</div>
-    <div class="marquee-item">🧩 Educational Games</div>
-    <div class="marquee-item">🌟 Parent Approved</div>
-    <div class="marquee-item">🎨 Creative Kits</div>
-    <div class="marquee-item">♻️ Eco-Friendly</div>
-    <div class="marquee-item">💯 Satisfaction Guaranteed</div>
-  </div>
-</div>
-
-<!-- ===== FEATURED CATEGORIES ===== -->
-<section class="section">
-  <div class="container">
-    <div class="section-header">
-      <div class="badge">🎯 Shop by Category</div>
-      <h2>Find the <span class="gradient-text">Perfect Toy</span></h2>
-      <p>Browse our hand-picked categories designed to match every child's passion and developmental stage.</p>
-    </div>
-    <div class="categories-grid">
-      <a href="educational.html" class="category-card" style="--cat-color:#FF6B35;--cat-bg:rgba(255,107,53,0.12)">
-        <div class="cat-icon">🔬</div>
-        <h3>Educational Toys</h3>
-        <p>STEM kits & learning games</p>
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <div class="logo-icon">🧸</div>
+        Play<span>Joy</span> Toys
       </a>
-      <a href="outdoor.html" class="category-card" style="--cat-color:#00B0FF;--cat-bg:rgba(0,176,255,0.12)">
-        <div class="cat-icon">⚽</div>
-        <h3>Outdoor Play</h3>
-        <p>Sports, ride-ons & active toys</p>
-      </a>
-      <a href="plush.html" class="category-card" style="--cat-color:#FF4081;--cat-bg:rgba(255,64,129,0.12)">
-        <div class="cat-icon">🧸</div>
-        <h3>Plush & Soft Toys</h3>
-        <p>Cuddly companions</p>
-      </a>
-      <a href="creative.html" class="category-card" style="--cat-color:#FFD600;--cat-bg:rgba(255,214,0,0.12)">
-        <div class="cat-icon">🎨</div>
-        <h3>Creative Toys</h3>
-        <p>Arts, crafts & DIY kits</p>
-      </a>
-      <a href="board-games.html" class="category-card" style="--cat-color:#7C4DFF;--cat-bg:rgba(124,77,255,0.12)">
-        <div class="cat-icon">🎲</div>
-        <h3>Board Games</h3>
-        <p>Fun for kids & families</p>
-      </a>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="categories.html">Categories</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <div class="nav-cart">
+          🛒
+          <div class="cart-count">0</div>
+        </div>
+        <a href="products.html" class="btn btn-primary" style="padding:10px 22px;font-size:0.9rem;">Shop Now</a>
+        <div class="hamburger" id="hamburger">
+          <span></span><span></span><span></span>
+        </div>
+      </div>
     </div>
-    <div class="categories-cta">
-      <a href="categories.html" class="btn btn-secondary btn-lg">🗂️ Explore All Collections</a>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <button class="mobile-close" id="mobileClose">✕</button>
+    <a href="index.html">Home</a>
+    <a href="categories.html">Categories</a>
+    <a href="products.html">Products</a>
+    <a href="blog.html">Blog</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-particles" id="particles"></div>
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <div class="hero-badge">🌟 #1 Rated Kids Toy Store Online</div>
+          <h1>Fun & Educational <span class="gradient-text">Toys</span> Delivered to Your Door</h1>
+          <p class="hero-sub">Explore our curated collection of safe, durable, and imaginative toys that spark learning
+            and joy for kids ages 0–12.</p>
+          <div class="hero-actions">
+            <a href="products.html" class="btn btn-primary btn-lg">🛒 Shop Now</a>
+            <a href="categories.html" class="btn btn-outline btn-lg">Explore Categories</a>
+          </div>
+          <div class="hero-stats">
+            <div class="stat-item">
+              <div class="stat-number">500+</div>
+              <div class="stat-label">Toy Varieties</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number">50K+</div>
+              <div class="stat-label">Happy Kids</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number">4.9★</div>
+              <div class="stat-label">Parent Rating</div>
+            </div>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-float-card card-1">
+            <div class="float-icon" style="background:rgba(255,214,0,0.15)">🏆</div>
+            <div class="float-text">
+              <strong>Award Winning</strong>
+              <span>Certified Safe Toys</span>
+            </div>
+          </div>
+          <div class="hero-emoji-bg">
+            <div class="hero-emoji-grid">
+              <div class="hero-toy-item">🧪</div>
+              <div class="hero-toy-item">🧩</div>
+              <div class="hero-toy-item">🚗</div>
+              <div class="hero-toy-item">🎨</div>
+              <div class="hero-toy-item">🏀</div>
+              <div class="hero-toy-item">🧸</div>
+              <div class="hero-toy-item">🎯</div>
+              <div class="hero-toy-item">🎲</div>
+            </div>
+          </div>
+          <div class="hero-float-card card-2">
+            <div class="float-icon" style="background:rgba(0,200,83,0.15)">🚚</div>
+            <div class="float-text">
+              <strong>Free Shipping</strong>
+              <span>Orders over $49</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MARQUEE ===== -->
+  <div class="marquee-section">
+    <div class="marquee-track">
+      <div class="marquee-item">🧪 STEM Toys</div>
+      <div class="marquee-item">🔒 100% Safe & Non-Toxic</div>
+      <div class="marquee-item">🚚 Fast Delivery</div>
+      <div class="marquee-item">🧩 Educational Games</div>
+      <div class="marquee-item">🌟 Parent Approved</div>
+      <div class="marquee-item">🎨 Creative Kits</div>
+      <div class="marquee-item">♻️ Eco-Friendly</div>
+      <div class="marquee-item">💯 Satisfaction Guaranteed</div>
+      <!-- Duplicate for infinite loop -->
+      <div class="marquee-item">🧪 STEM Toys</div>
+      <div class="marquee-item">🔒 100% Safe & Non-Toxic</div>
+      <div class="marquee-item">🚚 Fast Delivery</div>
+      <div class="marquee-item">🧩 Educational Games</div>
+      <div class="marquee-item">🌟 Parent Approved</div>
+      <div class="marquee-item">🎨 Creative Kits</div>
+      <div class="marquee-item">♻️ Eco-Friendly</div>
+      <div class="marquee-item">💯 Satisfaction Guaranteed</div>
     </div>
   </div>
-</section>
 
-<!-- ===== WHY CHOOSE ===== -->
-<section class="section why-section">
-  <div class="container">
-    <div class="why-grid">
-      <div>
-        <div class="badge">💡 Why Parents Love Us</div>
-        <h2>Why Choose <span class="gradient-text">PlayJoy Toys</span></h2>
-        <p style="margin-top:16px;">We believe every child deserves toys that are not only fun but also safe, durable, and enriching. Our mission is to inspire young minds through play.</p>
-        <div class="why-features">
-          <div class="why-feature">
-            <div class="feature-icon" style="background:rgba(0,200,83,0.15)">🛡️</div>
-            <h4>Safe & Non-Toxic</h4>
-            <p>Certified child-safe materials for all age groups</p>
-          </div>
-          <div class="why-feature">
-            <div class="feature-icon" style="background:rgba(255,107,53,0.15)">🎓</div>
-            <h4>Fun & Educational</h4>
-            <p>Toys that entertain and teach at the same time</p>
-          </div>
-          <div class="why-feature">
-            <div class="feature-icon" style="background:rgba(0,176,255,0.15)">⚙️</div>
-            <h4>Durable Quality</h4>
-            <p>Built to last through countless hours of play</p>
-          </div>
-          <div class="why-feature">
-            <div class="feature-icon" style="background:rgba(124,77,255,0.15)">📦</div>
-            <h4>Fast Shipping</h4>
-            <p>Quick delivery with hassle-free 30-day returns</p>
-          </div>
-        </div>
+  <!-- ===== FEATURED CATEGORIES ===== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <div class="badge">🎯 Shop by Category</div>
+        <h2>Find the <span class="gradient-text">Perfect Toy</span></h2>
+        <p>Browse our hand-picked categories designed to match every child's passion and developmental stage.</p>
       </div>
-      <div class="why-visual">
-        <div class="why-big-card">
-          <span class="why-emoji">🏆</span>
-          <h3 style="font-size:1.5rem;color:white;margin-bottom:8px;">Trusted by 50,000+ Families</h3>
-          <p>Join thousands of happy parents who trust PlayJoy for their children's toys and gifts.</p>
-          <div class="trust-badges">
-            <div class="trust-badge">✅ CE Certified</div>
-            <div class="trust-badge">✅ ASTM F963</div>
-            <div class="trust-badge">✅ EN71 Safe</div>
-            <div class="trust-badge">✅ Non-Toxic</div>
-          </div>
-          <div style="margin-top:28px;display:flex;gap:24px;justify-content:center;">
-            <div style="text-align:center;">
-              <div style="font-family:'Fredoka One',cursive;font-size:2rem;color:var(--primary);">50K+</div>
-              <div style="font-size:0.8rem;color:var(--text-muted);">Happy Families</div>
-            </div>
-            <div style="width:1px;background:var(--border);"></div>
-            <div style="text-align:center;">
-              <div style="font-family:'Fredoka One',cursive;font-size:2rem;color:var(--accent);">4.9★</div>
-              <div style="font-size:0.8rem;color:var(--text-muted);">Avg. Rating</div>
-            </div>
-            <div style="width:1px;background:var(--border);"></div>
-            <div style="text-align:center;">
-              <div style="font-family:'Fredoka One',cursive;font-size:2rem;color:var(--accent-green);">30D</div>
-              <div style="font-size:0.8rem;color:var(--text-muted);">Easy Returns</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ===== FEATURED PRODUCTS ===== -->
-<section class="section">
-  <div class="container">
-    <div class="section-header">
-      <div class="badge">🔥 Bestsellers</div>
-      <h2>Featured <span class="gradient-text">Products</span></h2>
-      <p>Shop our most loved toys, carefully chosen for quality, fun, and educational value.</p>
-    </div>
-    <div class="products-grid">
-
-      <div class="product-card">
-        <span class="product-badge hot">🔥 Hot</span>
-        <div class="product-img">
-          🧪
-          <button class="product-wishlist">♡</button>
-        </div>
-        <div class="product-info">
-          <div class="product-category">Educational</div>
-          <div class="product-name">STEM Explorer Kit</div>
-          <div class="product-desc">10+ hands-on experiments for curious young scientists ages 6–10.</div>
-          <div class="product-rating">
-            <span class="stars">★★★★★</span>
-            <span class="rating-count">(238 reviews)</span>
-          </div>
-          <div class="product-footer">
-            <div class="product-price">
-              <span class="price-current">$34.99</span>
-              <span class="price-original">$49.99</span>
-            </div>
-            <button class="btn-add-cart" onclick="addToCart(this)">🛒</button>
-          </div>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <span class="product-badge new">✨ New</span>
-        <div class="product-img">
-          🧩
-          <button class="product-wishlist">♡</button>
-        </div>
-        <div class="product-info">
-          <div class="product-category">Educational</div>
-          <div class="product-name">Wooden ABC Puzzle Set</div>
-          <div class="product-desc">Beautiful wooden alphabet and number puzzle for toddlers ages 2–5.</div>
-          <div class="product-rating">
-            <span class="stars">★★★★★</span>
-            <span class="rating-count">(186 reviews)</span>
-          </div>
-          <div class="product-footer">
-            <div class="product-price">
-              <span class="price-current">$24.99</span>
-              <span class="price-original">$34.99</span>
-            </div>
-            <button class="btn-add-cart" onclick="addToCart(this)">🛒</button>
-          </div>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <span class="product-badge sale">💰 Sale</span>
-        <div class="product-img">
-          🧸
-          <button class="product-wishlist">♡</button>
-        </div>
-        <div class="product-info">
-          <div class="product-category">Plush & Soft</div>
-          <div class="product-name">Giant Fluffy Bunny Plush</div>
-          <div class="product-desc">Super soft and cuddly bunny, perfect for kids of all ages.</div>
-          <div class="product-rating">
-            <span class="stars">★★★★★</span>
-            <span class="rating-count">(312 reviews)</span>
-          </div>
-          <div class="product-footer">
-            <div class="product-price">
-              <span class="price-current">$19.99</span>
-              <span class="price-original">$29.99</span>
-            </div>
-            <button class="btn-add-cart" onclick="addToCart(this)">🛒</button>
-          </div>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <div class="product-img">
-          🎨
-          <button class="product-wishlist">♡</button>
-        </div>
-        <div class="product-info">
-          <div class="product-category">Creative</div>
-          <div class="product-name">Rainbow Art Kit Deluxe</div>
-          <div class="product-desc">Complete arts & crafts set with 120+ tools for creative expression.</div>
-          <div class="product-rating">
-            <span class="stars">★★★★☆</span>
-            <span class="rating-count">(149 reviews)</span>
-          </div>
-          <div class="product-footer">
-            <div class="product-price">
-              <span class="price-current">$29.99</span>
-              <span class="price-original">$44.99</span>
-            </div>
-            <button class="btn-add-cart" onclick="addToCart(this)">🛒</button>
-          </div>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <span class="product-badge hot">🔥 Hot</span>
-        <div class="product-img">
-          🎲
-          <button class="product-wishlist">♡</button>
-        </div>
-        <div class="product-info">
-          <div class="product-category">Board Games</div>
-          <div class="product-name">Family Quest Board Game</div>
-          <div class="product-desc">Epic adventure board game for the whole family, ages 6 and up.</div>
-          <div class="product-rating">
-            <span class="stars">★★★★★</span>
-            <span class="rating-count">(271 reviews)</span>
-          </div>
-          <div class="product-footer">
-            <div class="product-price">
-              <span class="price-current">$39.99</span>
-              <span class="price-original">$54.99</span>
-            </div>
-            <button class="btn-add-cart" onclick="addToCart(this)">🛒</button>
-          </div>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <span class="product-badge new">✨ New</span>
-        <div class="product-img">
-          ⚽
-          <button class="product-wishlist">♡</button>
-        </div>
-        <div class="product-info">
-          <div class="product-category">Outdoor</div>
-          <div class="product-name">Pro Sports Starter Set</div>
-          <div class="product-desc">Complete outdoor sports kit including ball, cones and more for active play.</div>
-          <div class="product-rating">
-            <span class="stars">★★★★★</span>
-            <span class="rating-count">(97 reviews)</span>
-          </div>
-          <div class="product-footer">
-            <div class="product-price">
-              <span class="price-current">$44.99</span>
-              <span class="price-original">$59.99</span>
-            </div>
-            <button class="btn-add-cart" onclick="addToCart(this)">🛒</button>
-          </div>
-        </div>
-      </div>
-
-    </div>
-    <div class="products-cta">
-      <a href="products.html" class="btn btn-primary btn-lg">View All Products →</a>
-    </div>
-  </div>
-</section>
-
-<!-- ===== TESTIMONIALS ===== -->
-<section class="section testimonials-section" style="background:var(--bg-card2)">
-  <div class="container">
-    <div class="section-header">
-      <div class="badge">💬 Reviews</div>
-      <h2>What <span class="gradient-text">Parents Say</span></h2>
-      <p>Real stories from happy families who've made PlayJoy part of their children's playtime.</p>
-    </div>
-    <div class="testimonials-grid">
-      <div class="testimonial-card">
-        <div class="quote-icon">"</div>
-        <p class="testimonial-text">My kids absolutely love the STEM kits! It's both fun and educational. They spend hours experimenting and learning. Best purchase I've made for their development.</p>
-        <div class="testimonial-author">
-          <div class="author-avatar" style="background:rgba(255,107,53,0.2);color:var(--primary)">M</div>
-          <div class="author-info">
-            <strong>M. Patel</strong>
-            <span>⭐⭐⭐⭐⭐ · Verified Buyer</span>
-          </div>
-        </div>
-      </div>
-      <div class="testimonial-card">
-        <div class="quote-icon">"</div>
-        <p class="testimonial-text">Fast shipping, and the toys are incredibly safe and high quality. My toddler adores the plush bunny. I highly recommend PlayJoy Toys to all parents!</p>
-        <div class="testimonial-author">
-          <div class="author-avatar" style="background:rgba(0,176,255,0.2);color:var(--accent-blue)">J</div>
-          <div class="author-info">
-            <strong>J. Singh</strong>
-            <span>⭐⭐⭐⭐⭐ · Verified Buyer</span>
-          </div>
-        </div>
-      </div>
-      <div class="testimonial-card">
-        <div class="quote-icon">"</div>
-        <p class="testimonial-text">The board game brought our whole family together for game night! Quality is amazing. Easy returns process too — they really care about customer experience.</p>
-        <div class="testimonial-author">
-          <div class="author-avatar" style="background:rgba(124,77,255,0.2);color:var(--secondary)">R</div>
-          <div class="author-info">
-            <strong>R. Thompson</strong>
-            <span>⭐⭐⭐⭐⭐ · Verified Buyer</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ===== NEWSLETTER ===== -->
-<section class="newsletter-section">
-  <div class="container">
-    <div class="newsletter-inner">
-      <div class="badge" style="margin:0 auto 16px">📧 Stay Updated</div>
-      <h2>Get <span class="gradient-text">Exclusive Deals</span></h2>
-      <p>Subscribe to our newsletter for special offers, new arrivals, and parenting tips delivered to your inbox.</p>
-      <div class="newsletter-form">
-        <input type="email" placeholder="Enter your email address..." id="newsletterEmail"/>
-        <button class="btn btn-primary" onclick="subscribeNewsletter()">Subscribe 🎁</button>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ===== BOTTOM CTA ===== -->
-<section class="section" style="padding-bottom:0">
-  <div class="container">
-    <div class="bottom-cta">
-      <h2>Bring Joy & Learning to Your Kids Today</h2>
-      <p>Join 50,000+ families who trust PlayJoy Toys for safe, fun, and educational play.</p>
-      <a href="products.html" class="btn btn-white btn-lg">🛍️ Start Shopping</a>
-    </div>
-  </div>
-</section>
-
-<!-- ===== FOOTER ===== -->
-<footer class="footer">
-  <div class="container">
-    <div class="footer-grid">
-      <div class="footer-brand">
-        <a href="index.html" class="nav-logo" style="margin-bottom:0">
-          <div class="logo-icon">🧸</div>
-          Play<span>Joy</span> Toys
+      <div class="categories-grid">
+        <a href="educational.html" class="category-card" style="--cat-color:#FF6B35;--cat-bg:rgba(255,107,53,0.12)">
+          <div class="cat-icon">🔬</div>
+          <h3>Educational Toys</h3>
+          <p>STEM kits & learning games</p>
         </a>
-        <p>Safe, fun, and educational toys for kids of all ages. Making childhood magical, one toy at a time.</p>
-        <div class="social-links">
-          <div class="social-link">📘</div>
-          <div class="social-link">📸</div>
-          <div class="social-link">🐦</div>
-          <div class="social-link">▶️</div>
-          <div class="social-link">📌</div>
+        <a href="outdoor.html" class="category-card" style="--cat-color:#00B0FF;--cat-bg:rgba(0,176,255,0.12)">
+          <div class="cat-icon">⚽</div>
+          <h3>Outdoor Play</h3>
+          <p>Sports, ride-ons & active toys</p>
+        </a>
+        <a href="plush.html" class="category-card" style="--cat-color:#FF4081;--cat-bg:rgba(255,64,129,0.12)">
+          <div class="cat-icon">🧸</div>
+          <h3>Plush & Soft Toys</h3>
+          <p>Cuddly companions</p>
+        </a>
+        <a href="creative.html" class="category-card" style="--cat-color:#FFD600;--cat-bg:rgba(255,214,0,0.12)">
+          <div class="cat-icon">🎨</div>
+          <h3>Creative Toys</h3>
+          <p>Arts, crafts & DIY kits</p>
+        </a>
+        <a href="board-games.html" class="category-card" style="--cat-color:#7C4DFF;--cat-bg:rgba(124,77,255,0.12)">
+          <div class="cat-icon">🎲</div>
+          <h3>Board Games</h3>
+          <p>Fun for kids & families</p>
+        </a>
+      </div>
+      <div class="categories-cta">
+        <a href="categories.html" class="btn btn-secondary btn-lg">🗂️ Explore All Collections</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WHY CHOOSE ===== -->
+  <section class="section why-section">
+    <div class="container">
+      <div class="why-grid">
+        <div>
+          <div class="badge">💡 Why Parents Love Us</div>
+          <h2>Why Choose <span class="gradient-text">PlayJoy Toys</span></h2>
+          <p style="margin-top:16px;">We believe every child deserves toys that are not only fun but also safe, durable,
+            and enriching. Our mission is to inspire young minds through play.</p>
+          <div class="why-features">
+            <div class="why-feature">
+              <div class="feature-icon" style="background:rgba(0,200,83,0.15)">🛡️</div>
+              <h4>Safe & Non-Toxic</h4>
+              <p>Certified child-safe materials for all age groups</p>
+            </div>
+            <div class="why-feature">
+              <div class="feature-icon" style="background:rgba(255,107,53,0.15)">🎓</div>
+              <h4>Fun & Educational</h4>
+              <p>Toys that entertain and teach at the same time</p>
+            </div>
+            <div class="why-feature">
+              <div class="feature-icon" style="background:rgba(0,176,255,0.15)">⚙️</div>
+              <h4>Durable Quality</h4>
+              <p>Built to last through countless hours of play</p>
+            </div>
+            <div class="why-feature">
+              <div class="feature-icon" style="background:rgba(124,77,255,0.15)">📦</div>
+              <h4>Fast Shipping</h4>
+              <p>Quick delivery with hassle-free 30-day returns</p>
+            </div>
+          </div>
+        </div>
+        <div class="why-visual">
+          <div class="why-big-card">
+            <span class="why-emoji">🏆</span>
+            <h3 style="font-size:1.5rem;color:white;margin-bottom:8px;">Trusted by 50,000+ Families</h3>
+            <p>Join thousands of happy parents who trust PlayJoy for their children's toys and gifts.</p>
+            <div class="trust-badges">
+              <div class="trust-badge">✅ CE Certified</div>
+              <div class="trust-badge">✅ ASTM F963</div>
+              <div class="trust-badge">✅ EN71 Safe</div>
+              <div class="trust-badge">✅ Non-Toxic</div>
+            </div>
+            <div style="margin-top:28px;display:flex;gap:24px;justify-content:center;">
+              <div style="text-align:center;">
+                <div style="font-family:'Fredoka One',cursive;font-size:2rem;color:var(--primary);">50K+</div>
+                <div style="font-size:0.8rem;color:var(--text-muted);">Happy Families</div>
+              </div>
+              <div style="width:1px;background:var(--border);"></div>
+              <div style="text-align:center;">
+                <div style="font-family:'Fredoka One',cursive;font-size:2rem;color:var(--accent);">4.9★</div>
+                <div style="font-size:0.8rem;color:var(--text-muted);">Avg. Rating</div>
+              </div>
+              <div style="width:1px;background:var(--border);"></div>
+              <div style="text-align:center;">
+                <div style="font-family:'Fredoka One',cursive;font-size:2rem;color:var(--accent-green);">30D</div>
+                <div style="font-size:0.8rem;color:var(--text-muted);">Easy Returns</div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="footer-col">
-        <h4>Shop</h4>
-        <ul class="footer-links">
-          <li><a href="educational.html">Educational Toys</a></li>
-          <li><a href="outdoor.html">Outdoor Play</a></li>
-          <li><a href="plush.html">Plush Toys</a></li>
-          <li><a href="creative.html">Creative Toys</a></li>
-          <li><a href="board-games.html">Board Games</a></li>
-        </ul>
+    </div>
+  </section>
+
+  <!-- ===== FEATURED PRODUCTS ===== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <div class="badge">🔥 Bestsellers</div>
+        <h2>Featured <span class="gradient-text">Products</span></h2>
+        <p>Shop our most loved toys, carefully chosen for quality, fun, and educational value.</p>
       </div>
-      <div class="footer-col">
-        <h4>Help</h4>
-        <ul class="footer-links">
-          <li><a href="faq.html">FAQs</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
-          <li><a href="about.html">About Us</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li><a href="#">Returns Policy</a></li>
-        </ul>
+      <div class="products-grid">
+
+        <div class="product-card">
+          <span class="product-badge hot">🔥 Hot</span>
+          <div class="product-img">
+            🧪
+            <button class="product-wishlist">♡</button>
+          </div>
+          <div class="product-info">
+            <div class="product-category">Educational</div>
+            <div class="product-name">STEM Explorer Kit</div>
+            <div class="product-desc">10+ hands-on experiments for curious young scientists ages 6–10.</div>
+            <div class="product-rating">
+              <span class="stars">★★★★★</span>
+              <span class="rating-count">(238 reviews)</span>
+            </div>
+            <div class="product-footer">
+              <div class="product-price">
+                <span class="price-current">$34.99</span>
+                <span class="price-original">$49.99</span>
+              </div>
+              <button class="btn-add-cart"
+                onclick="addToCart(this, {id:'stem-kit', name:'STEM Explorer Kit', price:34.99, originalPrice:49.99, emoji:'🧪', category:'Educational'})">🛒</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <span class="product-badge new">✨ New</span>
+          <div class="product-img">
+            🧩
+            <button class="product-wishlist">♡</button>
+          </div>
+          <div class="product-info">
+            <div class="product-category">Educational</div>
+            <div class="product-name">Wooden ABC Puzzle Set</div>
+            <div class="product-desc">Beautiful wooden alphabet and number puzzle for toddlers ages 2–5.</div>
+            <div class="product-rating">
+              <span class="stars">★★★★★</span>
+              <span class="rating-count">(186 reviews)</span>
+            </div>
+            <div class="product-footer">
+              <div class="product-price">
+                <span class="price-current">$24.99</span>
+                <span class="price-original">$34.99</span>
+              </div>
+              <button class="btn-add-cart"
+                onclick="addToCart(this, {id:'abc-puzzle', name:'Wooden ABC Puzzle Set', price:24.99, originalPrice:34.99, emoji:'🧩', category:'Educational'})">🛒</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <span class="product-badge sale">💰 Sale</span>
+          <div class="product-img">
+            🧸
+            <button class="product-wishlist">♡</button>
+          </div>
+          <div class="product-info">
+            <div class="product-category">Plush & Soft</div>
+            <div class="product-name">Giant Fluffy Bunny Plush</div>
+            <div class="product-desc">Super soft and cuddly bunny, perfect for kids of all ages.</div>
+            <div class="product-rating">
+              <span class="stars">★★★★★</span>
+              <span class="rating-count">(312 reviews)</span>
+            </div>
+            <div class="product-footer">
+              <div class="product-price">
+                <span class="price-current">$19.99</span>
+                <span class="price-original">$29.99</span>
+              </div>
+              <button class="btn-add-cart"
+                onclick="addToCart(this, {id:'bunny-plush', name:'Giant Fluffy Bunny Plush', price:19.99, originalPrice:29.99, emoji:'🧸', category:'Plush'})">🛒</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-img">
+            🎨
+            <button class="product-wishlist">♡</button>
+          </div>
+          <div class="product-info">
+            <div class="product-category">Creative</div>
+            <div class="product-name">Rainbow Art Kit Deluxe</div>
+            <div class="product-desc">Complete arts & crafts set with 120+ tools for creative expression.</div>
+            <div class="product-rating">
+              <span class="stars">★★★★☆</span>
+              <span class="rating-count">(149 reviews)</span>
+            </div>
+            <div class="product-footer">
+              <div class="product-price">
+                <span class="price-current">$29.99</span>
+                <span class="price-original">$44.99</span>
+              </div>
+              <button class="btn-add-cart"
+                onclick="addToCart(this, {id:'art-kit', name:'Rainbow Art Kit Deluxe', price:29.99, originalPrice:44.99, emoji:'🎨', category:'Creative'})">🛒</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <span class="product-badge hot">🔥 Hot</span>
+          <div class="product-img">
+            🎲
+            <button class="product-wishlist">♡</button>
+          </div>
+          <div class="product-info">
+            <div class="product-category">Board Games</div>
+            <div class="product-name">Family Quest Board Game</div>
+            <div class="product-desc">Epic adventure board game for the whole family, ages 6 and up.</div>
+            <div class="product-rating">
+              <span class="stars">★★★★★</span>
+              <span class="rating-count">(271 reviews)</span>
+            </div>
+            <div class="product-footer">
+              <div class="product-price">
+                <span class="price-current">$39.99</span>
+                <span class="price-original">$54.99</span>
+              </div>
+              <button class="btn-add-cart"
+                onclick="addToCart(this, {id:'family-quest', name:'Family Quest Board Game', price:39.99, originalPrice:54.99, emoji:'🎲', category:'Board Games'})">🛒</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <span class="product-badge new">✨ New</span>
+          <div class="product-img">
+            ⚽
+            <button class="product-wishlist">♡</button>
+          </div>
+          <div class="product-info">
+            <div class="product-category">Outdoor</div>
+            <div class="product-name">Pro Sports Starter Set</div>
+            <div class="product-desc">Complete outdoor sports kit including ball, cones and more for active play.</div>
+            <div class="product-rating">
+              <span class="stars">★★★★★</span>
+              <span class="rating-count">(97 reviews)</span>
+            </div>
+            <div class="product-footer">
+              <div class="product-price">
+                <span class="price-current">$44.99</span>
+                <span class="price-original">$59.99</span>
+              </div>
+              <button class="btn-add-cart"
+                onclick="addToCart(this, {id:'sports-set', name:'Pro Sports Starter Set', price:44.99, originalPrice:59.99, emoji:'⚽', category:'Outdoor'})">🛒</button>
+            </div>
+          </div>
+        </div>
+
       </div>
-      <div class="footer-col">
-        <h4>Contact</h4>
-        <ul class="footer-links">
-          <li><a href="mailto:support@playjoytoys.com">📧 support@playjoytoys.com</a></li>
-          <li><a href="#">📞 +1 (800) 555-TOYS</a></li>
-          <li><a href="#">📍 Toy Street, Fun City</a></li>
-          <li><a href="#">🕐 Mon–Fri: 9AM–6PM</a></li>
-        </ul>
+      <div class="products-cta">
+        <a href="products.html" class="btn btn-primary btn-lg">View All Products →</a>
       </div>
     </div>
-    <div class="footer-bottom">
-      <p>© 2026 PlayJoy Toys. All Rights Reserved.</p>
-      <div class="footer-badges">
-        <div class="footer-badge">✅ Safe</div>
-        <div class="footer-badge">✅ Certified</div>
-        <div class="footer-badge">✅ Secure Checkout</div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="section testimonials-section" style="background:var(--bg-card2)">
+    <div class="container">
+      <div class="section-header">
+        <div class="badge">💬 Reviews</div>
+        <h2>What <span class="gradient-text">Parents Say</span></h2>
+        <p>Real stories from happy families who've made PlayJoy part of their children's playtime.</p>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="quote-icon">"</div>
+          <p class="testimonial-text">My kids absolutely love the STEM kits! It's both fun and educational. They spend
+            hours experimenting and learning. Best purchase I've made for their development.</p>
+          <div class="testimonial-author">
+            <div class="author-avatar" style="background:rgba(255,107,53,0.2);color:var(--primary)">M</div>
+            <div class="author-info">
+              <strong>M. Patel</strong>
+              <span>⭐⭐⭐⭐⭐ · Verified Buyer</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="quote-icon">"</div>
+          <p class="testimonial-text">Fast shipping, and the toys are incredibly safe and high quality. My toddler
+            adores the plush bunny. I highly recommend PlayJoy Toys to all parents!</p>
+          <div class="testimonial-author">
+            <div class="author-avatar" style="background:rgba(0,176,255,0.2);color:var(--accent-blue)">J</div>
+            <div class="author-info">
+              <strong>J. Singh</strong>
+              <span>⭐⭐⭐⭐⭐ · Verified Buyer</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="quote-icon">"</div>
+          <p class="testimonial-text">The board game brought our whole family together for game night! Quality is
+            amazing. Easy returns process too — they really care about customer experience.</p>
+          <div class="testimonial-author">
+            <div class="author-avatar" style="background:rgba(124,77,255,0.2);color:var(--secondary)">R</div>
+            <div class="author-info">
+              <strong>R. Thompson</strong>
+              <span>⭐⭐⭐⭐⭐ · Verified Buyer</span>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</footer>
+  </section>
 
-<script>
-// Navbar scroll
-const navbar = document.getElementById('navbar');
-window.addEventListener('scroll', () => {
-  navbar.classList.toggle('scrolled', window.scrollY > 60);
-});
+  <!-- ===== NEWSLETTER ===== -->
+  <section class="newsletter-section">
+    <div class="container">
+      <div class="newsletter-inner">
+        <div class="badge" style="margin:0 auto 16px">📧 Stay Updated</div>
+        <h2>Get <span class="gradient-text">Exclusive Deals</span></h2>
+        <p>Subscribe to our newsletter for special offers, new arrivals, and parenting tips delivered to your inbox.</p>
+        <div class="newsletter-form">
+          <input type="email" placeholder="Enter your email address..." id="newsletterEmail" />
+          <button class="btn btn-primary" onclick="subscribeNewsletter()">Subscribe 🎁</button>
+        </div>
+      </div>
+    </div>
+  </section>
 
-// Hamburger menu
-const hamburger = document.getElementById('hamburger');
-const mobileMenu = document.getElementById('mobileMenu');
-const mobileClose = document.getElementById('mobileClose');
-hamburger.addEventListener('click', () => mobileMenu.classList.add('open'));
-mobileClose.addEventListener('click', () => mobileMenu.classList.remove('open'));
+  <!-- ===== BOTTOM CTA ===== -->
+  <section class="section" style="padding-bottom:0">
+    <div class="container">
+      <div class="bottom-cta">
+        <h2>Bring Joy & Learning to Your Kids Today</h2>
+        <p>Join 50,000+ families who trust PlayJoy Toys for safe, fun, and educational play.</p>
+        <a href="products.html" class="btn btn-white btn-lg">🛍️ Start Shopping</a>
+      </div>
+    </div>
+  </section>
 
-// Particles
-function createParticles() {
-  const colors = ['#FF6B35','#FFD600','#7C4DFF','#00C853','#FF4081','#00B0FF'];
-  const emojis = ['🌟','✨','⭐','💫'];
-  const container = document.getElementById('particles');
-  for (let i = 0; i < 15; i++) {
-    const p = document.createElement('div');
-    p.className = 'particle';
-    const size = Math.random() * 8 + 4;
-    p.style.cssText = `
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo" style="margin-bottom:0">
+            <div class="logo-icon">🧸</div>
+            Play<span>Joy</span> Toys
+          </a>
+          <p>Safe, fun, and educational toys for kids of all ages. Making childhood magical, one toy at a time.</p>
+          <div class="social-links">
+            <div class="social-link">📘</div>
+            <div class="social-link">📸</div>
+            <div class="social-link">🐦</div>
+            <div class="social-link">▶️</div>
+            <div class="social-link">📌</div>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Shop</h4>
+          <ul class="footer-links">
+            <li><a href="educational.html">Educational Toys</a></li>
+            <li><a href="outdoor.html">Outdoor Play</a></li>
+            <li><a href="plush.html">Plush Toys</a></li>
+            <li><a href="creative.html">Creative Toys</a></li>
+            <li><a href="board-games.html">Board Games</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Help</h4>
+          <ul class="footer-links">
+            <li><a href="faq.html">FAQs</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="#">Returns Policy</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul class="footer-links">
+            <li><a href="mailto:support@playjoytoys.com">📧 support@playjoytoys.com</a></li>
+            <li><a href="#">📞 +1 (800) 555-TOYS</a></li>
+            <li><a href="#">📍 Toy Street, Fun City</a></li>
+            <li><a href="#">🕐 Mon–Fri: 9AM–6PM</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 PlayJoy Toys. All Rights Reserved.</p>
+        <div class="footer-badges">
+          <div class="footer-badge">✅ Safe</div>
+          <div class="footer-badge">✅ Certified</div>
+          <div class="footer-badge">✅ Secure Checkout</div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/cart.js"></script>
+  <script>
+    // Navbar scroll
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      navbar.classList.toggle('scrolled', window.scrollY > 60);
+    });
+
+    // Hamburger menu
+    const hamburger = document.getElementById('hamburger');
+    const mobileMenu = document.getElementById('mobileMenu');
+    const mobileClose = document.getElementById('mobileClose');
+    hamburger.addEventListener('click', () => mobileMenu.classList.add('open'));
+    mobileClose.addEventListener('click', () => mobileMenu.classList.remove('open'));
+
+    // Particles
+    function createParticles() {
+      const colors = ['#FF6B35', '#FFD600', '#7C4DFF', '#00C853', '#FF4081', '#00B0FF'];
+      const emojis = ['🌟', '✨', '⭐', '💫'];
+      const container = document.getElementById('particles');
+      for (let i = 0; i < 15; i++) {
+        const p = document.createElement('div');
+        p.className = 'particle';
+        const size = Math.random() * 8 + 4;
+        p.style.cssText = `
       width:${size}px;height:${size}px;
-      left:${Math.random()*100}%;
-      background:${colors[Math.floor(Math.random()*colors.length)]};
-      animation-duration:${Math.random()*10+8}s;
-      animation-delay:${Math.random()*10}s;
+      left:${Math.random() * 100}%;
+      background:${colors[Math.floor(Math.random() * colors.length)]};
+      animation-duration:${Math.random() * 10 + 8}s;
+      animation-delay:${Math.random() * 10}s;
       opacity:0.4;
     `;
-    container.appendChild(p);
-  }
-}
-createParticles();
-
-// Wishlist toggle
-document.querySelectorAll('.product-wishlist').forEach(btn => {
-  btn.addEventListener('click', function(e) {
-    e.stopPropagation();
-    this.textContent = this.textContent === '♡' ? '❤️' : '♡';
-    this.style.color = this.textContent === '❤️' ? 'var(--accent-pink)' : '';
-  });
-});
-
-// Add to cart
-let cartCount = 3;
-function addToCart(btn) {
-  cartCount++;
-  document.querySelector('.cart-count').textContent = cartCount;
-  btn.textContent = '✓';
-  btn.style.background = 'var(--accent-green)';
-  setTimeout(() => {
-    btn.textContent = '🛒';
-    btn.style.background = '';
-  }, 1500);
-}
-
-// Newsletter subscribe
-function subscribeNewsletter() {
-  const email = document.getElementById('newsletterEmail').value;
-  if (email) {
-    alert('🎉 Thank you for subscribing! Check your inbox for a special welcome gift.');
-    document.getElementById('newsletterEmail').value = '';
-  } else {
-    alert('Please enter a valid email address.');
-  }
-}
-
-// Animate on scroll
-const observer = new IntersectionObserver((entries) => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.style.opacity = '1';
-      entry.target.style.transform = 'translateY(0)';
+        container.appendChild(p);
+      }
     }
-  });
-}, { threshold: 0.1 });
+    createParticles();
 
-document.querySelectorAll('.product-card, .category-card, .testimonial-card, .why-feature').forEach(el => {
-  el.style.opacity = '0';
-  el.style.transform = 'translateY(30px)';
-  el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
-  observer.observe(el);
-});
-</script>
+    // Wishlist toggle
+    document.querySelectorAll('.product-wishlist').forEach(btn => {
+      btn.addEventListener('click', function (e) {
+        e.stopPropagation();
+        this.textContent = this.textContent === '♡' ? '❤️' : '♡';
+        this.style.color = this.textContent === '❤️' ? 'var(--accent-pink)' : '';
+      });
+    });
+
+    // Add to cart wrapper
+    function addToCart(btn, product) {
+      Cart.add(product);
+      const originalText = btn.textContent;
+      btn.textContent = '✓';
+      btn.style.background = 'var(--accent-green)';
+      btn.style.color = 'white';
+      setTimeout(() => {
+        btn.textContent = originalText;
+        btn.style.background = '';
+        btn.style.color = '';
+      }, 1500);
+    }
+
+    // Newsletter subscribe
+    function subscribeNewsletter() {
+      const email = document.getElementById('newsletterEmail').value;
+      if (email) {
+        alert('🎉 Thank you for subscribing! Check your inbox for a special welcome gift.');
+        document.getElementById('newsletterEmail').value = '';
+      } else {
+        alert('Please enter a valid email address.');
+      }
+    }
+
+    // Animate on scroll
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.style.opacity = '1';
+          entry.target.style.transform = 'translateY(0)';
+        }
+      });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.product-card, .category-card, .testimonial-card, .why-feature').forEach(el => {
+      el.style.opacity = '0';
+      el.style.transform = 'translateY(30px)';
+      el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+      observer.observe(el);
+    });
+  </script>
 </body>
+
 </html>
