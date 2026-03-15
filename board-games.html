@@ -53,101 +53,8 @@
 
     <section class="section" id="products">
         <div class="container">
-            <div class="products-grid">
-                <div class="product-card"><span class="product-badge hot">🔥 Hot</span>
-                    <div class="product-img">🎲<button class="product-wishlist">♡</button></div>
-                    <div class="product-info">
-                        <div class="product-category">Board Games</div>
-                        <div class="product-name">Family Quest Game</div>
-                        <div class="product-desc">Epic adventure board game for 2–6 players. Ages 6+. 60-min playtime.
-                        </div>
-                        <div class="product-rating"><span class="stars">★★★★★</span><span
-                                class="rating-count">(271)</span></div>
-                        <div class="product-footer">
-                            <div class="product-price"><span class="price-current">$39.99</span><span
-                                    class="price-original">$54.99</span></div><button class="btn-add-cart"
-                                onclick="addToCart(this, {id:'family-quest', name:'Family Quest Game', price:39.99, originalPrice:54.99, emoji:'🎲', category:'Board Games'})">🛒</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="product-card"><span class="product-badge new">✨ New</span>
-                    <div class="product-img">🧩<button class="product-wishlist">♡</button></div>
-                    <div class="product-info">
-                        <div class="product-category">Puzzles</div>
-                        <div class="product-name">1000-Piece World Map</div>
-                        <div class="product-desc">Beautiful illustrated world map jigsaw puzzle. Family challenge!</div>
-                        <div class="product-rating"><span class="stars">★★★★★</span><span
-                                class="rating-count">(143)</span></div>
-                        <div class="product-footer">
-                            <div class="product-price"><span class="price-current">$27.99</span><span
-                                    class="price-original">$38.99</span></div><button class="btn-add-cart"
-                                onclick="addToCart(this, {id:'world-map', name:'1000-Piece World Map', price:27.99, originalPrice:38.99, emoji:'🧩', category:'Puzzles'})">🛒</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="product-card">
-                    <div class="product-img">🎯<button class="product-wishlist">♡</button></div>
-                    <div class="product-info">
-                        <div class="product-category">Strategy Games</div>
-                        <div class="product-name">Kids Chess Set</div>
-                        <div class="product-desc">Beautifully designed wooden chess set with illustrated learning guide.
-                        </div>
-                        <div class="product-rating"><span class="stars">★★★★★</span><span
-                                class="rating-count">(189)</span></div>
-                        <div class="product-footer">
-                            <div class="product-price"><span class="price-current">$34.99</span><span
-                                    class="price-original">$49.99</span></div><button class="btn-add-cart"
-                                onclick="addToCart(this, {id:'chess-set', name:'Kids Chess Set', price:34.99, originalPrice:49.99, emoji:'🎯', category:'Strategy Games'})">🛒</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="product-card"><span class="product-badge sale">💰 Sale</span>
-                    <div class="product-img">🃏<button class="product-wishlist">♡</button></div>
-                    <div class="product-info">
-                        <div class="product-category">Card Games</div>
-                        <div class="product-name">Super Memory Card Game</div>
-                        <div class="product-desc">Fast-paced memory matching game. 72 beautifully illustrated cards.
-                        </div>
-                        <div class="product-rating"><span class="stars">★★★★★</span><span
-                                class="rating-count">(224)</span></div>
-                        <div class="product-footer">
-                            <div class="product-price"><span class="price-current">$14.99</span><span
-                                    class="price-original">$22.99</span></div><button class="btn-add-cart"
-                                onclick="addToCart(this, {id:'memory-game', name:'Super Memory Card Game', price:14.99, originalPrice:22.99, emoji:'🃏', category:'Card Games'})">🛒</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="product-card">
-                    <div class="product-img">🔤<button class="product-wishlist">♡</button></div>
-                    <div class="product-info">
-                        <div class="product-category">Word Games</div>
-                        <div class="product-name">Junior Scrabble Fun</div>
-                        <div class="product-desc">Age-appropriate word game that builds vocabulary and spelling skills.
-                        </div>
-                        <div class="product-rating"><span class="stars">★★★★☆</span><span
-                                class="rating-count">(97)</span></div>
-                        <div class="product-footer">
-                            <div class="product-price"><span class="price-current">$24.99</span><span
-                                    class="price-original">$34.99</span></div><button class="btn-add-cart"
-                                onclick="addToCart(this, {id:'scrabble-fun', name:'Junior Scrabble Fun', price:24.99, originalPrice:34.99, emoji:'🔤', category:'Word Games'})">🛒</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="product-card">
-                    <div class="product-img">🎪<button class="product-wishlist">♡</button></div>
-                    <div class="product-info">
-                        <div class="product-category">Party Games</div>
-                        <div class="product-name">Charades for Kids</div>
-                        <div class="product-desc">Hilarious charades game perfect for birthday parties. Ages 5+.</div>
-                        <div class="product-rating"><span class="stars">★★★★★</span><span
-                                class="rating-count">(316)</span></div>
-                        <div class="product-footer">
-                            <div class="product-price"><span class="price-current">$18.99</span><span
-                                    class="price-original">$26.99</span></div><button class="btn-add-cart"
-                                onclick="addToCart(this, {id:'charades-kids', name:'Charades for Kids', price:18.99, originalPrice:26.99, emoji:'🎪', category:'Party Games'})">🛒</button>
-                        </div>
-                    </div>
-                </div>
+            <div class="products-grid" id="productsGrid">
+                <!-- Dynamic items injected here -->
             </div>
         </div>
     </section>
@@ -160,9 +67,51 @@
             </div>
         </div>
     </footer>
+    <script src="js/data.js"></script>
     <script src="js/cart.js"></script>
     <script>
-        // Add to cart wrapper
+        document.addEventListener('DOMContentLoaded', () => {
+            const grid = document.getElementById('productsGrid');
+            const category = 'board';
+            
+            const filtered = PRODUCTS_DATA.filter(p => p.category === category);
+            
+            grid.innerHTML = filtered.map(p => `
+                <div class="product-card">
+                    ${p.price < p.originalPrice * 0.7 ? '<span class="product-badge sale">💰 Sale</span>' : ''}
+                    <div class="product-img">
+                        ${p.image ? `<img src="${p.image}" alt="${p.name}" style="width:100%;height:100%;object-fit:cover;border-radius:15px;">` : p.emoji}
+                        <button class="product-wishlist">♡</button>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">${p.category.charAt(0).toUpperCase() + p.category.slice(1)}</div>
+                        <div class="product-name">${p.name}</div>
+                        <div class="product-desc">${p.fullName.substring(0, 60)}...</div>
+                        <div class="product-rating">
+                            <span class="stars">★★★★★</span>
+                            <span class="rating-count">(${p.reviews})</span>
+                        </div>
+                        <div class="product-footer">
+                            <div class="product-price">
+                                <span class="price-current">$${p.price}</span>
+                                <span class="price-original">$${p.originalPrice}</span>
+                            </div>
+                            <button class="btn-add-cart" onclick="addToCart(this, ${JSON.stringify(p).replace(/"/g, '&quot;')})">🛒</button>
+                        </div>
+                    </div>
+                </div>
+            `).join('');
+
+            // Wishlist toggle
+            document.querySelectorAll('.product-wishlist').forEach(btn => {
+                btn.addEventListener('click', function (e) {
+                    e.stopPropagation();
+                    this.textContent = this.textContent === '♡' ? '❤️' : '♡';
+                });
+            });
+        });
+
+        // UI Helpers
         function addToCart(btn, product) {
             Cart.add(product);
             const originalText = btn.textContent;

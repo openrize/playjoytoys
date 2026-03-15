@@ -73,163 +73,143 @@
                 <button class="filter-btn" onclick="filterCat(this,'board')">🎲 Board Games</button>
             </div>
 
-            <div class="products-grid" id="productsGrid">
-                <div class="product-card" data-cat="educational">
-                    <span class="product-badge hot">🔥 Hot</span>
-                    <div class="product-img">🧪<button class="product-wishlist">♡</button></div>
-                    <div class="product-info">
-                        <div class="product-category">Educational</div>
-                        <div class="product-name">STEM Explorer Kit</div>
-                        <div class="product-desc">10+ hands-on science experiments for ages 6–10.</div>
-                        <div class="product-rating"><span class="stars">★★★★★</span><span
-                                class="rating-count">(238)</span></div>
-                        <div class="product-footer">
-                            <div class="product-price"><span class="price-current">$34.99</span><span
-                                    class="price-original">$49.99</span></div><button class="btn-add-cart"
-                                onclick="addToCart(this, {id:'stem-kit', name:'STEM Explorer Kit', price:34.99, originalPrice:49.99, emoji:'🧪', category:'Educational'})">🛒</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="product-card" data-cat="educational">
-                    <span class="product-badge new">✨ New</span>
-                    <div class="product-img">🧩<button class="product-wishlist">♡</button></div>
-                    <div class="product-info">
-                        <div class="product-category">Educational</div>
-                        <div class="product-name">Wooden ABC Puzzle</div>
-                        <div class="product-desc">Multi-layer wooden alphabet puzzle, ages 2–5.</div>
-                        <div class="product-rating"><span class="stars">★★★★★</span><span
-                                class="rating-count">(186)</span></div>
-                        <div class="product-footer">
-                            <div class="product-price"><span class="price-current">$24.99</span><span
-                                    class="price-original">$34.99</span></div><button class="btn-add-cart"
-                                onclick="addToCart(this, {id:'abc-puzzle', name:'Wooden ABC Puzzle', price:24.99, originalPrice:34.99, emoji:'🧩', category:'Educational'})">🛒</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="product-card" data-cat="plush">
-                    <span class="product-badge sale">💰 Sale</span>
-                    <div class="product-img">🧸<button class="product-wishlist">♡</button></div>
-                    <div class="product-info">
-                        <div class="product-category">Plush & Soft</div>
-                        <div class="product-name">Giant Fluffy Bunny</div>
-                        <div class="product-desc">Super soft plush bunny, perfect for all ages.</div>
-                        <div class="product-rating"><span class="stars">★★★★★</span><span
-                                class="rating-count">(312)</span></div>
-                        <div class="product-footer">
-                            <div class="product-price"><span class="price-current">$19.99</span><span
-                                    class="price-original">$29.99</span></div><button class="btn-add-cart"
-                                onclick="addToCart(this, {id:'bunny-plush', name:'Giant Fluffy Bunny', price:19.99, originalPrice:29.99, emoji:'🧸', category:'Plush'})">🛒</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="product-card" data-cat="creative">
-                    <div class="product-img">🎨<button class="product-wishlist">♡</button></div>
-                    <div class="product-info">
-                        <div class="product-category">Creative</div>
-                        <div class="product-name">Rainbow Art Kit Deluxe</div>
-                        <div class="product-desc">Complete art and craft set with 120+ tools.</div>
-                        <div class="product-rating"><span class="stars">★★★★☆</span><span
-                                class="rating-count">(149)</span></div>
-                        <div class="product-footer">
-                            <div class="product-price"><span class="price-current">$29.99</span><span
-                                    class="price-original">$44.99</span></div><button class="btn-add-cart"
-                                onclick="addToCart(this, {id:'art-kit', name:'Rainbow Art Kit Deluxe', price:29.99, originalPrice:44.99, emoji:'🎨', category:'Creative'})">🛒</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="product-card" data-cat="board">
-                    <span class="product-badge hot">🔥 Hot</span>
-                    <div class="product-img">🎲<button class="product-wishlist">♡</button></div>
-                    <div class="product-info">
-                        <div class="product-category">Board Games</div>
-                        <div class="product-name">Family Quest Game</div>
-                        <div class="product-desc">Epic adventure board game for the whole family.</div>
-                        <div class="product-rating"><span class="stars">★★★★★</span><span
-                                class="rating-count">(271)</span></div>
-                        <div class="product-footer">
-                            <div class="product-price"><span class="price-current">$39.99</span><span
-                                    class="price-original">$54.99</span></div><button class="btn-add-cart"
-                                onclick="addToCart(this, {id:'family-quest', name:'Family Quest Game', price:39.99, originalPrice:54.99, emoji:'🎲', category:'Board Games'})">🛒</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="product-card" data-cat="outdoor">
-                    <span class="product-badge new">✨ New</span>
-                    <div class="product-img">⚽<button class="product-wishlist">♡</button></div>
-                    <div class="product-info">
-                        <div class="product-category">Outdoor</div>
-                        <div class="product-name">Pro Sports Starter Set</div>
-                        <div class="product-desc">Complete outdoor sports kit for active play.</div>
-                        <div class="product-rating"><span class="stars">★★★★★</span><span
-                                class="rating-count">(97)</span></div>
-                        <div class="product-footer">
-                            <div class="product-price"><span class="price-current">$44.99</span><span
-                                    class="price-original">$59.99</span></div><button class="btn-add-cart"
-                                onclick="addToCart(this, {id:'sports-set', name:'Pro Sports Starter Set', price:44.99, originalPrice:59.99, emoji:'⚽', category:'Outdoor'})">🛒</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="product-card" data-cat="educational">
-                    <div class="product-img">🔭<button class="product-wishlist">♡</button></div>
-                    <div class="product-info">
-                        <div class="product-category">STEM</div>
-                        <div class="product-name">Junior Telescope Kit</div>
-                        <div class="product-desc">Explore the night sky with this beginner telescope.</div>
-                        <div class="product-rating"><span class="stars">★★★★☆</span><span
-                                class="rating-count">(94)</span></div>
-                        <div class="product-footer">
-                            <div class="product-price"><span class="price-current">$42.99</span><span
-                                    class="price-original">$59.99</span></div><button class="btn-add-cart"
-                                onclick="addToCart(this, {id:'telescope', name:'Junior Telescope Kit', price:42.99, originalPrice:59.99, emoji:'🔭', category:'STEM'})">🛒</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="product-card" data-cat="plush">
-                    <div class="product-img">🦁<button class="product-wishlist">♡</button></div>
-                    <div class="product-info">
-                        <div class="product-category">Plush & Soft</div>
-                        <div class="product-name">Leo the Lion Plush</div>
-                        <div class="product-desc">Adorable lion stuffed animal, super soft and cuddly.</div>
-                        <div class="product-rating"><span class="stars">★★★★★</span><span
-                                class="rating-count">(204)</span></div>
-                        <div class="product-footer">
-                            <div class="product-price"><span class="price-current">$22.99</span><span
-                                    class="price-original">$32.99</span></div><button class="btn-add-cart"
-                                onclick="addToCart(this, {id:'leo-lion', name:'Leo the Lion Plush', price:22.99, originalPrice:32.99, emoji:'🦁', category:'Plush'})">🛒</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="product-card" data-cat="creative">
-                    <div class="product-img">🏺<button class="product-wishlist">♡</button></div>
-                    <div class="product-info">
-                        <div class="product-category">Creative</div>
-                        <div class="product-name">Air-Dry Clay Studio</div>
-                        <div class="product-desc">24-color air-dry clay set with sculpting tools.</div>
-                        <div class="product-rating"><span class="stars">★★★★★</span><span
-                                class="rating-count">(178)</span></div>
-                        <div class="product-footer">
-                            <div class="product-price"><span class="price-current">$18.99</span><span
-                                    class="price-original">$27.99</span></div><button class="btn-add-cart"
-                                onclick="addToCart(this, {id:'clay-studio', name:'Air-Dry Clay Studio', price:18.99, originalPrice:27.99, emoji:'🏺', category:'Creative'})">🛒</button>
-                        </div>
-                    </div>
-                </div>
+            <div id="productsGrid" class="products-grid">
+                <!-- Dynamic items injected here -->
+            </div>
+
+            <div id="pagination" class="pagination" style="display:flex;justify-content:center;gap:10px;margin-top:40px;flex-wrap:wrap">
+                <!-- Pagination buttons injected here -->
             </div>
         </div>
     </section>
 
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-bottom" style="border-top:none;padding-top:0">
-                <p>© 2026 PlayJoy Toys.</p><a href="index.html" class="btn btn-outline"
-                    style="padding:8px 20px;font-size:0.85rem;">← Home</a>
-            </div>
-        </div>
-    </footer>
-
+    <script src="js/data.js"></script>
     <script src="js/cart.js"></script>
     <script>
-        // Add to cart wrapper
+        const grid = document.getElementById('productsGrid');
+        const paginationContainer = document.getElementById('pagination');
+        const searchInput = document.getElementById('searchInput');
+        
+        let currentCat = 'all';
+        let currentPage = 1;
+        const itemsPerPage = 21; // 3 items per row, 7 rows
+        let filteredProducts = [...PRODUCTS_DATA];
+
+        function renderProducts() {
+            const start = (currentPage - 1) * itemsPerPage;
+            const end = start + itemsPerPage;
+            const pageItems = filteredProducts.slice(start, end);
+
+            grid.innerHTML = pageItems.map(p => `
+                <div class="product-card" data-cat="${p.category}">
+                    ${p.price < p.originalPrice * 0.7 ? '<span class="product-badge sale">💰 Sale</span>' : ''}
+                    <div class="product-img">
+                        ${p.image ? `<img src="${p.image}" alt="${p.name}" style="width:100%;height:100%;object-fit:cover;border-radius:15px;">` : p.emoji}
+                        <button class="product-wishlist">♡</button>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">${p.category.charAt(0).toUpperCase() + p.category.slice(1)}</div>
+                        <div class="product-name">${p.name}</div>
+                        <div class="product-desc">${p.fullName.substring(0, 60)}...</div>
+                        <div class="product-rating">
+                            <span class="stars">★★★★★</span>
+                            <span class="rating-count">(${p.reviews})</span>
+                        </div>
+                        <div class="product-footer">
+                            <div class="product-price">
+                                <span class="price-current">$${p.price}</span>
+                                <span class="price-original">$${p.originalPrice}</span>
+                            </div>
+                            <button class="btn-add-cart" onclick="addToCart(this, ${JSON.stringify(p).replace(/"/g, '&quot;')})">🛒</button>
+                        </div>
+                    </div>
+                </div>
+            `).join('');
+
+            renderPagination();
+
+            // Re-bind wishlist events
+            document.querySelectorAll('.product-wishlist').forEach(btn => { 
+                btn.addEventListener('click', function (e) { 
+                    e.stopPropagation(); 
+                    this.textContent = this.textContent === '♡' ? '❤️' : '♡'; 
+                }); 
+            });
+            
+            // Scroll to top of grid on page change
+            if (currentPage > 1) {
+                grid.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+        }
+
+        function renderPagination() {
+            const totalPages = Math.ceil(filteredProducts.length / itemsPerPage);
+            if (totalPages <= 1) {
+                paginationContainer.innerHTML = '';
+                return;
+            }
+
+            let html = '';
+            // Previous button
+            html += `<button class="btn ${currentPage === 1 ? 'btn-disabled' : 'btn-outline'}" 
+                     ${currentPage === 1 ? 'disabled' : ''} onclick="changePage(${currentPage - 1})">Prev</button>`;
+
+            // Page numbers
+            const maxVisible = 5;
+            let startPage = Math.max(1, currentPage - Math.floor(maxVisible / 2));
+            let endPage = Math.min(totalPages, startPage + maxVisible - 1);
+            
+            if (endPage - startPage + 1 < maxVisible) {
+                startPage = Math.max(1, endPage - maxVisible + 1);
+            }
+
+            for (let i = startPage; i <= endPage; i++) {
+                html += `<button class="btn ${i === currentPage ? 'btn-primary' : 'btn-outline'}" 
+                         style="min-width:45px" onclick="changePage(${i})">${i}</button>`;
+            }
+
+            // Next button
+            html += `<button class="btn ${currentPage === totalPages ? 'btn-disabled' : 'btn-outline'}" 
+                     ${currentPage === totalPages ? 'disabled' : ''} onclick="changePage(${currentPage + 1})">Next</button>`;
+
+            paginationContainer.innerHTML = html;
+        }
+
+        function changePage(page) {
+            currentPage = page;
+            renderProducts();
+        }
+
+        function filterCat(btn, cat) {
+            currentCat = cat;
+            document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            currentPage = 1;
+            filterProducts();
+        }
+
+        function filterProducts() {
+            const q = searchInput.value.toLowerCase();
+            const sort = document.getElementById('sortSelect').value;
+            
+            filteredProducts = PRODUCTS_DATA.filter(p => {
+                const matchCat = currentCat === 'all' || p.category === currentCat;
+                const matchSearch = p.name.toLowerCase().includes(q) || p.fullName.toLowerCase().includes(q);
+                return matchCat && matchSearch;
+            });
+
+            if (sort === 'Price: Low to High') filteredProducts.sort((a,b) => a.price - b.price);
+            else if (sort === 'Price: High to Low') filteredProducts.sort((a,b) => b.price - a.price);
+            else if (sort === 'Best Rated') filteredProducts.sort((a,b) => b.rating - a.rating);
+            
+            if (q) currentPage = 1; // Reset to page 1 on search
+            renderProducts();
+        }
+
+        // Initial render
+        filterProducts();
+
+        // UI Helpers
         function addToCart(btn, product) {
             Cart.add(product);
             const originalText = btn.textContent;
@@ -244,25 +224,6 @@
         }
         document.getElementById('hamburger').addEventListener('click', () => document.getElementById('mobileMenu').classList.add('open'));
         document.getElementById('mobileClose').addEventListener('click', () => document.getElementById('mobileMenu').classList.remove('open'));
-
-        let currentCat = 'all';
-        function filterCat(btn, cat) {
-            currentCat = cat;
-            document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-            btn.classList.add('active');
-            filterProducts();
-        }
-        function filterProducts() {
-            const q = document.getElementById('searchInput').value.toLowerCase();
-            document.querySelectorAll('#productsGrid .product-card').forEach(card => {
-                const name = card.querySelector('.product-name').textContent.toLowerCase();
-                const cat = card.dataset.cat;
-                const matchCat = currentCat === 'all' || cat === currentCat;
-                const matchSearch = name.includes(q);
-                card.style.display = matchCat && matchSearch ? '' : 'none';
-            });
-        }
-        document.querySelectorAll('.product-wishlist').forEach(btn => { btn.addEventListener('click', function (e) { e.stopPropagation(); this.textContent = this.textContent === '♡' ? '❤️' : '♡'; }); });
     </script>
 </body>
 
