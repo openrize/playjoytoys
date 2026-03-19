@@ -16,6 +16,11 @@
 
 <body>
 
+  <!-- ===== STICKY ANNOUNCEMENT BAR ===== -->
+  <div class="announcement-bar" style="background:var(--primary);color:var(--bg-dark);text-align:center;padding:8px;font-weight:600;font-size:0.9rem;z-index:1001;position:relative;">
+    🚚 Free Shipping on all orders over $49! Shop Best Sellers today.
+  </div>
+
   <!-- ===== NAVBAR ===== -->
   <nav class="navbar" id="navbar">
     <div class="nav-container">
@@ -25,7 +30,7 @@
       </a>
       <ul class="nav-links">
         <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="categories.html">Categories</a></li>
+        <li><a href="categories.html">Categories & Ages</a></li>
         <li><a href="products.html">Products</a></li>
         <li><a href="blog.html">Blog</a></li>
         <li><a href="about.html">About</a></li>
@@ -67,8 +72,7 @@
           <p class="hero-sub">Explore our curated collection of safe, durable, and imaginative toys that spark learning
             and joy for kids ages 0–12.</p>
           <div class="hero-actions">
-            <a href="products.html" class="btn btn-primary btn-lg">🛒 Shop Now</a>
-            <a href="categories.html" class="btn btn-outline btn-lg">Explore Categories</a>
+            <a href="products.html" class="btn btn-primary btn-lg">🛒 Shop Best Sellers</a>
           </div>
           <div class="hero-stats">
             <div class="stat-item">
@@ -117,29 +121,6 @@
     </div>
   </section>
 
-  <!-- ===== MARQUEE ===== -->
-  <div class="marquee-section">
-    <div class="marquee-track">
-      <div class="marquee-item">🧪 STEM Toys</div>
-      <div class="marquee-item">🔒 100% Safe & Non-Toxic</div>
-      <div class="marquee-item">🚚 Fast Delivery</div>
-      <div class="marquee-item">🧩 Educational Games</div>
-      <div class="marquee-item">🌟 Parent Approved</div>
-      <div class="marquee-item">🎨 Creative Kits</div>
-      <div class="marquee-item">♻️ Eco-Friendly</div>
-      <div class="marquee-item">💯 Satisfaction Guaranteed</div>
-      <!-- Duplicate for infinite loop -->
-      <div class="marquee-item">🧪 STEM Toys</div>
-      <div class="marquee-item">🔒 100% Safe & Non-Toxic</div>
-      <div class="marquee-item">🚚 Fast Delivery</div>
-      <div class="marquee-item">🧩 Educational Games</div>
-      <div class="marquee-item">🌟 Parent Approved</div>
-      <div class="marquee-item">🎨 Creative Kits</div>
-      <div class="marquee-item">♻️ Eco-Friendly</div>
-      <div class="marquee-item">💯 Satisfaction Guaranteed</div>
-    </div>
-  </div>
-
   <!-- ===== FEATURED CATEGORIES ===== -->
   <section class="section">
     <div class="container">
@@ -175,8 +156,53 @@
           <p>Fun for kids & families</p>
         </a>
       </div>
-      <div class="categories-cta">
+      
+      <div class="section-header" style="margin-top:40px;">
+        <div class="badge">👶 Shop by Age</div>
+        <h2>Find the <span class="gradient-text">Perfect Fit</span></h2>
+        <p>Toys tailored for your child's developmental stage.</p>
+      </div>
+      <div class="categories-grid">
+        <a href="products.html?age=0-2" class="category-card" style="--cat-color:#FF6B35;--cat-bg:rgba(255,107,53,0.12)">
+          <div class="cat-icon">🍼</div>
+          <h3>0-2 Years</h3>
+          <p>Sensory & Teething</p>
+        </a>
+        <a href="products.html?age=3-5" class="category-card" style="--cat-color:#00C853;--cat-bg:rgba(0,200,83,0.12)">
+          <div class="cat-icon">🖍️</div>
+          <h3>3-5 Years</h3>
+          <p>Creative & Preschool</p>
+        </a>
+        <a href="products.html?age=6-8" class="category-card" style="--cat-color:#00B0FF;--cat-bg:rgba(0,176,255,0.12)">
+          <div class="cat-icon">🔬</div>
+          <h3>6-8 Years</h3>
+          <p>STEM & Learning</p>
+        </a>
+        <a href="products.html?age=9-12" class="category-card" style="--cat-color:#7C4DFF;--cat-bg:rgba(124,77,255,0.12)">
+          <div class="cat-icon">🧩</div>
+          <h3>9-12 Years</h3>
+          <p>Complex Puzzles</p>
+        </a>
+      </div>
+    <div class="categories-cta">
         <a href="categories.html" class="btn btn-secondary btn-lg">🗂️ Explore All Collections</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FEATURED PRODUCTS ===== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <div class="badge">🔥 Bestsellers</div>
+        <h2>Featured <span class="gradient-text">Products</span></h2>
+        <p>Shop our most loved toys, carefully chosen for quality, fun, and educational value.</p>
+      </div>
+      <div class="products-grid" id="featuredGrid">
+        <!-- Dynamic content will be injected here -->
+      </div>
+      <div class="products-cta">
+        <a href="products.html" class="btn btn-primary btn-lg">View All Products →</a>
       </div>
     </div>
   </section>
@@ -242,23 +268,6 @@
             </div>
           </div>
         </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== FEATURED PRODUCTS ===== -->
-  <section class="section">
-    <div class="container">
-      <div class="section-header">
-        <div class="badge">🔥 Bestsellers</div>
-        <h2>Featured <span class="gradient-text">Products</span></h2>
-        <p>Shop our most loved toys, carefully chosen for quality, fun, and educational value.</p>
-      </div>
-      <div class="products-grid" id="featuredGrid">
-        <!-- Dynamic content will be injected here -->
-      </div>
-      <div class="products-cta">
-        <a href="products.html" class="btn btn-primary btn-lg">View All Products →</a>
       </div>
     </div>
   </section>
@@ -371,27 +380,27 @@
           <ul class="footer-links">
             <li><a href="faq.html">FAQs</a></li>
             <li><a href="contact.html">Contact Us</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="#">Returns Policy</a></li>
+            <li><a href="shipping-returns.html">Shipping & Returns</a></li>
+            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="terms-of-service.html">Terms of Service</a></li>
           </ul>
         </div>
         <div class="footer-col">
           <h4>Contact</h4>
           <ul class="footer-links">
             <li><a href="mailto:support@playjoytoys.com">📧 support@playjoytoys.com</a></li>
-            <li><a href="#">📞 +1 (800) 555-TOYS</a></li>
-            <li><a href="#">📍 Toy Street, Fun City</a></li>
-            <li><a href="#">🕐 Mon–Fri: 9AM–6PM</a></li>
+            <li><a href="contact.html">💬 Online Support Center</a></li>
+            <li><a href="contact.html">📍 Based in the US</a></li>
+            <li><a href="contact.html">🕐 Support 24/7 (Reply < 24h)</a></li>
           </ul>
         </div>
       </div>
       <div class="footer-bottom">
         <p>© 2026 PlayJoy Toys. All Rights Reserved.</p>
         <div class="footer-badges">
-          <div class="footer-badge">✅ Safe</div>
-          <div class="footer-badge">✅ Certified</div>
-          <div class="footer-badge">✅ Secure Checkout</div>
+          <div class="footer-badge">🛡️ Secure Payment</div>
+          <div class="footer-badge">💳 Visa / Mastercard / PayPal</div>
+          <div class="footer-badge">✅ Safe & Certified</div>
         </div>
       </div>
     </div>

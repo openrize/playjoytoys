@@ -10,7 +10,8 @@ const PRODUCTS_DATA = [
     "category": "outdoor",
     "image": "https://s.alicdn.com/@sc04/kf/H057eaa865834407284b213f7b27aa4ffq.jpg_300x300.jpg",
     "rating": "4.1",
-    "reviews": 261
+    "reviews": 261,
+    "ageRange": "6-8"
   },
   {
     "id": "item-fbprup0kn",
@@ -22,7 +23,9 @@ const PRODUCTS_DATA = [
     "category": "creative",
     "image": "https://s.alicdn.com/@sc04/kf/Hc2a6ec371b1149a1b9beb91a7a7e5fe0b.png_300x300.png",
     "rating": "5.0",
-    "reviews": 219
+    "reviews": 219,
+    "ageRange": "6-8",
+    "badge": "Best Seller"
   },
   {
     "id": "item-7utscjzoo",
@@ -34,7 +37,8 @@ const PRODUCTS_DATA = [
     "category": "creative",
     "image": "https://s.alicdn.com/@sc04/kf/H751e07559d6b40a3818a6a055b67b9024.jpg_300x300.jpg",
     "rating": "4.5",
-    "reviews": 352
+    "reviews": 352,
+    "ageRange": "9-12"
   },
   {
     "id": "item-tbgdlhjh1",
@@ -46,7 +50,9 @@ const PRODUCTS_DATA = [
     "category": "outdoor",
     "image": "https://s.alicdn.com/@sc04/kf/Ha15fc83425d64bdaa0cfc676182a42a5t.jpg_300x300.jpg",
     "rating": "4.4",
-    "reviews": 197
+    "reviews": 197,
+    "ageRange": "0-2",
+    "badge": "Safe for 3+"
   },
   {
     "id": "item-rjt9x19r8",
@@ -58,7 +64,9 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/H7c52cf08793f4df3b6a0f05382f58f6a8.jpg_300x300.jpg",
     "rating": "4.1",
-    "reviews": 126
+    "reviews": 126,
+    "ageRange": "3-5",
+    "badge": "Eco-Friendly"
   },
   {
     "id": "item-c7hz4bema",
@@ -70,7 +78,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/Haa00b25c301b45c0a0dc3f632537af1cH.png_300x300.png",
     "rating": "4.2",
-    "reviews": 150
+    "reviews": 150,
+    "ageRange": "9-12",
+    "badge": "STEM"
   },
   {
     "id": "item-v215skza1",
@@ -82,7 +92,9 @@ const PRODUCTS_DATA = [
     "category": "board",
     "image": "https://s.alicdn.com/@sc04/kf/H1dc4f98c0e84402081ffa8f30c70a49fh.png_300x300.png",
     "rating": "4.0",
-    "reviews": 392
+    "reviews": 392,
+    "ageRange": "0-2",
+    "badge": "Safe for 3+"
   },
   {
     "id": "item-rne4egw1r",
@@ -94,7 +106,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H48a0a6eed9ac4060b96abeffa5ae5dbey.jpg_300x300.jpg",
     "rating": "5.0",
-    "reviews": 320
+    "reviews": 320,
+    "ageRange": "9-12",
+    "badge": "Best Seller"
   },
   {
     "id": "item-6zf9dpoly",
@@ -106,7 +120,8 @@ const PRODUCTS_DATA = [
     "category": "creative",
     "image": "https://s.alicdn.com/@sc04/kf/H628dd04c28634fa2b3a06561c5d75d02v.jpg_300x300.jpg",
     "rating": "4.4",
-    "reviews": 76
+    "reviews": 76,
+    "ageRange": "6-8"
   },
   {
     "id": "item-cgdh7qrzf",
@@ -118,7 +133,8 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/Hdbb24cd10fda4cf284d6dce1f509f4c20.jpg_300x300.jpg",
     "rating": "4.1",
-    "reviews": 423
+    "reviews": 423,
+    "ageRange": "3-5"
   },
   {
     "id": "item-hi7dc4rng",
@@ -130,7 +146,9 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/H07e6c20abd3e4c59a3a8a429ec3b5b49p.jpg_300x300.jpg",
     "rating": "4.5",
-    "reviews": 148
+    "reviews": 148,
+    "ageRange": "9-12",
+    "badge": "Eco-Friendly"
   },
   {
     "id": "item-xbqycdd5z",
@@ -142,7 +160,9 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/H95d092a588eb46ad90a2b476b6bf9af8h.jpg_300x300.jpg",
     "rating": "4.7",
-    "reviews": 390
+    "reviews": 390,
+    "ageRange": "6-8",
+    "badge": "Eco-Friendly"
   },
   {
     "id": "item-p4sic0rmj",
@@ -154,7 +174,9 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/Ha20e3171d4c54f9da2f6dc6622bc5d0dz.jpg_300x300.jpg",
     "rating": "4.2",
-    "reviews": 143
+    "reviews": 143,
+    "ageRange": "6-8",
+    "badge": "Eco-Friendly"
   },
   {
     "id": "item-79ej5ks9s",
@@ -166,7 +188,9 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/H643d841355c64dedb7207c2a33226eb0u.jpg_300x300.jpg",
     "rating": "4.9",
-    "reviews": 148
+    "reviews": 148,
+    "ageRange": "6-8",
+    "badge": "Best Seller"
   },
   {
     "id": "item-5eds1k3k6",
@@ -178,7 +202,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/HTB1xyozhzQnBKNjSZSgq6xHGXXaS.jpg_300x300.jpg",
     "rating": "4.3",
-    "reviews": 348
+    "reviews": 348,
+    "ageRange": "9-12",
+    "badge": "STEM"
   },
   {
     "id": "item-voqovfx6l",
@@ -190,7 +216,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H5da7a13783eb4ce98c4aa71e9c8d19023.jpg_300x300.jpg",
     "rating": "4.1",
-    "reviews": 322
+    "reviews": 322,
+    "ageRange": "6-8",
+    "badge": "STEM"
   },
   {
     "id": "item-urpz1wavv",
@@ -202,7 +230,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H103f76c02eb242d38254847d3e95849cj.jpg_300x300.jpg",
     "rating": "4.5",
-    "reviews": 306
+    "reviews": 306,
+    "ageRange": "9-12",
+    "badge": "STEM"
   },
   {
     "id": "item-9txgmf2h0",
@@ -214,7 +244,9 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/H71a15fe8034545ba8e868d8e36c67531E.jpg_300x300.jpg",
     "rating": "4.9",
-    "reviews": 197
+    "reviews": 197,
+    "ageRange": "3-5",
+    "badge": "Best Seller"
   },
   {
     "id": "item-7zrnxxzf3",
@@ -226,7 +258,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H3cfd06e723ed4019b0662af7cc9f3fa8L.jpg_300x300.jpg",
     "rating": "4.2",
-    "reviews": 483
+    "reviews": 483,
+    "ageRange": "6-8",
+    "badge": "STEM"
   },
   {
     "id": "item-ayk9nfkoi",
@@ -238,7 +272,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H8d87ddedb61043b98934bfd74d0597d1y.jpg_300x300.jpg",
     "rating": "4.7",
-    "reviews": 406
+    "reviews": 406,
+    "ageRange": "3-5",
+    "badge": "STEM"
   },
   {
     "id": "item-nchpqo5b3",
@@ -250,7 +286,9 @@ const PRODUCTS_DATA = [
     "category": "board",
     "image": "https://s.alicdn.com/@sc04/kf/H42a694121d5948e79f90593b153e14f6o.jpg_300x300.jpg",
     "rating": "4.8",
-    "reviews": 195
+    "reviews": 195,
+    "ageRange": "0-2",
+    "badge": "Best Seller"
   },
   {
     "id": "item-yr4ba1cr9",
@@ -262,7 +300,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/Hf00a660390d2467e84025a88b1520d63G.jpg_300x300.jpg",
     "rating": "4.6",
-    "reviews": 485
+    "reviews": 485,
+    "ageRange": "0-2",
+    "badge": "STEM"
   },
   {
     "id": "item-ovqm36b7a",
@@ -274,7 +314,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/Hbec33f912f7745c2a14ee6d96d6cbc46Z.jpg_300x300.jpg",
     "rating": "4.6",
-    "reviews": 156
+    "reviews": 156,
+    "ageRange": "9-12",
+    "badge": "STEM"
   },
   {
     "id": "item-g6nl86ohr",
@@ -286,7 +328,8 @@ const PRODUCTS_DATA = [
     "category": "outdoor",
     "image": "https://s.alicdn.com/@sc04/kf/Hc76db79f47304059bb4788364cd10badz.jpg_300x300.jpg",
     "rating": "4.7",
-    "reviews": 358
+    "reviews": 358,
+    "ageRange": "6-8"
   },
   {
     "id": "item-1itocbdce",
@@ -298,7 +341,8 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/H8845e09a4dce4ec5b7a00549d20707e4u.png_300x300.png",
     "rating": "4.6",
-    "reviews": 287
+    "reviews": 287,
+    "ageRange": "6-8"
   },
   {
     "id": "item-h0ngf0ot5",
@@ -310,7 +354,9 @@ const PRODUCTS_DATA = [
     "category": "board",
     "image": "https://s.alicdn.com/@sc04/kf/HTB1DUDmSXXXXXckXFXXq6xXFXXXe.jpg_300x300.jpg",
     "rating": "4.6",
-    "reviews": 471
+    "reviews": 471,
+    "ageRange": "6-8",
+    "badge": "Eco-Friendly"
   },
   {
     "id": "item-dezbf0cbg",
@@ -322,7 +368,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H95f04816a60349e7852782ca4053e1c7w.png_300x300.png",
     "rating": "4.9",
-    "reviews": 421
+    "reviews": 421,
+    "ageRange": "0-2",
+    "badge": "Best Seller"
   },
   {
     "id": "item-qmu1nv9l1",
@@ -334,7 +382,8 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/Hb6a8d975ab62489586d0f5a7e9d2bab4i.jpg_300x300.jpg",
     "rating": "4.3",
-    "reviews": 451
+    "reviews": 451,
+    "ageRange": "6-8"
   },
   {
     "id": "item-t9trb2rhp",
@@ -346,7 +395,9 @@ const PRODUCTS_DATA = [
     "category": "board",
     "image": "https://s.alicdn.com/@sc04/kf/Hf62bd4b4082f4510bab7e39746098514Z.jpg_300x300.jpg",
     "rating": "4.8",
-    "reviews": 247
+    "reviews": 247,
+    "ageRange": "0-2",
+    "badge": "Best Seller"
   },
   {
     "id": "item-qoziipjlt",
@@ -358,7 +409,8 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/H4575926e234b4f40b3cf79e376b7d8e3P.png_300x300.png",
     "rating": "4.7",
-    "reviews": 262
+    "reviews": 262,
+    "ageRange": "3-5"
   },
   {
     "id": "item-qy41r2woz",
@@ -370,7 +422,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/Hc43b47fe35c9466d9743ccae8bcea4f3V.jpg_300x300.jpg",
     "rating": "4.5",
-    "reviews": 299
+    "reviews": 299,
+    "ageRange": "9-12",
+    "badge": "STEM"
   },
   {
     "id": "item-e5lym1ugq",
@@ -382,7 +436,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/Hf59edb3528194e6e91ef78c6af6b4eefS.jpg_300x300.jpg",
     "rating": "4.9",
-    "reviews": 497
+    "reviews": 497,
+    "ageRange": "0-2",
+    "badge": "Best Seller"
   },
   {
     "id": "item-7d31htj7n",
@@ -394,7 +450,9 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/Hfb58a36a1a35425687cb2cad2f7fac80q.png_300x300.png",
     "rating": "4.2",
-    "reviews": 135
+    "reviews": 135,
+    "ageRange": "3-5",
+    "badge": "Eco-Friendly"
   },
   {
     "id": "item-kw0bteugb",
@@ -406,7 +464,8 @@ const PRODUCTS_DATA = [
     "category": "board",
     "image": "https://s.alicdn.com/@sc04/kf/H71e326db321046fd98296a74a2e23e99T.png_300x300.png",
     "rating": "4.1",
-    "reviews": 146
+    "reviews": 146,
+    "ageRange": "3-5"
   },
   {
     "id": "item-gz1at1swc",
@@ -418,7 +477,9 @@ const PRODUCTS_DATA = [
     "category": "outdoor",
     "image": "https://s.alicdn.com/@sc04/kf/Hc508467eaece45578d87e33ebde2d9b2T.jpg_300x300.jpg",
     "rating": "4.3",
-    "reviews": 291
+    "reviews": 291,
+    "ageRange": "6-8",
+    "badge": "Eco-Friendly"
   },
   {
     "id": "item-t9lzb8kxs",
@@ -430,7 +491,9 @@ const PRODUCTS_DATA = [
     "category": "board",
     "image": "https://s.alicdn.com/@sc04/kf/H68e7d801e2e44ef3a9c9436b478d6bb3w.jpg_300x300.jpg",
     "rating": "4.5",
-    "reviews": 150
+    "reviews": 150,
+    "ageRange": "0-2",
+    "badge": "Safe for 3+"
   },
   {
     "id": "item-7782487a0",
@@ -442,7 +505,9 @@ const PRODUCTS_DATA = [
     "category": "outdoor",
     "image": "https://s.alicdn.com/@sc04/kf/Heddefc3a3f8e4ddca67b117d269ccc3cp.png_300x300.png",
     "rating": "4.9",
-    "reviews": 249
+    "reviews": 249,
+    "ageRange": "6-8",
+    "badge": "Best Seller"
   },
   {
     "id": "item-vaoryrkii",
@@ -454,7 +519,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H6d39d43332ec4c4daa503167f4c2d329I.jpg_300x300.jpg",
     "rating": "4.0",
-    "reviews": 391
+    "reviews": 391,
+    "ageRange": "3-5",
+    "badge": "STEM"
   },
   {
     "id": "item-jzqoq8hi8",
@@ -466,7 +533,9 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/Hae51226ba42a446bb463923bcba5f135N.jpg_300x300.jpg",
     "rating": "5.0",
-    "reviews": 190
+    "reviews": 190,
+    "ageRange": "3-5",
+    "badge": "Best Seller"
   },
   {
     "id": "item-ij0nml648",
@@ -478,7 +547,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/Hd27683d377414d3bbea4134ebc7d5622d.jpg_300x300.jpg",
     "rating": "4.4",
-    "reviews": 225
+    "reviews": 225,
+    "ageRange": "9-12",
+    "badge": "STEM"
   },
   {
     "id": "item-7iekp85cb",
@@ -490,7 +561,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H750eff8805c94cc7bfd53b6d2ee779feQ.jpg_300x300.jpg",
     "rating": "4.1",
-    "reviews": 310
+    "reviews": 310,
+    "ageRange": "0-2",
+    "badge": "STEM"
   },
   {
     "id": "item-aqwowove7",
@@ -502,7 +575,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H4fd8c9a3e56243ff9c049cff32c89a92c.jpg_300x300.jpg",
     "rating": "4.0",
-    "reviews": 127
+    "reviews": 127,
+    "ageRange": "0-2",
+    "badge": "STEM"
   },
   {
     "id": "item-htc2414ea",
@@ -514,7 +589,8 @@ const PRODUCTS_DATA = [
     "category": "outdoor",
     "image": "https://s.alicdn.com/@sc04/kf/H2390035ecf104e7ca5b22edc475d3597c.jpg_300x300.jpg",
     "rating": "4.6",
-    "reviews": 400
+    "reviews": 400,
+    "ageRange": "9-12"
   },
   {
     "id": "item-kgj0x2p84",
@@ -526,7 +602,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/He64bda2be39b470595f8709ed6f5dca8U.jpg_300x300.jpg",
     "rating": "4.6",
-    "reviews": 210
+    "reviews": 210,
+    "ageRange": "0-2",
+    "badge": "STEM"
   },
   {
     "id": "item-h6lcbdj4a",
@@ -538,7 +616,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H1eebf6eaee984862b0b7a773e227620aT.jpg_300x300.jpg",
     "rating": "4.4",
-    "reviews": 27
+    "reviews": 27,
+    "ageRange": "9-12",
+    "badge": "STEM"
   },
   {
     "id": "item-tfhzegsfx",
@@ -550,7 +630,8 @@ const PRODUCTS_DATA = [
     "category": "creative",
     "image": "https://s.alicdn.com/@sc04/kf/Hf12daf2cb97345f1ac578efce47cc170A.jpg_300x300.jpg",
     "rating": "4.6",
-    "reviews": 115
+    "reviews": 115,
+    "ageRange": "6-8"
   },
   {
     "id": "item-yibl02rwc",
@@ -562,7 +643,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/Ha1fa42944abb49d0baa7505402b3a831V.png_300x300.png",
     "rating": "5.0",
-    "reviews": 53
+    "reviews": 53,
+    "ageRange": "9-12",
+    "badge": "Best Seller"
   },
   {
     "id": "item-7t3uocpao",
@@ -574,7 +657,8 @@ const PRODUCTS_DATA = [
     "category": "board",
     "image": "https://s.alicdn.com/@sc04/kf/Hb82127e268034abca5d37d15e09f97d3a.png_300x300.png",
     "rating": "4.7",
-    "reviews": 433
+    "reviews": 433,
+    "ageRange": "3-5"
   },
   {
     "id": "item-oqi0mdulj",
@@ -586,7 +670,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H0b68971ace264f708933613713728580Q.jpg_300x300.jpg",
     "rating": "4.8",
-    "reviews": 491
+    "reviews": 491,
+    "ageRange": "0-2",
+    "badge": "Best Seller"
   },
   {
     "id": "item-5z28yy1pi",
@@ -598,7 +684,8 @@ const PRODUCTS_DATA = [
     "category": "board",
     "image": "https://s.alicdn.com/@sc04/kf/Hd73741866aa748618c082fe3b0285c0dO.jpg_300x300.jpg",
     "rating": "4.3",
-    "reviews": 493
+    "reviews": 493,
+    "ageRange": "9-12"
   },
   {
     "id": "item-8rcqgqe5c",
@@ -610,7 +697,9 @@ const PRODUCTS_DATA = [
     "category": "board",
     "image": "https://s.alicdn.com/@sc04/kf/Hdb807e435ec04353acf5ee72b0297875z.png_300x300.png",
     "rating": "4.7",
-    "reviews": 367
+    "reviews": 367,
+    "ageRange": "0-2",
+    "badge": "Safe for 3+"
   },
   {
     "id": "item-08ia23ns5",
@@ -622,7 +711,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H506d0d33a5124b7790a74d2cc2929cffc.png_300x300.png",
     "rating": "4.1",
-    "reviews": 373
+    "reviews": 373,
+    "ageRange": "3-5",
+    "badge": "STEM"
   },
   {
     "id": "item-pwt0j8a2a",
@@ -634,7 +725,9 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/H75ecf7ff9e17476cbfb875bda8226d7dQ.jpg_300x300.jpg",
     "rating": "4.2",
-    "reviews": 57
+    "reviews": 57,
+    "ageRange": "3-5",
+    "badge": "Eco-Friendly"
   },
   {
     "id": "item-9xfiy9z6b",
@@ -646,7 +739,9 @@ const PRODUCTS_DATA = [
     "category": "outdoor",
     "image": "https://s.alicdn.com/@sc04/kf/H1eab19e0b8e246b9ab1f48951cef69d4Y.jpg_300x300.jpg",
     "rating": "4.9",
-    "reviews": 91
+    "reviews": 91,
+    "ageRange": "3-5",
+    "badge": "Best Seller"
   },
   {
     "id": "item-2t4mzpmtb",
@@ -658,7 +753,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H556e96016e01440bb356d3d96be04127R.jpg_300x300.jpg",
     "rating": "4.3",
-    "reviews": 296
+    "reviews": 296,
+    "ageRange": "0-2",
+    "badge": "STEM"
   },
   {
     "id": "item-l8srl7ohm",
@@ -670,7 +767,8 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/Hb1e2ba1ad122414d881ff35b49717d40G.png_300x300.png",
     "rating": "4.1",
-    "reviews": 391
+    "reviews": 391,
+    "ageRange": "6-8"
   },
   {
     "id": "item-ba2rhe04s",
@@ -682,7 +780,9 @@ const PRODUCTS_DATA = [
     "category": "outdoor",
     "image": "https://s.alicdn.com/@sc04/kf/H1c37fb174128420ca7d265282dbe5db7H.jpg_300x300.jpg",
     "rating": "4.8",
-    "reviews": 476
+    "reviews": 476,
+    "ageRange": "3-5",
+    "badge": "Best Seller"
   },
   {
     "id": "item-vpzz90djs",
@@ -694,7 +794,8 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/Hf1a92a7da88c45c2ba1a1661c15a2d03X.jpg_300x300.jpg",
     "rating": "4.6",
-    "reviews": 391
+    "reviews": 391,
+    "ageRange": "9-12"
   },
   {
     "id": "item-7aos8s6ya",
@@ -706,7 +807,9 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/Hc119966d3c0d4dee96d6a1468c00ea69J.jpg_300x300.jpg",
     "rating": "4.5",
-    "reviews": 163
+    "reviews": 163,
+    "ageRange": "3-5",
+    "badge": "Eco-Friendly"
   },
   {
     "id": "item-s66uvhwes",
@@ -718,7 +821,9 @@ const PRODUCTS_DATA = [
     "category": "creative",
     "image": "https://s.alicdn.com/@sc04/kf/S864b6b2906844ed088e74885f7df2febE.jpeg_300x300.jpeg",
     "rating": "4.3",
-    "reviews": 194
+    "reviews": 194,
+    "ageRange": "0-2",
+    "badge": "Safe for 3+"
   },
   {
     "id": "item-b9ojo3nj9",
@@ -730,7 +835,9 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/H651ef2630d2e46f48ea75058d3da4d9aH.jpg_300x300.jpg",
     "rating": "4.7",
-    "reviews": 81
+    "reviews": 81,
+    "ageRange": "0-2",
+    "badge": "Safe for 3+"
   },
   {
     "id": "item-tfrlxz75q",
@@ -742,7 +849,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/HTB1q5R7aiLrK1Rjy1zdq6ynnpXaN.jpg_300x300.jpg",
     "rating": "4.4",
-    "reviews": 224
+    "reviews": 224,
+    "ageRange": "9-12",
+    "badge": "STEM"
   },
   {
     "id": "item-uwnprnd9a",
@@ -754,7 +863,9 @@ const PRODUCTS_DATA = [
     "category": "board",
     "image": "https://s.alicdn.com/@sc04/kf/Ha22c5724f5de4d85a5ce153e8c2e04acp.jpg_300x300.jpg",
     "rating": "4.5",
-    "reviews": 294
+    "reviews": 294,
+    "ageRange": "0-2",
+    "badge": "Safe for 3+"
   },
   {
     "id": "item-1jqmaraoo",
@@ -766,7 +877,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H60a3eea2b3754dfd930d7b3fe6ecb66dI.jpg_300x300.jpg",
     "rating": "4.2",
-    "reviews": 231
+    "reviews": 231,
+    "ageRange": "0-2",
+    "badge": "STEM"
   },
   {
     "id": "item-pepqwja9g",
@@ -778,7 +891,9 @@ const PRODUCTS_DATA = [
     "category": "creative",
     "image": "https://s.alicdn.com/@sc04/kf/H035ee460b593463a9858cc93d02ff2e66.jpg_300x300.jpg",
     "rating": "5.0",
-    "reviews": 261
+    "reviews": 261,
+    "ageRange": "6-8",
+    "badge": "Best Seller"
   },
   {
     "id": "item-qw7otmwzx",
@@ -790,7 +905,8 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/Hbf678659246a47c79bc3eb66f4edf64b9.jpg_300x300.jpg",
     "rating": "4.2",
-    "reviews": 361
+    "reviews": 361,
+    "ageRange": "9-12"
   },
   {
     "id": "item-c786sef86",
@@ -802,7 +918,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/Hc06f99299ca24d53b849066a7d773646z.jpg_300x300.jpg",
     "rating": "4.5",
-    "reviews": 74
+    "reviews": 74,
+    "ageRange": "6-8",
+    "badge": "STEM"
   },
   {
     "id": "item-e71eynigq",
@@ -814,7 +932,8 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/H319d503b83a04523b19ea007df32a5dc3.jpg_300x300.jpg",
     "rating": "4.6",
-    "reviews": 15
+    "reviews": 15,
+    "ageRange": "9-12"
   },
   {
     "id": "item-cuecw9snd",
@@ -826,7 +945,9 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/H5562a302e5964d27991c02de6d39bb99D.jpg_300x300.jpg",
     "rating": "4.3",
-    "reviews": 421
+    "reviews": 421,
+    "ageRange": "0-2",
+    "badge": "Safe for 3+"
   },
   {
     "id": "item-ndunl4hmw",
@@ -838,7 +959,9 @@ const PRODUCTS_DATA = [
     "category": "creative",
     "image": "https://s.alicdn.com/@sc04/kf/Hc277ca864c9347869fb061c394721ac6E.jpg_300x300.jpg",
     "rating": "5.0",
-    "reviews": 477
+    "reviews": 477,
+    "ageRange": "0-2",
+    "badge": "Best Seller"
   },
   {
     "id": "item-529hnvgjf",
@@ -850,7 +973,9 @@ const PRODUCTS_DATA = [
     "category": "board",
     "image": "https://s.alicdn.com/@sc04/kf/H3426828f7b334c1da972353b170dda7ep.png_300x300.png",
     "rating": "5.0",
-    "reviews": 330
+    "reviews": 330,
+    "ageRange": "9-12",
+    "badge": "Best Seller"
   },
   {
     "id": "item-0t6xqq611",
@@ -862,7 +987,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/Hf9ba1e9f1f974629937827a8048abd96f.jpg_300x300.jpg",
     "rating": "4.6",
-    "reviews": 467
+    "reviews": 467,
+    "ageRange": "0-2",
+    "badge": "STEM"
   },
   {
     "id": "item-01kfkkugp",
@@ -874,7 +1001,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H0576ec95983d44509305f37c1868cf65K.jpg_300x300.jpg",
     "rating": "4.5",
-    "reviews": 344
+    "reviews": 344,
+    "ageRange": "9-12",
+    "badge": "STEM"
   },
   {
     "id": "item-bf78jwxga",
@@ -886,7 +1015,8 @@ const PRODUCTS_DATA = [
     "category": "outdoor",
     "image": "https://s.alicdn.com/@sc04/kf/H795ed6352fa243f78d39a75e189380a1f.png_300x300.png",
     "rating": "4.3",
-    "reviews": 498
+    "reviews": 498,
+    "ageRange": "6-8"
   },
   {
     "id": "item-ue3kygahw",
@@ -898,7 +1028,8 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/H7430be38e3fe4abfbc981d37df1b5c86q.jpg_300x300.jpg",
     "rating": "4.6",
-    "reviews": 169
+    "reviews": 169,
+    "ageRange": "6-8"
   },
   {
     "id": "item-380ud9ko1",
@@ -910,7 +1041,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/Hc5e68541f42448aaa7c976d44def961ey.jpg_300x300.jpg",
     "rating": "4.6",
-    "reviews": 249
+    "reviews": 249,
+    "ageRange": "0-2",
+    "badge": "STEM"
   },
   {
     "id": "item-kupvg0iz7",
@@ -922,7 +1055,8 @@ const PRODUCTS_DATA = [
     "category": "outdoor",
     "image": "https://s.alicdn.com/@sc04/kf/Hedfd1dbb81a34539b4b91211a17b9dcaj.jpg_300x300.jpg",
     "rating": "4.2",
-    "reviews": 247
+    "reviews": 247,
+    "ageRange": "3-5"
   },
   {
     "id": "item-4jg200d9q",
@@ -934,7 +1068,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H0eb7e77194514bb6b3a48ef04469667b6.png_300x300.png",
     "rating": "4.6",
-    "reviews": 385
+    "reviews": 385,
+    "ageRange": "0-2",
+    "badge": "STEM"
   },
   {
     "id": "item-0cg3vc57c",
@@ -946,7 +1082,8 @@ const PRODUCTS_DATA = [
     "category": "creative",
     "image": "https://s.alicdn.com/@sc04/kf/H774c5d56e56844c8800c94cfa94112c45.jpg_300x300.jpg",
     "rating": "4.5",
-    "reviews": 357
+    "reviews": 357,
+    "ageRange": "9-12"
   },
   {
     "id": "item-j72873mjd",
@@ -958,7 +1095,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H9d0c755f3d5843f8950f87995e4d0734B.jpg_300x300.jpg",
     "rating": "4.3",
-    "reviews": 393
+    "reviews": 393,
+    "ageRange": "0-2",
+    "badge": "STEM"
   },
   {
     "id": "item-708i1py8r",
@@ -970,7 +1109,8 @@ const PRODUCTS_DATA = [
     "category": "creative",
     "image": "https://s.alicdn.com/@sc04/kf/H9dc2439a00644746bf25667b329b29dbQ.jpg_300x300.jpg",
     "rating": "4.1",
-    "reviews": 155
+    "reviews": 155,
+    "ageRange": "6-8"
   },
   {
     "id": "item-6wozljbbz",
@@ -982,7 +1122,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H93e6fcfe762744e79ddb569632100f301.jpg_300x300.jpg",
     "rating": "4.4",
-    "reviews": 365
+    "reviews": 365,
+    "ageRange": "3-5",
+    "badge": "STEM"
   },
   {
     "id": "item-9w8aexo53",
@@ -994,7 +1136,9 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/H17297f67a35d4d628ae4422bf097df2aX.png_300x300.png",
     "rating": "4.7",
-    "reviews": 197
+    "reviews": 197,
+    "ageRange": "0-2",
+    "badge": "Safe for 3+"
   },
   {
     "id": "item-zuoku3yjx",
@@ -1006,7 +1150,9 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/H132b697383d44fe4b41569862a23b5e7k.jpg_300x300.jpg",
     "rating": "5.0",
-    "reviews": 455
+    "reviews": 455,
+    "ageRange": "0-2",
+    "badge": "Best Seller"
   },
   {
     "id": "item-nw9b03j9a",
@@ -1018,7 +1164,8 @@ const PRODUCTS_DATA = [
     "category": "creative",
     "image": "https://s.alicdn.com/@sc04/kf/H810544d20fc5448e94d6d5cbc5be77f9u.jpg_300x300.jpg",
     "rating": "4.3",
-    "reviews": 418
+    "reviews": 418,
+    "ageRange": "3-5"
   },
   {
     "id": "item-rn5q479n4",
@@ -1030,7 +1177,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/Hb002110a6e304b11bb844c759b0bd43aL.jpg_300x300.jpg",
     "rating": "4.1",
-    "reviews": 473
+    "reviews": 473,
+    "ageRange": "6-8",
+    "badge": "STEM"
   },
   {
     "id": "item-rh1trr9rx",
@@ -1042,7 +1191,9 @@ const PRODUCTS_DATA = [
     "category": "creative",
     "image": "https://s.alicdn.com/@sc04/kf/H32883a7bba7643be8d998a557202830aR.png_300x300.png",
     "rating": "4.4",
-    "reviews": 120
+    "reviews": 120,
+    "ageRange": "9-12",
+    "badge": "Eco-Friendly"
   },
   {
     "id": "item-j1qrqr75r",
@@ -1054,7 +1205,8 @@ const PRODUCTS_DATA = [
     "category": "board",
     "image": "https://s.alicdn.com/@sc04/kf/H153793146ded4b1ab2381100dc797332Z.jpg_300x300.jpg",
     "rating": "4.6",
-    "reviews": 185
+    "reviews": 185,
+    "ageRange": "6-8"
   },
   {
     "id": "item-rs4qbpndd",
@@ -1066,7 +1218,9 @@ const PRODUCTS_DATA = [
     "category": "board",
     "image": "https://s.alicdn.com/@sc04/kf/A1f5924af11374d73a3a60c9407bb61b4J.jpg_300x300.jpg",
     "rating": "4.5",
-    "reviews": 83
+    "reviews": 83,
+    "ageRange": "0-2",
+    "badge": "Safe for 3+"
   },
   {
     "id": "item-qmhb0hiyb",
@@ -1078,7 +1232,8 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/H5cdfc2244ae84f5296ad2c2c2fcb9bf3k.jpg_300x300.jpg",
     "rating": "4.3",
-    "reviews": 189
+    "reviews": 189,
+    "ageRange": "6-8"
   },
   {
     "id": "item-ra7ragrbh",
@@ -1090,7 +1245,8 @@ const PRODUCTS_DATA = [
     "category": "outdoor",
     "image": "https://s.alicdn.com/@sc04/kf/H857cae1170a0469cace0e5322772455eA.jpg_300x300.jpg",
     "rating": "4.5",
-    "reviews": 390
+    "reviews": 390,
+    "ageRange": "3-5"
   },
   {
     "id": "item-zau19n9df",
@@ -1102,7 +1258,8 @@ const PRODUCTS_DATA = [
     "category": "outdoor",
     "image": "https://s.alicdn.com/@sc04/kf/H764e8ff345dd4e2a9b3db4fde23d2f16r.jpg_300x300.jpg",
     "rating": "4.5",
-    "reviews": 188
+    "reviews": 188,
+    "ageRange": "6-8"
   },
   {
     "id": "item-4muqam96z",
@@ -1114,7 +1271,9 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/Hb03216c512bf486c801959fa4b465611R.jpg_300x300.jpg",
     "rating": "4.0",
-    "reviews": 308
+    "reviews": 308,
+    "ageRange": "3-5",
+    "badge": "Eco-Friendly"
   },
   {
     "id": "item-iqxs71txm",
@@ -1126,7 +1285,9 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/H59909d33fe8444b98baf9abd40c2427b8.png_300x300.png",
     "rating": "4.8",
-    "reviews": 276
+    "reviews": 276,
+    "ageRange": "6-8",
+    "badge": "Best Seller"
   },
   {
     "id": "item-r9lfr0672",
@@ -1138,7 +1299,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H83cdf7755fe44c398d04156e19644320c.jpg_300x300.jpg",
     "rating": "4.9",
-    "reviews": 419
+    "reviews": 419,
+    "ageRange": "0-2",
+    "badge": "Best Seller"
   },
   {
     "id": "item-vcn8c6yzp",
@@ -1150,7 +1313,9 @@ const PRODUCTS_DATA = [
     "category": "board",
     "image": "https://s.alicdn.com/@sc04/kf/H4185ccd0a25841cfb33280b8f88d8f25x.png_300x300.png",
     "rating": "4.1",
-    "reviews": 11
+    "reviews": 11,
+    "ageRange": "0-2",
+    "badge": "Safe for 3+"
   },
   {
     "id": "item-o3qhxnhet",
@@ -1162,7 +1327,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H96b6961890354599884843073b140c5fv.jpg_300x300.jpg",
     "rating": "4.4",
-    "reviews": 499
+    "reviews": 499,
+    "ageRange": "9-12",
+    "badge": "STEM"
   },
   {
     "id": "item-omilhmvv2",
@@ -1174,7 +1341,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H3eaf7a08471d4645841251f598535e13v.jpg_300x300.jpg",
     "rating": "4.8",
-    "reviews": 25
+    "reviews": 25,
+    "ageRange": "6-8",
+    "badge": "Best Seller"
   },
   {
     "id": "item-z495mzc8z",
@@ -1186,7 +1355,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H2bba434399274b3ba397911d7ebf8e09A.jpg_300x300.jpg",
     "rating": "4.9",
-    "reviews": 293
+    "reviews": 293,
+    "ageRange": "3-5",
+    "badge": "Best Seller"
   },
   {
     "id": "item-jq1nuhgae",
@@ -1198,7 +1369,8 @@ const PRODUCTS_DATA = [
     "category": "creative",
     "image": "https://s.alicdn.com/@sc04/kf/H4f1bac7ce73e48dfb1cc3ccfcee6193am.jpg_300x300.jpg",
     "rating": "4.4",
-    "reviews": 84
+    "reviews": 84,
+    "ageRange": "3-5"
   },
   {
     "id": "item-5hynujlze",
@@ -1210,7 +1382,8 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/H05df65b126394b15bc6b4541078e0b91W.png_300x300.png",
     "rating": "4.3",
-    "reviews": 261
+    "reviews": 261,
+    "ageRange": "9-12"
   },
   {
     "id": "item-r4vk4u60i",
@@ -1222,7 +1395,9 @@ const PRODUCTS_DATA = [
     "category": "board",
     "image": "https://s.alicdn.com/@sc04/kf/H00fec2940fc349e18249ae6129d624bc9.png_300x300.png",
     "rating": "4.3",
-    "reviews": 56
+    "reviews": 56,
+    "ageRange": "0-2",
+    "badge": "Safe for 3+"
   },
   {
     "id": "item-pnexd83p1",
@@ -1234,7 +1409,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/Hf2b9b3ac9f3440f39103c4d95b6cb1d16.jpg_300x300.jpg",
     "rating": "4.3",
-    "reviews": 302
+    "reviews": 302,
+    "ageRange": "6-8",
+    "badge": "STEM"
   },
   {
     "id": "item-qpljh4zne",
@@ -1246,7 +1423,8 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/H24dccfed195a4ff1888f7b1c6df9568a0.png_300x300.png",
     "rating": "4.6",
-    "reviews": 477
+    "reviews": 477,
+    "ageRange": "6-8"
   },
   {
     "id": "item-shg22dfrf",
@@ -1258,7 +1436,9 @@ const PRODUCTS_DATA = [
     "category": "creative",
     "image": "https://s.alicdn.com/@sc04/kf/H21c3798af68b40789838ee5181dd512eg.jpg_300x300.jpg",
     "rating": "4.4",
-    "reviews": 343
+    "reviews": 343,
+    "ageRange": "0-2",
+    "badge": "Safe for 3+"
   },
   {
     "id": "item-50l15tj0h",
@@ -1270,7 +1450,8 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/H4b098b133e874c4380080c9f6bfdf129K.jpg_300x300.jpg",
     "rating": "4.2",
-    "reviews": 498
+    "reviews": 498,
+    "ageRange": "9-12"
   },
   {
     "id": "item-d7lmwz7wo",
@@ -1282,7 +1463,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H215ec684abfb4aea85deb2fc8996756fN.jpg_300x300.jpg",
     "rating": "4.8",
-    "reviews": 122
+    "reviews": 122,
+    "ageRange": "6-8",
+    "badge": "Best Seller"
   },
   {
     "id": "item-16rg1gkw0",
@@ -1294,7 +1477,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/Hc31f729bc71d48eea0d1ea544978ab45S.jpg_300x300.jpg",
     "rating": "5.0",
-    "reviews": 435
+    "reviews": 435,
+    "ageRange": "6-8",
+    "badge": "Best Seller"
   },
   {
     "id": "item-hkqb5g3b2",
@@ -1306,7 +1491,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H1eb66de240934d6985c8a8e557938f85u.jpg_300x300.jpg",
     "rating": "4.0",
-    "reviews": 414
+    "reviews": 414,
+    "ageRange": "9-12",
+    "badge": "STEM"
   },
   {
     "id": "item-29yw6n50d",
@@ -1318,7 +1505,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H314da3417b384c34bfc329a650c26cbaZ.png_300x300.png",
     "rating": "5.0",
-    "reviews": 396
+    "reviews": 396,
+    "ageRange": "9-12",
+    "badge": "Best Seller"
   },
   {
     "id": "item-ojsizbnvp",
@@ -1330,7 +1519,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H287c585e59b44b0bb57e4774e50f6077f.jpg_300x300.jpg",
     "rating": "4.2",
-    "reviews": 230
+    "reviews": 230,
+    "ageRange": "6-8",
+    "badge": "STEM"
   },
   {
     "id": "item-gnyblmzhh",
@@ -1342,7 +1533,8 @@ const PRODUCTS_DATA = [
     "category": "board",
     "image": "https://s.alicdn.com/@sc04/kf/H1d3f81a8fa3b41869d3992ffd386efae4.jpg_300x300.jpg",
     "rating": "4.7",
-    "reviews": 450
+    "reviews": 450,
+    "ageRange": "9-12"
   },
   {
     "id": "item-iwsk3plpz",
@@ -1354,7 +1546,8 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/He189a23408874954b8d8a0a942d292c7c.jpg_300x300.jpg",
     "rating": "4.7",
-    "reviews": 212
+    "reviews": 212,
+    "ageRange": "6-8"
   },
   {
     "id": "item-7g9949goo",
@@ -1366,7 +1559,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H6be962055ed1450a890f267d5233df8cK.jpg_300x300.jpg",
     "rating": "4.1",
-    "reviews": 339
+    "reviews": 339,
+    "ageRange": "0-2",
+    "badge": "STEM"
   },
   {
     "id": "item-3od57sxfl",
@@ -1378,7 +1573,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/Hc4ebd907ea57450488f81cdf8b233610y.jpg_300x300.jpg",
     "rating": "5.0",
-    "reviews": 368
+    "reviews": 368,
+    "ageRange": "9-12",
+    "badge": "Best Seller"
   },
   {
     "id": "item-yex7b7cjo",
@@ -1390,7 +1587,8 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/Ha9287c9b67f24cabb0c66a7b072a218f2.jpg_300x300.jpg",
     "rating": "4.7",
-    "reviews": 288
+    "reviews": 288,
+    "ageRange": "3-5"
   },
   {
     "id": "item-rq14mr2sc",
@@ -1402,7 +1600,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H178255b28d374821a073a49a9be73e5fS.jpg_300x300.jpg",
     "rating": "4.6",
-    "reviews": 457
+    "reviews": 457,
+    "ageRange": "6-8",
+    "badge": "STEM"
   },
   {
     "id": "item-hfrtfpmrk",
@@ -1414,7 +1614,9 @@ const PRODUCTS_DATA = [
     "category": "board",
     "image": "https://s.alicdn.com/@sc04/kf/H75e6a20edf134a779c7705c3d07a7e55z.jpg_300x300.jpg",
     "rating": "4.9",
-    "reviews": 277
+    "reviews": 277,
+    "ageRange": "3-5",
+    "badge": "Best Seller"
   },
   {
     "id": "item-z2fl1oq2h",
@@ -1426,7 +1628,9 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/H2521e14654d34ffbbb666db779201dd1b.jpg_300x300.jpg",
     "rating": "4.7",
-    "reviews": 394
+    "reviews": 394,
+    "ageRange": "0-2",
+    "badge": "Safe for 3+"
   },
   {
     "id": "item-3wxlw8m07",
@@ -1438,7 +1642,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H8816b4265d734d55ac2e75fd06dee481o.jpg_300x300.jpg",
     "rating": "4.8",
-    "reviews": 133
+    "reviews": 133,
+    "ageRange": "6-8",
+    "badge": "Best Seller"
   },
   {
     "id": "item-qy5ck7nlo",
@@ -1450,7 +1656,9 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/H5fca3136bed948fd953d7e68df084dea7.jpg_300x300.jpg",
     "rating": "4.4",
-    "reviews": 151
+    "reviews": 151,
+    "ageRange": "9-12",
+    "badge": "Eco-Friendly"
   },
   {
     "id": "item-5r5mtfu4o",
@@ -1462,7 +1670,8 @@ const PRODUCTS_DATA = [
     "category": "creative",
     "image": "https://s.alicdn.com/@sc04/kf/H58ae845282594cb5be968d58108ad8d1R.jpg_300x300.jpg",
     "rating": "4.5",
-    "reviews": 69
+    "reviews": 69,
+    "ageRange": "3-5"
   },
   {
     "id": "item-4yjg87h5r",
@@ -1474,7 +1683,8 @@ const PRODUCTS_DATA = [
     "category": "outdoor",
     "image": "https://s.alicdn.com/@sc04/kf/H386deef1beb94b0281f619c760907d97V.jpg_300x300.jpg",
     "rating": "4.5",
-    "reviews": 99
+    "reviews": 99,
+    "ageRange": "3-5"
   },
   {
     "id": "item-hr9kso9ir",
@@ -1486,7 +1696,8 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/He3d97d213fe5400d80baec03e3553d5cL.jpg_300x300.jpg",
     "rating": "4.3",
-    "reviews": 487
+    "reviews": 487,
+    "ageRange": "9-12"
   },
   {
     "id": "item-4ckhzpvl3",
@@ -1498,7 +1709,9 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/Hb799e5c2a96642acb7d342a24c1ae5dcB.jpg_300x300.jpg",
     "rating": "4.8",
-    "reviews": 483
+    "reviews": 483,
+    "ageRange": "3-5",
+    "badge": "Best Seller"
   },
   {
     "id": "item-ya1uln70h",
@@ -1510,7 +1723,8 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/H46fcf996d63b473faf2c3ac1574620c0i.jpg_300x300.jpg",
     "rating": "4.2",
-    "reviews": 166
+    "reviews": 166,
+    "ageRange": "9-12"
   },
   {
     "id": "item-u9uisubxh",
@@ -1522,7 +1736,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/Haeb06bcdb7a74e4a9ca67a30456ede63f.png_300x300.png",
     "rating": "4.6",
-    "reviews": 478
+    "reviews": 478,
+    "ageRange": "3-5",
+    "badge": "STEM"
   },
   {
     "id": "item-v6bag0gkm",
@@ -1534,7 +1750,9 @@ const PRODUCTS_DATA = [
     "category": "outdoor",
     "image": "https://s.alicdn.com/@sc04/kf/H6ecd2d75cdd44edfb909187d2ad885a96.jpg_300x300.jpg",
     "rating": "4.1",
-    "reviews": 155
+    "reviews": 155,
+    "ageRange": "0-2",
+    "badge": "Safe for 3+"
   },
   {
     "id": "item-u4s9d50h2",
@@ -1546,7 +1764,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H23340132fab04803a3013a8b7c4ff1e04.jpg_300x300.jpg",
     "rating": "4.5",
-    "reviews": 196
+    "reviews": 196,
+    "ageRange": "6-8",
+    "badge": "STEM"
   },
   {
     "id": "item-v46p7kme8",
@@ -1558,7 +1778,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H5e73c489fdb146d8beae1aa0474767928.png_300x300.png",
     "rating": "4.2",
-    "reviews": 253
+    "reviews": 253,
+    "ageRange": "3-5",
+    "badge": "STEM"
   },
   {
     "id": "item-p9ajx0pu1",
@@ -1570,7 +1792,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/Hfb0b8b1c8fe245b092c0f06b57500813e.jpg_300x300.jpg",
     "rating": "4.8",
-    "reviews": 353
+    "reviews": 353,
+    "ageRange": "6-8",
+    "badge": "Best Seller"
   },
   {
     "id": "item-tmo7j3w8j",
@@ -1582,7 +1806,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H9a62fca05ba84b8fad9557b03ea8c53bx.png_300x300.png",
     "rating": "4.6",
-    "reviews": 234
+    "reviews": 234,
+    "ageRange": "0-2",
+    "badge": "STEM"
   },
   {
     "id": "item-prtzpmobj",
@@ -1594,7 +1820,9 @@ const PRODUCTS_DATA = [
     "category": "creative",
     "image": "https://s.alicdn.com/@sc04/kf/H7257e4fc1a4f404abbdea64f5c716b41n.jpg_300x300.jpg",
     "rating": "4.8",
-    "reviews": 481
+    "reviews": 481,
+    "ageRange": "0-2",
+    "badge": "Best Seller"
   },
   {
     "id": "item-q1nhiiam4",
@@ -1606,7 +1834,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/Hedb3a5cda7464217a1ec1a80b88da4c0g.jpg_300x300.jpg",
     "rating": "4.5",
-    "reviews": 379
+    "reviews": 379,
+    "ageRange": "3-5",
+    "badge": "STEM"
   },
   {
     "id": "item-q8yksbvi9",
@@ -1618,7 +1848,9 @@ const PRODUCTS_DATA = [
     "category": "board",
     "image": "https://s.alicdn.com/@sc04/kf/HTB1li32RVXXXXcPaXXXq6xXFXXXY.jpg_300x300.jpg",
     "rating": "4.4",
-    "reviews": 209
+    "reviews": 209,
+    "ageRange": "0-2",
+    "badge": "Safe for 3+"
   },
   {
     "id": "item-vr4nx7ji2",
@@ -1630,7 +1862,9 @@ const PRODUCTS_DATA = [
     "category": "creative",
     "image": "https://s.alicdn.com/@sc04/kf/He81dc0bc6bbe4eb989f1022a2a80858fW.jpg_300x300.jpg",
     "rating": "4.8",
-    "reviews": 439
+    "reviews": 439,
+    "ageRange": "3-5",
+    "badge": "Best Seller"
   },
   {
     "id": "item-be68tit6r",
@@ -1642,7 +1876,8 @@ const PRODUCTS_DATA = [
     "category": "creative",
     "image": "https://s.alicdn.com/@sc04/kf/Hfed880e1d37d4aa88eac4d73f836cdddH.jpg_300x300.jpg",
     "rating": "4.0",
-    "reviews": 187
+    "reviews": 187,
+    "ageRange": "6-8"
   },
   {
     "id": "item-aau1h7n8x",
@@ -1654,7 +1889,9 @@ const PRODUCTS_DATA = [
     "category": "outdoor",
     "image": "https://s.alicdn.com/@sc04/kf/Hc8ec9a31ffe342958cf88733826f6d430.jpg_300x300.jpg",
     "rating": "4.4",
-    "reviews": 21
+    "reviews": 21,
+    "ageRange": "6-8",
+    "badge": "Eco-Friendly"
   },
   {
     "id": "item-5famq46um",
@@ -1666,7 +1903,8 @@ const PRODUCTS_DATA = [
     "category": "creative",
     "image": "https://s.alicdn.com/@sc04/kf/H2cc800980ce843f1921a1166633868bcD.jpg_300x300.jpg",
     "rating": "4.5",
-    "reviews": 93
+    "reviews": 93,
+    "ageRange": "9-12"
   },
   {
     "id": "item-hybwbzyi1",
@@ -1678,7 +1916,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H691230de6ab04dffb7df040052665b5aP.jpg_300x300.jpg",
     "rating": "4.2",
-    "reviews": 395
+    "reviews": 395,
+    "ageRange": "3-5",
+    "badge": "STEM"
   },
   {
     "id": "item-k94avdimh",
@@ -1690,7 +1930,9 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/Hf9235d01c67a42de8cd750ffc36cc4dfn.jpg_300x300.jpg",
     "rating": "4.5",
-    "reviews": 485
+    "reviews": 485,
+    "ageRange": "0-2",
+    "badge": "Safe for 3+"
   },
   {
     "id": "item-a8mk6k3g0",
@@ -1702,7 +1944,9 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/H388e4bfbe7bc44acbed13bbaace7eb7dU.png_300x300.png",
     "rating": "4.1",
-    "reviews": 83
+    "reviews": 83,
+    "ageRange": "0-2",
+    "badge": "Safe for 3+"
   },
   {
     "id": "item-zo36r03hr",
@@ -1714,7 +1958,8 @@ const PRODUCTS_DATA = [
     "category": "outdoor",
     "image": "https://s.alicdn.com/@sc04/kf/H33e368c58b954186b2cc922e867fd2d8T.jpg_300x300.jpg",
     "rating": "4.2",
-    "reviews": 186
+    "reviews": 186,
+    "ageRange": "6-8"
   },
   {
     "id": "item-ub1kxpn6x",
@@ -1726,7 +1971,9 @@ const PRODUCTS_DATA = [
     "category": "creative",
     "image": "https://s.alicdn.com/@sc04/kf/H3cfc30357ba9451d978fcb2dc1a424can.jpg_300x300.jpg",
     "rating": "4.9",
-    "reviews": 30
+    "reviews": 30,
+    "ageRange": "9-12",
+    "badge": "Best Seller"
   },
   {
     "id": "item-78hfqcb00",
@@ -1738,7 +1985,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H7bb8fc130a66413290eb0446ca033cbat.jpg_300x300.jpg",
     "rating": "4.7",
-    "reviews": 341
+    "reviews": 341,
+    "ageRange": "3-5",
+    "badge": "STEM"
   },
   {
     "id": "item-8ei403qhb",
@@ -1750,7 +1999,9 @@ const PRODUCTS_DATA = [
     "category": "outdoor",
     "image": "https://s.alicdn.com/@sc04/kf/H95c52d5b1e594e15a21ae3622f8f57a0l.jpg_300x300.jpg",
     "rating": "4.0",
-    "reviews": 206
+    "reviews": 206,
+    "ageRange": "0-2",
+    "badge": "Safe for 3+"
   },
   {
     "id": "item-3137y3gdc",
@@ -1762,7 +2013,8 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/Hd1c0f9975d2742f0b8c915ee052851f5N.jpg_300x300.jpg",
     "rating": "4.5",
-    "reviews": 70
+    "reviews": 70,
+    "ageRange": "3-5"
   },
   {
     "id": "item-i6o54lusc",
@@ -1774,7 +2026,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H4ca36e167dbe4e1398681c8e6dd38eb7k.png_300x300.png",
     "rating": "4.4",
-    "reviews": 139
+    "reviews": 139,
+    "ageRange": "0-2",
+    "badge": "STEM"
   },
   {
     "id": "item-flasjzynv",
@@ -1786,7 +2040,8 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/He3e20f845b7d42a2b77b9a33835e0cfdP.jpg_300x300.jpg",
     "rating": "4.5",
-    "reviews": 134
+    "reviews": 134,
+    "ageRange": "9-12"
   },
   {
     "id": "item-lwvqytpy0",
@@ -1798,7 +2053,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H68b5ca98ef1c4436a728817eb3a5f2e48.jpg_300x300.jpg",
     "rating": "4.4",
-    "reviews": 43
+    "reviews": 43,
+    "ageRange": "6-8",
+    "badge": "STEM"
   },
   {
     "id": "item-p4vr8q8rn",
@@ -1810,7 +2067,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/Hb2b7a347810b482ca24f653e29678d071.jpg_300x300.jpg",
     "rating": "4.3",
-    "reviews": 249
+    "reviews": 249,
+    "ageRange": "6-8",
+    "badge": "STEM"
   },
   {
     "id": "item-o6mny5t7i",
@@ -1822,7 +2081,9 @@ const PRODUCTS_DATA = [
     "category": "board",
     "image": "https://s.alicdn.com/@sc04/kf/Ha27845e989014a4ca66eb09fce5cdc5a7.jpg_300x300.jpg",
     "rating": "4.4",
-    "reviews": 160
+    "reviews": 160,
+    "ageRange": "0-2",
+    "badge": "Safe for 3+"
   },
   {
     "id": "item-yg9jauchr",
@@ -1834,7 +2095,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/Hf52d8621d7114accb2be6ee7ab69013bA.jpg_300x300.jpg",
     "rating": "4.2",
-    "reviews": 262
+    "reviews": 262,
+    "ageRange": "0-2",
+    "badge": "STEM"
   },
   {
     "id": "item-h0hag01rt",
@@ -1846,7 +2109,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/Hddf261e153b54d538dc24a6faf1a6136N.jpg_300x300.jpg",
     "rating": "4.5",
-    "reviews": 404
+    "reviews": 404,
+    "ageRange": "9-12",
+    "badge": "STEM"
   },
   {
     "id": "item-9j9tcy5yz",
@@ -1858,7 +2123,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H804207df5f6b45e6b8d8ad16189af15dd.jpg_300x300.jpg",
     "rating": "4.8",
-    "reviews": 499
+    "reviews": 499,
+    "ageRange": "3-5",
+    "badge": "Best Seller"
   },
   {
     "id": "item-77azmv4er",
@@ -1870,7 +2137,9 @@ const PRODUCTS_DATA = [
     "category": "outdoor",
     "image": "https://s.alicdn.com/@sc04/kf/Hc2e57ff4f6a946768a93977bf795f483a.jpg_300x300.jpg",
     "rating": "4.9",
-    "reviews": 322
+    "reviews": 322,
+    "ageRange": "0-2",
+    "badge": "Best Seller"
   },
   {
     "id": "item-zq36nghms",
@@ -1882,7 +2151,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H253ffaa5fb4543d89cee30dc8e4481abA.jpg_300x300.jpg",
     "rating": "4.9",
-    "reviews": 441
+    "reviews": 441,
+    "ageRange": "6-8",
+    "badge": "Best Seller"
   },
   {
     "id": "item-0e2ttf7c7",
@@ -1894,7 +2165,8 @@ const PRODUCTS_DATA = [
     "category": "creative",
     "image": "https://s.alicdn.com/@sc04/kf/Hbbf0681b16384ae590dbd6cf8d2f7c5fp.jpg_300x300.jpg",
     "rating": "4.1",
-    "reviews": 276
+    "reviews": 276,
+    "ageRange": "6-8"
   },
   {
     "id": "item-f3wktzws2",
@@ -1906,7 +2178,8 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/Hbc556812a1474dc1896af85d15ea02f1d.jpg_300x300.jpg",
     "rating": "4.1",
-    "reviews": 45
+    "reviews": 45,
+    "ageRange": "9-12"
   },
   {
     "id": "item-6r6qwvht5",
@@ -1918,7 +2191,9 @@ const PRODUCTS_DATA = [
     "category": "creative",
     "image": "https://s.alicdn.com/@sc04/kf/Hbadf874ff45c40e1921b8ff5fbcb169fw.jpg_300x300.jpg",
     "rating": "4.8",
-    "reviews": 295
+    "reviews": 295,
+    "ageRange": "3-5",
+    "badge": "Best Seller"
   },
   {
     "id": "item-48l03wno0",
@@ -1930,7 +2205,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H23b63edb7c104e11a790c01b397943e29.png_300x300.png",
     "rating": "4.2",
-    "reviews": 34
+    "reviews": 34,
+    "ageRange": "0-2",
+    "badge": "STEM"
   },
   {
     "id": "item-gh346kuqt",
@@ -1942,7 +2219,9 @@ const PRODUCTS_DATA = [
     "category": "outdoor",
     "image": "https://s.alicdn.com/@sc04/kf/H0bb088e45e484eefbc31e02df192a1bec.png_300x300.png",
     "rating": "4.8",
-    "reviews": 286
+    "reviews": 286,
+    "ageRange": "0-2",
+    "badge": "Best Seller"
   },
   {
     "id": "item-mixcj1ycw",
@@ -1954,7 +2233,9 @@ const PRODUCTS_DATA = [
     "category": "creative",
     "image": "https://s.alicdn.com/@sc04/kf/H6c0e676a31d34a0ead64f81adff713b2X.jpg_300x300.jpg",
     "rating": "5.0",
-    "reviews": 91
+    "reviews": 91,
+    "ageRange": "0-2",
+    "badge": "Best Seller"
   },
   {
     "id": "item-h0sj9raet",
@@ -1966,7 +2247,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H803e81ceeea342ae869ddc38be3418b3M.jpg_300x300.jpg",
     "rating": "4.7",
-    "reviews": 430
+    "reviews": 430,
+    "ageRange": "9-12",
+    "badge": "STEM"
   },
   {
     "id": "item-7cak74aed",
@@ -1978,7 +2261,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H303f4d32b425423ba75a97a96d871118U.png_300x300.png",
     "rating": "4.5",
-    "reviews": 13
+    "reviews": 13,
+    "ageRange": "0-2",
+    "badge": "STEM"
   },
   {
     "id": "item-f1vrgx14t",
@@ -1990,7 +2275,9 @@ const PRODUCTS_DATA = [
     "category": "outdoor",
     "image": "https://s.alicdn.com/@sc04/kf/Hec56eb15fd7c498eb0cf4738d1b1306dM.jpg_300x300.jpg",
     "rating": "4.8",
-    "reviews": 403
+    "reviews": 403,
+    "ageRange": "3-5",
+    "badge": "Best Seller"
   },
   {
     "id": "item-b8jwsp6ig",
@@ -2002,7 +2289,8 @@ const PRODUCTS_DATA = [
     "category": "creative",
     "image": "https://s.alicdn.com/@sc04/kf/H2ff268df59334bcfa424636f6a22a06aG.jpg_300x300.jpg",
     "rating": "4.7",
-    "reviews": 215
+    "reviews": 215,
+    "ageRange": "3-5"
   },
   {
     "id": "item-lewf3leax",
@@ -2014,7 +2302,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/Hdc9fdf5fec0a405e84ad2e73d02ced011.jpg_300x300.jpg",
     "rating": "4.9",
-    "reviews": 471
+    "reviews": 471,
+    "ageRange": "0-2",
+    "badge": "Best Seller"
   },
   {
     "id": "item-pzp3vtcxx",
@@ -2026,7 +2316,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/Hb0c44e1ccc9d4311a31148e6e47e8a24Q.jpg_300x300.jpg",
     "rating": "4.2",
-    "reviews": 104
+    "reviews": 104,
+    "ageRange": "9-12",
+    "badge": "STEM"
   },
   {
     "id": "item-7d8u5nzyp",
@@ -2038,7 +2330,8 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/Hfae7c2211f534348b674b69b4f674c2aw.jpg_300x300.jpg",
     "rating": "4.3",
-    "reviews": 317
+    "reviews": 317,
+    "ageRange": "6-8"
   },
   {
     "id": "item-npsfat6r3",
@@ -2050,7 +2343,9 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/Ha8ad9bff890b41319dd2fcaa46a953fcc.jpg_300x300.jpg",
     "rating": "5.0",
-    "reviews": 285
+    "reviews": 285,
+    "ageRange": "6-8",
+    "badge": "Best Seller"
   },
   {
     "id": "item-7ptklwg5s",
@@ -2062,7 +2357,8 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/H9ebd1a133791417f8a2cdbb8008fdbcd8.jpg_300x300.jpg",
     "rating": "4.2",
-    "reviews": 414
+    "reviews": 414,
+    "ageRange": "6-8"
   },
   {
     "id": "item-r65vg9swg",
@@ -2074,7 +2370,9 @@ const PRODUCTS_DATA = [
     "category": "creative",
     "image": "https://s.alicdn.com/@sc04/kf/Hc75010c0b68347399301d1302b8f30c5U.png_300x300.png",
     "rating": "4.9",
-    "reviews": 382
+    "reviews": 382,
+    "ageRange": "0-2",
+    "badge": "Best Seller"
   },
   {
     "id": "item-l9lt2eyl9",
@@ -2086,7 +2384,8 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/H45b7312b2d5048d595d160ecb51d98d1n.jpg_300x300.jpg",
     "rating": "4.3",
-    "reviews": 108
+    "reviews": 108,
+    "ageRange": "9-12"
   },
   {
     "id": "item-lnq5xnc8q",
@@ -2098,7 +2397,9 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/A19a14d13184547a39be47e1697c1eb5eo.jpg_300x300.jpg",
     "rating": "4.8",
-    "reviews": 180
+    "reviews": 180,
+    "ageRange": "3-5",
+    "badge": "Best Seller"
   },
   {
     "id": "item-gcg2jigqm",
@@ -2110,7 +2411,9 @@ const PRODUCTS_DATA = [
     "category": "board",
     "image": "https://s.alicdn.com/@sc04/kf/Hd6ca91dff1b743caa163ae2dfb7fc8f9Z.jpg_300x300.jpg",
     "rating": "4.7",
-    "reviews": 485
+    "reviews": 485,
+    "ageRange": "0-2",
+    "badge": "Safe for 3+"
   },
   {
     "id": "item-x3pfhpbsv",
@@ -2122,7 +2425,9 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/Hef20bc723ea34e92a539e342378aaad2M.jpg_300x300.jpg",
     "rating": "4.1",
-    "reviews": 330
+    "reviews": 330,
+    "ageRange": "6-8",
+    "badge": "Eco-Friendly"
   },
   {
     "id": "item-vzi19bwc8",
@@ -2134,7 +2439,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H08bc67dc84524c02ae414f4ad768d1b7G.jpg_300x300.jpg",
     "rating": "4.5",
-    "reviews": 94
+    "reviews": 94,
+    "ageRange": "6-8",
+    "badge": "STEM"
   },
   {
     "id": "item-d7i4ge1vv",
@@ -2146,7 +2453,9 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/Hf131a6ac0dc241d4ba5f2fd4235d5c0f5.jpg_300x300.jpg",
     "rating": "4.3",
-    "reviews": 418
+    "reviews": 418,
+    "ageRange": "0-2",
+    "badge": "Safe for 3+"
   },
   {
     "id": "item-62j0kr5gy",
@@ -2158,7 +2467,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H66147329952a404dafa5e288bb807365h.jpeg_300x300.jpeg",
     "rating": "4.0",
-    "reviews": 193
+    "reviews": 193,
+    "ageRange": "0-2",
+    "badge": "STEM"
   },
   {
     "id": "item-2kexxys5b",
@@ -2170,7 +2481,9 @@ const PRODUCTS_DATA = [
     "category": "creative",
     "image": "https://s.alicdn.com/@sc04/kf/H132c7d2858f04606a111e5f395dcb152V.png_300x300.png",
     "rating": "4.1",
-    "reviews": 309
+    "reviews": 309,
+    "ageRange": "0-2",
+    "badge": "Safe for 3+"
   },
   {
     "id": "item-5ybglstus",
@@ -2182,7 +2495,9 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/H54737929d37c45d9b8beda8212c47283e.jpg_300x300.jpg",
     "rating": "5.0",
-    "reviews": 477
+    "reviews": 477,
+    "ageRange": "6-8",
+    "badge": "Best Seller"
   },
   {
     "id": "item-s5tg3igyx",
@@ -2194,7 +2509,9 @@ const PRODUCTS_DATA = [
     "category": "creative",
     "image": "https://s.alicdn.com/@sc04/kf/H7b0467b51d2f4a4d9f859368a31767b5F.jpg_300x300.jpg",
     "rating": "4.6",
-    "reviews": 329
+    "reviews": 329,
+    "ageRange": "6-8",
+    "badge": "Eco-Friendly"
   },
   {
     "id": "item-ui2cuwld8",
@@ -2206,7 +2523,9 @@ const PRODUCTS_DATA = [
     "category": "outdoor",
     "image": "https://s.alicdn.com/@sc04/kf/H23e534e764e14940b692cb5f7e13a6985.jpg_300x300.jpg",
     "rating": "4.7",
-    "reviews": 249
+    "reviews": 249,
+    "ageRange": "3-5",
+    "badge": "Eco-Friendly"
   },
   {
     "id": "item-mthvaafk1",
@@ -2218,7 +2537,9 @@ const PRODUCTS_DATA = [
     "category": "outdoor",
     "image": "https://s.alicdn.com/@sc04/kf/Hbbd090a613c54b6fb7c8e4b51e2b183ax.jpg_300x300.jpg",
     "rating": "4.9",
-    "reviews": 298
+    "reviews": 298,
+    "ageRange": "9-12",
+    "badge": "Best Seller"
   },
   {
     "id": "item-3fwfl8nip",
@@ -2230,7 +2551,8 @@ const PRODUCTS_DATA = [
     "category": "creative",
     "image": "https://s.alicdn.com/@sc04/kf/Hc0acd644ed624629955e2f781b312252Y.jpg_300x300.jpg",
     "rating": "4.5",
-    "reviews": 314
+    "reviews": 314,
+    "ageRange": "9-12"
   },
   {
     "id": "item-4k49nf2gn",
@@ -2242,7 +2564,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H9fa150b8a2f341a792c2d19d4468ea46a.jpg_300x300.jpg",
     "rating": "4.9",
-    "reviews": 402
+    "reviews": 402,
+    "ageRange": "9-12",
+    "badge": "Best Seller"
   },
   {
     "id": "item-o1qwzn5e6",
@@ -2254,7 +2578,8 @@ const PRODUCTS_DATA = [
     "category": "outdoor",
     "image": "https://s.alicdn.com/@sc04/kf/Hc9556e85dabc44bb97a6c4eb165fd68cK.jpg_300x300.jpg",
     "rating": "4.5",
-    "reviews": 171
+    "reviews": 171,
+    "ageRange": "6-8"
   },
   {
     "id": "item-t5cuhxcye",
@@ -2266,7 +2591,8 @@ const PRODUCTS_DATA = [
     "category": "outdoor",
     "image": "https://s.alicdn.com/@sc04/kf/H0bd56463e9cc419ba7f1db0b34c6e3cab.jpg_300x300.jpg",
     "rating": "4.1",
-    "reviews": 192
+    "reviews": 192,
+    "ageRange": "9-12"
   },
   {
     "id": "item-gd89jgd3t",
@@ -2278,7 +2604,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H7524649f23c84cce9836dc28339d12f1G.jpg_300x300.jpg",
     "rating": "4.6",
-    "reviews": 189
+    "reviews": 189,
+    "ageRange": "6-8",
+    "badge": "STEM"
   },
   {
     "id": "item-2ksotqi0p",
@@ -2290,7 +2618,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/Hf4914e38bf3446fc8449b999cf1bee37C.png_300x300.png",
     "rating": "4.9",
-    "reviews": 393
+    "reviews": 393,
+    "ageRange": "0-2",
+    "badge": "Best Seller"
   },
   {
     "id": "item-drgi2ry7q",
@@ -2302,7 +2632,9 @@ const PRODUCTS_DATA = [
     "category": "creative",
     "image": "https://s.alicdn.com/@sc04/kf/H381a9986931940879f4efb1e2273feb1j.jpg_300x300.jpg",
     "rating": "4.4",
-    "reviews": 399
+    "reviews": 399,
+    "ageRange": "0-2",
+    "badge": "Safe for 3+"
   },
   {
     "id": "item-bmgykuwhk",
@@ -2314,7 +2646,9 @@ const PRODUCTS_DATA = [
     "category": "outdoor",
     "image": "https://s.alicdn.com/@sc04/kf/H0234951b1a4c4efaa1439add136e3f21N.png_300x300.png",
     "rating": "4.1",
-    "reviews": 75
+    "reviews": 75,
+    "ageRange": "3-5",
+    "badge": "Eco-Friendly"
   },
   {
     "id": "item-juhvwsecp",
@@ -2326,7 +2660,8 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/Hc3d098aade8d425e8a80b0e26c9215fet.jpg_300x300.jpg",
     "rating": "4.1",
-    "reviews": 479
+    "reviews": 479,
+    "ageRange": "3-5"
   },
   {
     "id": "item-83jjqmjjv",
@@ -2338,7 +2673,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H16b4d69347b64c16a74b678c2c46f093U.jpg_300x300.jpg",
     "rating": "4.7",
-    "reviews": 458
+    "reviews": 458,
+    "ageRange": "0-2",
+    "badge": "STEM"
   },
   {
     "id": "item-rciqlxku0",
@@ -2350,7 +2687,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H1a9e4234e6b846ab9d416188cdd2273fz.jpg_300x300.jpg",
     "rating": "4.0",
-    "reviews": 349
+    "reviews": 349,
+    "ageRange": "9-12",
+    "badge": "STEM"
   },
   {
     "id": "item-k9bipkgnf",
@@ -2362,7 +2701,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H6e399181a74a4358907d0016c75edff6E.jpg_300x300.jpg",
     "rating": "4.2",
-    "reviews": 87
+    "reviews": 87,
+    "ageRange": "9-12",
+    "badge": "STEM"
   },
   {
     "id": "item-5ryxn7ht8",
@@ -2374,7 +2715,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/Hd139aea0b2cb40799ea1db9e1000d761q.jpg_300x300.jpg",
     "rating": "4.8",
-    "reviews": 294
+    "reviews": 294,
+    "ageRange": "0-2",
+    "badge": "Best Seller"
   },
   {
     "id": "item-3xgmg9m6n",
@@ -2386,7 +2729,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/Hf5e98aba559a44738af982ce3b147408C.jpg_300x300.jpg",
     "rating": "4.6",
-    "reviews": 364
+    "reviews": 364,
+    "ageRange": "6-8",
+    "badge": "STEM"
   },
   {
     "id": "item-si84g0yat",
@@ -2398,7 +2743,9 @@ const PRODUCTS_DATA = [
     "category": "board",
     "image": "https://s.alicdn.com/@sc04/kf/H61413046cb7541738344a6c14a66a863u.jpg_300x300.jpg",
     "rating": "4.9",
-    "reviews": 283
+    "reviews": 283,
+    "ageRange": "6-8",
+    "badge": "Best Seller"
   },
   {
     "id": "item-kuvayisgb",
@@ -2410,7 +2757,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H09b6de1cedbe466aadea3cecb48210681.png_300x300.png",
     "rating": "4.4",
-    "reviews": 454
+    "reviews": 454,
+    "ageRange": "0-2",
+    "badge": "STEM"
   },
   {
     "id": "item-jlnd2n1e6",
@@ -2422,7 +2771,9 @@ const PRODUCTS_DATA = [
     "category": "creative",
     "image": "https://s.alicdn.com/@sc04/kf/Hb290c061038945a9ae121becac05e89fU.jpg_300x300.jpg",
     "rating": "4.3",
-    "reviews": 433
+    "reviews": 433,
+    "ageRange": "0-2",
+    "badge": "Safe for 3+"
   },
   {
     "id": "item-mdrgf74qu",
@@ -2434,7 +2785,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H560291db1f59417090809fcdf55ea0edw.jpg_300x300.jpg",
     "rating": "4.7",
-    "reviews": 210
+    "reviews": 210,
+    "ageRange": "0-2",
+    "badge": "STEM"
   },
   {
     "id": "item-4uunklwpr",
@@ -2446,7 +2799,8 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/Hae5e5feb270d40919f9a75dea88586a3k.jpg_300x300.jpg",
     "rating": "4.0",
-    "reviews": 257
+    "reviews": 257,
+    "ageRange": "3-5"
   },
   {
     "id": "item-8o6gs024m",
@@ -2458,7 +2812,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H9d560be7df164ea7976c4e3c29271fd8X.jpg_300x300.jpg",
     "rating": "4.2",
-    "reviews": 401
+    "reviews": 401,
+    "ageRange": "0-2",
+    "badge": "STEM"
   },
   {
     "id": "item-8qyqjsh1m",
@@ -2470,7 +2826,9 @@ const PRODUCTS_DATA = [
     "category": "creative",
     "image": "https://s.alicdn.com/@sc04/kf/H17726fdd9e9c4eec9f51e5eeb2297efaV.jpg_300x300.jpg",
     "rating": "4.3",
-    "reviews": 344
+    "reviews": 344,
+    "ageRange": "3-5",
+    "badge": "Eco-Friendly"
   },
   {
     "id": "item-riwa1tz9p",
@@ -2482,7 +2840,8 @@ const PRODUCTS_DATA = [
     "category": "creative",
     "image": "https://s.alicdn.com/@sc04/kf/H81e07ad11131498f906b95d70110d39bR.jpg_300x300.jpg",
     "rating": "4.3",
-    "reviews": 294
+    "reviews": 294,
+    "ageRange": "3-5"
   },
   {
     "id": "item-6rdg4hrdk",
@@ -2494,7 +2853,8 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/H1aba08f78f854163b4ef76cf02e09c9dE.jpg_300x300.jpg",
     "rating": "4.6",
-    "reviews": 293
+    "reviews": 293,
+    "ageRange": "3-5"
   },
   {
     "id": "item-0rkh3s8za",
@@ -2506,7 +2866,8 @@ const PRODUCTS_DATA = [
     "category": "board",
     "image": "https://s.alicdn.com/@sc04/kf/H611a9611bdc4453a926942729c56ab1cL.jpg_300x300.jpg",
     "rating": "4.4",
-    "reviews": 443
+    "reviews": 443,
+    "ageRange": "6-8"
   },
   {
     "id": "item-y37zr60y1",
@@ -2518,7 +2879,8 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/Hef128acdf4d64a28a9df0a5d292fa934X.jpg_300x300.jpg",
     "rating": "4.4",
-    "reviews": 15
+    "reviews": 15,
+    "ageRange": "6-8"
   },
   {
     "id": "item-73bev8hdl",
@@ -2530,7 +2892,8 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/H5a1212e2734c4884b2b96d3beba8c5498.jpg_300x300.jpg",
     "rating": "4.1",
-    "reviews": 241
+    "reviews": 241,
+    "ageRange": "6-8"
   },
   {
     "id": "item-yop0s2yg2",
@@ -2542,7 +2905,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H392c049765414fa2be59516f1c8bcf10r.jpg_300x300.jpg",
     "rating": "4.8",
-    "reviews": 477
+    "reviews": 477,
+    "ageRange": "3-5",
+    "badge": "Best Seller"
   },
   {
     "id": "item-ynijhuepr",
@@ -2554,7 +2919,8 @@ const PRODUCTS_DATA = [
     "category": "outdoor",
     "image": "https://s.alicdn.com/@sc04/kf/H33b33e951a3b4c9885ad4231778c8c1ft.jpg_300x300.jpg",
     "rating": "4.7",
-    "reviews": 280
+    "reviews": 280,
+    "ageRange": "3-5"
   },
   {
     "id": "item-6tkwz0n67",
@@ -2566,7 +2932,9 @@ const PRODUCTS_DATA = [
     "category": "creative",
     "image": "https://s.alicdn.com/@sc04/kf/H433a17d2d8174c4faa4bb805957b8e1cF.jpg_300x300.jpg",
     "rating": "4.3",
-    "reviews": 459
+    "reviews": 459,
+    "ageRange": "6-8",
+    "badge": "Eco-Friendly"
   },
   {
     "id": "item-88kh0j49v",
@@ -2578,7 +2946,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H9cd944d882f24429a534764df99c739cv.png_300x300.png",
     "rating": "4.4",
-    "reviews": 24
+    "reviews": 24,
+    "ageRange": "6-8",
+    "badge": "STEM"
   },
   {
     "id": "item-kco4d1sck",
@@ -2590,7 +2960,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/Hdc08603dc3c54e9f9313a6ffc656da353.png_300x300.png",
     "rating": "4.9",
-    "reviews": 194
+    "reviews": 194,
+    "ageRange": "0-2",
+    "badge": "Best Seller"
   },
   {
     "id": "item-i3pz2tpp1",
@@ -2602,7 +2974,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H66002126edb745c0b78aba3095a5a3c45.jpg_300x300.jpg",
     "rating": "4.3",
-    "reviews": 30
+    "reviews": 30,
+    "ageRange": "0-2",
+    "badge": "STEM"
   },
   {
     "id": "item-yohjhuaro",
@@ -2614,7 +2988,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/Haf5326879d23497cbeaf65d04c45c275p.jpg_300x300.jpg",
     "rating": "4.4",
-    "reviews": 201
+    "reviews": 201,
+    "ageRange": "9-12",
+    "badge": "STEM"
   },
   {
     "id": "item-upsx5ag43",
@@ -2626,7 +3002,8 @@ const PRODUCTS_DATA = [
     "category": "board",
     "image": "https://s.alicdn.com/@sc04/kf/Hac490ede135e4240bdd021040c33097cP.jpg_300x300.jpg",
     "rating": "4.5",
-    "reviews": 178
+    "reviews": 178,
+    "ageRange": "6-8"
   },
   {
     "id": "item-awpo490ya",
@@ -2638,7 +3015,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H6927f41ecc044144ab7799705c42790cj.jpg_300x300.jpg",
     "rating": "4.6",
-    "reviews": 387
+    "reviews": 387,
+    "ageRange": "3-5",
+    "badge": "STEM"
   },
   {
     "id": "item-ve13p7yxf",
@@ -2650,7 +3029,9 @@ const PRODUCTS_DATA = [
     "category": "creative",
     "image": "https://s.alicdn.com/@sc04/kf/Hc559074c223b4bfd9c9671e5451a2bf7y.png_300x300.png",
     "rating": "4.3",
-    "reviews": 207
+    "reviews": 207,
+    "ageRange": "0-2",
+    "badge": "Safe for 3+"
   },
   {
     "id": "item-t7fu3lrym",
@@ -2662,7 +3043,8 @@ const PRODUCTS_DATA = [
     "category": "board",
     "image": "https://s.alicdn.com/@sc04/kf/H07c04d8a83ae4c4aa98d298a9b4c3c10Z.jpg_300x300.jpg",
     "rating": "4.3",
-    "reviews": 488
+    "reviews": 488,
+    "ageRange": "6-8"
   },
   {
     "id": "item-6wxb697ua",
@@ -2674,7 +3056,8 @@ const PRODUCTS_DATA = [
     "category": "board",
     "image": "https://s.alicdn.com/@sc04/kf/H2f0aeffd17b0495c892fcfe57dd3d424r.png_300x300.png",
     "rating": "4.5",
-    "reviews": 108
+    "reviews": 108,
+    "ageRange": "6-8"
   },
   {
     "id": "item-xvxuo7qgd",
@@ -2686,7 +3069,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H789618b94946478a890fb41bf2869af1s.jpg_300x300.jpg",
     "rating": "4.1",
-    "reviews": 292
+    "reviews": 292,
+    "ageRange": "6-8",
+    "badge": "STEM"
   },
   {
     "id": "item-sn6tkjy3x",
@@ -2698,7 +3083,9 @@ const PRODUCTS_DATA = [
     "category": "board",
     "image": "https://s.alicdn.com/@sc04/kf/H855785df8b534469b395c34306d25389T.jpg_300x300.jpg",
     "rating": "4.7",
-    "reviews": 470
+    "reviews": 470,
+    "ageRange": "0-2",
+    "badge": "Safe for 3+"
   },
   {
     "id": "item-bg11had97",
@@ -2710,7 +3097,9 @@ const PRODUCTS_DATA = [
     "category": "creative",
     "image": "https://s.alicdn.com/@sc04/kf/Hf0762a26091f422d83005cec19a1a756s.jpg_300x300.jpg",
     "rating": "4.9",
-    "reviews": 226
+    "reviews": 226,
+    "ageRange": "3-5",
+    "badge": "Best Seller"
   },
   {
     "id": "item-zuazyqk9l",
@@ -2722,7 +3111,8 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/Hc486fb1ce7274b55862866312920a516u.jpg_300x300.jpg",
     "rating": "4.5",
-    "reviews": 290
+    "reviews": 290,
+    "ageRange": "9-12"
   },
   {
     "id": "item-zb9ogiwhh",
@@ -2734,7 +3124,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/Hda81dd0456a1438c96411747046bfb89O.png_300x300.png",
     "rating": "4.6",
-    "reviews": 100
+    "reviews": 100,
+    "ageRange": "6-8",
+    "badge": "STEM"
   },
   {
     "id": "item-dnjhv4ubz",
@@ -2746,7 +3138,9 @@ const PRODUCTS_DATA = [
     "category": "board",
     "image": "https://s.alicdn.com/@sc04/kf/H0e32f5ca77de4a258e529c76ff683f00l.jpg_300x300.jpg",
     "rating": "4.9",
-    "reviews": 428
+    "reviews": 428,
+    "ageRange": "0-2",
+    "badge": "Best Seller"
   },
   {
     "id": "item-uhbz794ez",
@@ -2758,7 +3152,9 @@ const PRODUCTS_DATA = [
     "category": "board",
     "image": "https://s.alicdn.com/@sc04/kf/He16119de26394935a85466f77c2abff5P.jpg_300x300.jpg",
     "rating": "4.8",
-    "reviews": 398
+    "reviews": 398,
+    "ageRange": "3-5",
+    "badge": "Best Seller"
   },
   {
     "id": "item-dihoe9lvv",
@@ -2770,7 +3166,9 @@ const PRODUCTS_DATA = [
     "category": "board",
     "image": "https://s.alicdn.com/@sc04/kf/Hbe4c7979e90445f4af9ede3be4072911x.jpg_300x300.jpg",
     "rating": "4.3",
-    "reviews": 457
+    "reviews": 457,
+    "ageRange": "0-2",
+    "badge": "Safe for 3+"
   },
   {
     "id": "item-ckmh7k2z4",
@@ -2782,7 +3180,9 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/H98d058efba8047a0940e82ad5e42463dy.jpg_300x300.jpg",
     "rating": "4.9",
-    "reviews": 104
+    "reviews": 104,
+    "ageRange": "3-5",
+    "badge": "Best Seller"
   },
   {
     "id": "item-og6zp1vsc",
@@ -2794,7 +3194,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/He8695d498c744a25b4c5d41c0b204b5al.jpeg_300x300.jpeg",
     "rating": "4.8",
-    "reviews": 414
+    "reviews": 414,
+    "ageRange": "3-5",
+    "badge": "Best Seller"
   },
   {
     "id": "item-e1snf55v6",
@@ -2806,7 +3208,8 @@ const PRODUCTS_DATA = [
     "category": "outdoor",
     "image": "https://s.alicdn.com/@sc04/kf/Hcd881c7e41cd4d45a580488c506b3f32w.png_300x300.png",
     "rating": "4.4",
-    "reviews": 266
+    "reviews": 266,
+    "ageRange": "9-12"
   },
   {
     "id": "item-prxwgnz5u",
@@ -2818,7 +3221,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/Hfa69afb3d1744c589482ad3c6aea114eW.jpg_300x300.jpg",
     "rating": "4.6",
-    "reviews": 254
+    "reviews": 254,
+    "ageRange": "9-12",
+    "badge": "STEM"
   },
   {
     "id": "item-sart0d3oh",
@@ -2830,7 +3235,9 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/Hbf4b14174a1b4f1397b2919aca50d810F.png_300x300.png",
     "rating": "4.9",
-    "reviews": 97
+    "reviews": 97,
+    "ageRange": "3-5",
+    "badge": "Best Seller"
   },
   {
     "id": "item-4isebdwwp",
@@ -2842,7 +3249,8 @@ const PRODUCTS_DATA = [
     "category": "board",
     "image": "https://s.alicdn.com/@sc04/kf/H7451ab703ede45be83ee755046b394596.jpg_300x300.jpg",
     "rating": "4.5",
-    "reviews": 342
+    "reviews": 342,
+    "ageRange": "6-8"
   },
   {
     "id": "item-r15ua9fu9",
@@ -2854,7 +3262,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H5fc23237fa344e52a9925721923636cbF.jpg_300x300.jpg",
     "rating": "5.0",
-    "reviews": 49
+    "reviews": 49,
+    "ageRange": "6-8",
+    "badge": "Best Seller"
   },
   {
     "id": "item-4ij7c9y2t",
@@ -2866,7 +3276,9 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/H4df2bd1b48434109abcc0277b8cd30c9t.jpg_300x300.jpg",
     "rating": "4.7",
-    "reviews": 342
+    "reviews": 342,
+    "ageRange": "6-8",
+    "badge": "Eco-Friendly"
   },
   {
     "id": "item-lonh7kk9l",
@@ -2878,7 +3290,8 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/Hb3c4c4395b584f7583b25cbf673203b8t.jpg_300x300.jpg",
     "rating": "4.6",
-    "reviews": 247
+    "reviews": 247,
+    "ageRange": "6-8"
   },
   {
     "id": "item-g7ombo4ua",
@@ -2890,7 +3303,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/He5b01e6c77e840a28d8adfd8c35e2fb4o.jpg_300x300.jpg",
     "rating": "4.8",
-    "reviews": 292
+    "reviews": 292,
+    "ageRange": "9-12",
+    "badge": "Best Seller"
   },
   {
     "id": "item-zscod7t3f",
@@ -2902,7 +3317,8 @@ const PRODUCTS_DATA = [
     "category": "creative",
     "image": "https://s.alicdn.com/@sc04/kf/Hfcffb9ae56ff44849eb71f3affbd7afaC.jpg_300x300.jpg",
     "rating": "4.3",
-    "reviews": 190
+    "reviews": 190,
+    "ageRange": "9-12"
   },
   {
     "id": "item-cmrhehlid",
@@ -2914,7 +3330,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H80b8b77b52ac4221a59d68abae5fd395R.png_300x300.png",
     "rating": "4.9",
-    "reviews": 440
+    "reviews": 440,
+    "ageRange": "3-5",
+    "badge": "Best Seller"
   },
   {
     "id": "item-c7icx6mfe",
@@ -2926,7 +3344,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/Hbc70f3c47f294ecdaaac380446aaec71D.jpg_300x300.jpg",
     "rating": "4.8",
-    "reviews": 292
+    "reviews": 292,
+    "ageRange": "6-8",
+    "badge": "Best Seller"
   },
   {
     "id": "item-2gslnba7w",
@@ -2938,7 +3358,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H0aaf9adae3184eb08179f8a9db2227c6W.png_300x300.png",
     "rating": "4.1",
-    "reviews": 332
+    "reviews": 332,
+    "ageRange": "9-12",
+    "badge": "STEM"
   },
   {
     "id": "item-594w6g2ud",
@@ -2950,7 +3372,8 @@ const PRODUCTS_DATA = [
     "category": "creative",
     "image": "https://s.alicdn.com/@sc04/kf/Hfac50f38edaa4be8bac6b00e3af3c2ddU.jpg_300x300.jpg",
     "rating": "4.1",
-    "reviews": 303
+    "reviews": 303,
+    "ageRange": "6-8"
   },
   {
     "id": "item-n2hukp41h",
@@ -2962,7 +3385,8 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/Hf13ae3a7986d4887a53bcfbbf2389ec95.jpg_300x300.jpg",
     "rating": "4.0",
-    "reviews": 316
+    "reviews": 316,
+    "ageRange": "3-5"
   },
   {
     "id": "item-ldh8rpsy6",
@@ -2974,7 +3398,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H322a19a7ea094f00ad94a4aafd8a63f8m.png_300x300.png",
     "rating": "4.7",
-    "reviews": 151
+    "reviews": 151,
+    "ageRange": "3-5",
+    "badge": "STEM"
   },
   {
     "id": "item-8fxn8oox8",
@@ -2986,7 +3412,8 @@ const PRODUCTS_DATA = [
     "category": "outdoor",
     "image": "https://s.alicdn.com/@sc04/kf/Hec983609799648d89387b86ceb5c339bq.jpeg_300x300.jpeg",
     "rating": "4.0",
-    "reviews": 312
+    "reviews": 312,
+    "ageRange": "3-5"
   },
   {
     "id": "item-7cth0z98f",
@@ -2998,7 +3425,8 @@ const PRODUCTS_DATA = [
     "category": "outdoor",
     "image": "https://s.alicdn.com/@sc04/kf/Hc46fee188d184cc3b755b3b52730af7bS.jpg_300x300.jpg",
     "rating": "4.2",
-    "reviews": 81
+    "reviews": 81,
+    "ageRange": "6-8"
   },
   {
     "id": "item-nzdpysieb",
@@ -3010,7 +3438,8 @@ const PRODUCTS_DATA = [
     "category": "board",
     "image": "https://s.alicdn.com/@sc04/kf/H0b385fbe7e194661b1bd37a63f74d703u.jpg_300x300.jpg",
     "rating": "4.4",
-    "reviews": 185
+    "reviews": 185,
+    "ageRange": "3-5"
   },
   {
     "id": "item-d7gfv0rvo",
@@ -3022,7 +3451,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/He1526ba2b39546bab840433f22aed290F.jpg_300x300.jpg",
     "rating": "4.8",
-    "reviews": 149
+    "reviews": 149,
+    "ageRange": "3-5",
+    "badge": "Best Seller"
   },
   {
     "id": "item-vf1ejjecd",
@@ -3034,7 +3465,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/HTB1oerrJ41YBuNjy1zcq6zNcXXaK.jpg_300x300.jpg",
     "rating": "4.3",
-    "reviews": 329
+    "reviews": 329,
+    "ageRange": "0-2",
+    "badge": "STEM"
   },
   {
     "id": "item-hfhkqkg16",
@@ -3046,7 +3479,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H3535ae7f24f340099b711fbef14d8ed4j.jpg_300x300.jpg",
     "rating": "4.4",
-    "reviews": 480
+    "reviews": 480,
+    "ageRange": "3-5",
+    "badge": "STEM"
   },
   {
     "id": "item-dx073aaz4",
@@ -3058,7 +3493,8 @@ const PRODUCTS_DATA = [
     "category": "outdoor",
     "image": "https://s.alicdn.com/@sc04/kf/Hb368dcd9584b435f9928b0d61c0136f6Y.jpg_300x300.jpg",
     "rating": "4.7",
-    "reviews": 252
+    "reviews": 252,
+    "ageRange": "6-8"
   },
   {
     "id": "item-bwpzssipv",
@@ -3070,7 +3506,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H797414f61ca94b95a4ea01a87eab0663a.jpg_300x300.jpg",
     "rating": "4.3",
-    "reviews": 202
+    "reviews": 202,
+    "ageRange": "0-2",
+    "badge": "STEM"
   },
   {
     "id": "item-g4q140u1h",
@@ -3082,7 +3520,8 @@ const PRODUCTS_DATA = [
     "category": "creative",
     "image": "https://s.alicdn.com/@sc04/kf/H650fe86bd5094917bea4c6a7ce4f095bG.jpg_300x300.jpg",
     "rating": "4.5",
-    "reviews": 357
+    "reviews": 357,
+    "ageRange": "6-8"
   },
   {
     "id": "item-1inbfpi3w",
@@ -3094,7 +3533,8 @@ const PRODUCTS_DATA = [
     "category": "creative",
     "image": "https://s.alicdn.com/@sc04/kf/H19490a0c854a456bb2b6b62d76f700d6m.jpg_300x300.jpg",
     "rating": "4.1",
-    "reviews": 130
+    "reviews": 130,
+    "ageRange": "6-8"
   },
   {
     "id": "item-ah9ojg6b2",
@@ -3106,7 +3546,9 @@ const PRODUCTS_DATA = [
     "category": "outdoor",
     "image": "https://s.alicdn.com/@sc04/kf/Hc6c0843915a64710932d27f79a84f572X.png_300x300.png",
     "rating": "4.6",
-    "reviews": 312
+    "reviews": 312,
+    "ageRange": "0-2",
+    "badge": "Safe for 3+"
   },
   {
     "id": "item-vf44yhiz7",
@@ -3118,7 +3560,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H345a782922f54d6480ebac24ab4a5607X.jpg_300x300.jpg",
     "rating": "4.3",
-    "reviews": 106
+    "reviews": 106,
+    "ageRange": "3-5",
+    "badge": "STEM"
   },
   {
     "id": "item-oyy6kqt10",
@@ -3130,7 +3574,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/Haadb433fc44d4d7f86e5cb9e5d803f71r.jpg_300x300.jpg",
     "rating": "4.0",
-    "reviews": 133
+    "reviews": 133,
+    "ageRange": "9-12",
+    "badge": "STEM"
   },
   {
     "id": "item-gc2fgcr7v",
@@ -3142,7 +3588,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H26262760dcee4499bf6dc1aff8b36d59j.jpg_300x300.jpg",
     "rating": "4.3",
-    "reviews": 185
+    "reviews": 185,
+    "ageRange": "0-2",
+    "badge": "STEM"
   },
   {
     "id": "item-hq7ssroq0",
@@ -3154,7 +3602,9 @@ const PRODUCTS_DATA = [
     "category": "creative",
     "image": "https://s.alicdn.com/@sc04/kf/H0687074271594becb834a11c5542ebd0W.jpg_300x300.jpg",
     "rating": "4.2",
-    "reviews": 419
+    "reviews": 419,
+    "ageRange": "0-2",
+    "badge": "Safe for 3+"
   },
   {
     "id": "item-21da0wzvg",
@@ -3166,7 +3616,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H61ad79cd4d0a425c8c99febe883af992D.jpg_300x300.jpg",
     "rating": "4.4",
-    "reviews": 138
+    "reviews": 138,
+    "ageRange": "6-8",
+    "badge": "STEM"
   },
   {
     "id": "item-wpy1lez6f",
@@ -3178,7 +3630,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H0970f9d685674b9aa8f59b881ad27ba1t.jpg_300x300.jpg",
     "rating": "4.9",
-    "reviews": 307
+    "reviews": 307,
+    "ageRange": "3-5",
+    "badge": "Best Seller"
   },
   {
     "id": "item-nf3jjsf81",
@@ -3190,7 +3644,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H4a6edc5ce77849129da16d553483bd50m.png_300x300.png",
     "rating": "4.5",
-    "reviews": 22
+    "reviews": 22,
+    "ageRange": "0-2",
+    "badge": "STEM"
   },
   {
     "id": "item-ibmce435k",
@@ -3202,7 +3658,9 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/HTB166ZAXTjxK1Rjy0Fnq6yBaFXaQ.jpg_300x300.jpg",
     "rating": "4.1",
-    "reviews": 29
+    "reviews": 29,
+    "ageRange": "9-12",
+    "badge": "Eco-Friendly"
   },
   {
     "id": "item-5906wx1f7",
@@ -3214,7 +3672,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H6fe11c273bc84df28fca3dce4385ef25o.jpg_300x300.jpg",
     "rating": "4.3",
-    "reviews": 209
+    "reviews": 209,
+    "ageRange": "6-8",
+    "badge": "STEM"
   },
   {
     "id": "item-djp2xjt72",
@@ -3226,7 +3686,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/Hb347816a3b1d406d8fee4310e6a32752x.jpg_300x300.jpg",
     "rating": "4.7",
-    "reviews": 137
+    "reviews": 137,
+    "ageRange": "0-2",
+    "badge": "STEM"
   },
   {
     "id": "item-jyj6e8cb3",
@@ -3238,7 +3700,9 @@ const PRODUCTS_DATA = [
     "category": "outdoor",
     "image": "https://s.alicdn.com/@sc04/kf/Hf2c576087ee349a088a9db8349a72e9fZ.jpg_300x300.jpg",
     "rating": "4.7",
-    "reviews": 502
+    "reviews": 502,
+    "ageRange": "0-2",
+    "badge": "Safe for 3+"
   },
   {
     "id": "item-n0f5pwibu",
@@ -3250,7 +3714,8 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/H5c9784140db04dd7980bbfeeae203821F.jpg_300x300.jpg",
     "rating": "4.3",
-    "reviews": 353
+    "reviews": 353,
+    "ageRange": "9-12"
   },
   {
     "id": "item-ip578f28m",
@@ -3262,7 +3727,9 @@ const PRODUCTS_DATA = [
     "category": "creative",
     "image": "https://s.alicdn.com/@sc04/kf/Haecd62f7da3b44e79ef08cb45cb72b32k.jpg_300x300.jpg",
     "rating": "4.7",
-    "reviews": 271
+    "reviews": 271,
+    "ageRange": "6-8",
+    "badge": "Eco-Friendly"
   },
   {
     "id": "item-m8cr8qgm1",
@@ -3274,7 +3741,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H2d44c28c71524825b46383e3382bbdecp.jpg_300x300.jpg",
     "rating": "4.4",
-    "reviews": 307
+    "reviews": 307,
+    "ageRange": "3-5",
+    "badge": "STEM"
   },
   {
     "id": "item-5aw9lqwj5",
@@ -3286,7 +3755,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H5146d76303134341a97d04f00d8f76baP.jpg_300x300.jpg",
     "rating": "4.4",
-    "reviews": 144
+    "reviews": 144,
+    "ageRange": "6-8",
+    "badge": "STEM"
   },
   {
     "id": "item-36plhep0y",
@@ -3298,7 +3769,9 @@ const PRODUCTS_DATA = [
     "category": "board",
     "image": "https://s.alicdn.com/@sc04/kf/Hedf72f6642d944a2ba036b80f826560a9.jpg_300x300.jpg",
     "rating": "4.9",
-    "reviews": 492
+    "reviews": 492,
+    "ageRange": "3-5",
+    "badge": "Best Seller"
   },
   {
     "id": "item-f9qsnsauh",
@@ -3310,7 +3783,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/Ha0e2abb4874f4f3496d549397ac59111K.png_300x300.png",
     "rating": "4.5",
-    "reviews": 486
+    "reviews": 486,
+    "ageRange": "0-2",
+    "badge": "STEM"
   },
   {
     "id": "item-yeye4klbw",
@@ -3322,7 +3797,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H5e94227c2bf6457da84890697ced3577d.jpg_300x300.jpg",
     "rating": "4.6",
-    "reviews": 257
+    "reviews": 257,
+    "ageRange": "0-2",
+    "badge": "STEM"
   },
   {
     "id": "item-i6x5l9l05",
@@ -3334,7 +3811,9 @@ const PRODUCTS_DATA = [
     "category": "outdoor",
     "image": "https://s.alicdn.com/@sc04/kf/He0e2fd776f514edc9737ac82b3735186B.jpg_300x300.jpg",
     "rating": "4.6",
-    "reviews": 136
+    "reviews": 136,
+    "ageRange": "0-2",
+    "badge": "Safe for 3+"
   },
   {
     "id": "item-wsp5o3ym4",
@@ -3346,7 +3825,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H037ead701f394bcf86fff11a38fa27d0V.jpg_300x300.jpg",
     "rating": "4.9",
-    "reviews": 449
+    "reviews": 449,
+    "ageRange": "0-2",
+    "badge": "Best Seller"
   },
   {
     "id": "item-bzn0t4tjm",
@@ -3358,7 +3839,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H4a18848d1bb4465e90e1709c6407422a4.jpg_300x300.jpg",
     "rating": "4.3",
-    "reviews": 45
+    "reviews": 45,
+    "ageRange": "3-5",
+    "badge": "STEM"
   },
   {
     "id": "item-3kgd81xji",
@@ -3370,7 +3853,8 @@ const PRODUCTS_DATA = [
     "category": "board",
     "image": "https://s.alicdn.com/@sc04/kf/Hf805bc2d2dbc48638f20d7b802661718s.jpg_300x300.jpg",
     "rating": "4.3",
-    "reviews": 66
+    "reviews": 66,
+    "ageRange": "6-8"
   },
   {
     "id": "item-gcki5o5zl",
@@ -3382,7 +3866,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/He143cf0ce1254e7fb7daaa0168b6bcee6.jpg_300x300.jpg",
     "rating": "4.8",
-    "reviews": 257
+    "reviews": 257,
+    "ageRange": "3-5",
+    "badge": "Best Seller"
   },
   {
     "id": "item-wo2orrsam",
@@ -3394,7 +3880,8 @@ const PRODUCTS_DATA = [
     "category": "outdoor",
     "image": "https://s.alicdn.com/@sc04/kf/Hc2d26d3adceb418f908df1bc215f2838C.jpg_300x300.jpg",
     "rating": "4.3",
-    "reviews": 466
+    "reviews": 466,
+    "ageRange": "6-8"
   },
   {
     "id": "item-9tkvtvezj",
@@ -3406,7 +3893,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H9f58aad39ae1470cbdac0c547bc3d3a5D.jpg_300x300.jpg",
     "rating": "4.6",
-    "reviews": 493
+    "reviews": 493,
+    "ageRange": "6-8",
+    "badge": "STEM"
   },
   {
     "id": "item-rzkycgkvo",
@@ -3418,7 +3907,9 @@ const PRODUCTS_DATA = [
     "category": "outdoor",
     "image": "https://s.alicdn.com/@sc04/kf/Hfcfe6b5ecf704f55a2dbd41e6b95ab614.jpg_300x300.jpg",
     "rating": "4.8",
-    "reviews": 466
+    "reviews": 466,
+    "ageRange": "3-5",
+    "badge": "Best Seller"
   },
   {
     "id": "item-pb9cq43ib",
@@ -3430,7 +3921,9 @@ const PRODUCTS_DATA = [
     "category": "creative",
     "image": "https://s.alicdn.com/@sc04/kf/Hd8dcb8b6c0434b50919658491ac79728e.jpg_300x300.jpg",
     "rating": "4.8",
-    "reviews": 142
+    "reviews": 142,
+    "ageRange": "3-5",
+    "badge": "Best Seller"
   },
   {
     "id": "item-f3lysgfkr",
@@ -3442,7 +3935,9 @@ const PRODUCTS_DATA = [
     "category": "outdoor",
     "image": "https://s.alicdn.com/@sc04/kf/H99922662d3b94f94952ac4d647128f12B.jpg_300x300.jpg",
     "rating": "4.1",
-    "reviews": 117
+    "reviews": 117,
+    "ageRange": "0-2",
+    "badge": "Safe for 3+"
   },
   {
     "id": "item-ld5ulwtey",
@@ -3454,7 +3949,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H7491d9426e014c9f979bd2a9700db72a6.png_300x300.png",
     "rating": "4.5",
-    "reviews": 472
+    "reviews": 472,
+    "ageRange": "6-8",
+    "badge": "STEM"
   },
   {
     "id": "item-2t5t5s7i7",
@@ -3466,7 +3963,9 @@ const PRODUCTS_DATA = [
     "category": "creative",
     "image": "https://s.alicdn.com/@sc04/kf/H635028e930ee49e0953589113f67435eZ.png_300x300.png",
     "rating": "4.5",
-    "reviews": 203
+    "reviews": 203,
+    "ageRange": "0-2",
+    "badge": "Safe for 3+"
   },
   {
     "id": "item-c4u1l9hfi",
@@ -3478,7 +3977,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/Hddfbc964cd004fabb7c380466a41212cv.jpg_300x300.jpg",
     "rating": "4.3",
-    "reviews": 335
+    "reviews": 335,
+    "ageRange": "9-12",
+    "badge": "STEM"
   },
   {
     "id": "item-brjaudqte",
@@ -3490,7 +3991,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/Hcb19f44225bc4c95bc547be8a4cc3431Y.png_300x300.png",
     "rating": "4.8",
-    "reviews": 241
+    "reviews": 241,
+    "ageRange": "3-5",
+    "badge": "Best Seller"
   },
   {
     "id": "item-9he2t4zkx",
@@ -3502,7 +4005,9 @@ const PRODUCTS_DATA = [
     "category": "outdoor",
     "image": "https://s.alicdn.com/@sc04/kf/H9210945f23e642b9ac450ed70960a9145.jpg_300x300.jpg",
     "rating": "4.6",
-    "reviews": 375
+    "reviews": 375,
+    "ageRange": "0-2",
+    "badge": "Safe for 3+"
   },
   {
     "id": "item-m53kafum6",
@@ -3514,7 +4019,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/Hb38f7d9099ac43ee94ec4f7e0b71ab683.jpg_300x300.jpg",
     "rating": "4.3",
-    "reviews": 189
+    "reviews": 189,
+    "ageRange": "9-12",
+    "badge": "STEM"
   },
   {
     "id": "item-kud6xtymo",
@@ -3526,7 +4033,9 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/H41ae68666ca84309bde52b6d6d63e013a.png_300x300.png",
     "rating": "4.9",
-    "reviews": 464
+    "reviews": 464,
+    "ageRange": "3-5",
+    "badge": "Best Seller"
   },
   {
     "id": "item-qlglhh69l",
@@ -3538,7 +4047,9 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/H16e5ddd63180475ea5c6dcca59bdf6a6n.png_300x300.png",
     "rating": "4.6",
-    "reviews": 241
+    "reviews": 241,
+    "ageRange": "0-2",
+    "badge": "Safe for 3+"
   },
   {
     "id": "item-w33tw7ow1",
@@ -3550,7 +4061,8 @@ const PRODUCTS_DATA = [
     "category": "outdoor",
     "image": "https://s.alicdn.com/@sc04/kf/H7388f420248741ce96bb97591bb42d25b.png_300x300.png",
     "rating": "4.3",
-    "reviews": 62
+    "reviews": 62,
+    "ageRange": "6-8"
   },
   {
     "id": "item-29dheptu8",
@@ -3562,7 +4074,9 @@ const PRODUCTS_DATA = [
     "category": "board",
     "image": "https://s.alicdn.com/@sc04/kf/Hd7111400aa7a410dba2cdd81740c68ac9.png_300x300.png",
     "rating": "4.6",
-    "reviews": 468
+    "reviews": 468,
+    "ageRange": "0-2",
+    "badge": "Safe for 3+"
   },
   {
     "id": "item-4z2efjx24",
@@ -3574,7 +4088,9 @@ const PRODUCTS_DATA = [
     "category": "creative",
     "image": "https://s.alicdn.com/@sc04/kf/H38ee1483f24b4f6699b0fa4c30c052dfh.jpg_300x300.jpg",
     "rating": "4.9",
-    "reviews": 264
+    "reviews": 264,
+    "ageRange": "6-8",
+    "badge": "Best Seller"
   },
   {
     "id": "item-7h61pex9m",
@@ -3586,7 +4102,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/Haf8103965fd740969f461ab9b3ac1d88r.jpg_300x300.jpg",
     "rating": "4.0",
-    "reviews": 42
+    "reviews": 42,
+    "ageRange": "9-12",
+    "badge": "STEM"
   },
   {
     "id": "item-9yuddmu8b",
@@ -3598,7 +4116,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H9c1ae03e90cb4541ab7a68dbc3fc10bb2.jpg_300x300.jpg",
     "rating": "4.4",
-    "reviews": 31
+    "reviews": 31,
+    "ageRange": "3-5",
+    "badge": "STEM"
   },
   {
     "id": "item-wws64twt5",
@@ -3610,7 +4130,9 @@ const PRODUCTS_DATA = [
     "category": "creative",
     "image": "https://s.alicdn.com/@sc04/kf/Hb4c6fc093d814082a20ca30612d8123ci.jpg_300x300.jpg",
     "rating": "5.0",
-    "reviews": 402
+    "reviews": 402,
+    "ageRange": "3-5",
+    "badge": "Best Seller"
   },
   {
     "id": "item-5yxgdz2hh",
@@ -3622,7 +4144,8 @@ const PRODUCTS_DATA = [
     "category": "board",
     "image": "https://s.alicdn.com/@sc04/kf/H0f514f43388a4902b1a9ec32d3a346d9m.jpg_300x300.jpg",
     "rating": "4.4",
-    "reviews": 22
+    "reviews": 22,
+    "ageRange": "6-8"
   },
   {
     "id": "item-35akhpl39",
@@ -3634,7 +4157,9 @@ const PRODUCTS_DATA = [
     "category": "board",
     "image": "https://s.alicdn.com/@sc04/kf/H4135bfde0ecb4afda1caac4593932c50P.png_300x300.png",
     "rating": "4.6",
-    "reviews": 74
+    "reviews": 74,
+    "ageRange": "0-2",
+    "badge": "Safe for 3+"
   },
   {
     "id": "item-vbaa2d7hq",
@@ -3646,7 +4171,9 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/Hb3c9792a92374728b977ba5afdb22811M.jpg_300x300.jpg",
     "rating": "4.6",
-    "reviews": 472
+    "reviews": 472,
+    "ageRange": "0-2",
+    "badge": "Safe for 3+"
   },
   {
     "id": "item-1cnmtja57",
@@ -3658,7 +4185,9 @@ const PRODUCTS_DATA = [
     "category": "creative",
     "image": "https://s.alicdn.com/@sc04/kf/Hcf4328631d46437391782095a432e2d6r.jpg_300x300.jpg",
     "rating": "4.6",
-    "reviews": 378
+    "reviews": 378,
+    "ageRange": "3-5",
+    "badge": "Eco-Friendly"
   },
   {
     "id": "item-6b5r92mxc",
@@ -3670,7 +4199,8 @@ const PRODUCTS_DATA = [
     "category": "outdoor",
     "image": "https://s.alicdn.com/@sc04/kf/H02f0f066acbd402ba136ed78a3bd24d99.png_300x300.png",
     "rating": "4.4",
-    "reviews": 472
+    "reviews": 472,
+    "ageRange": "3-5"
   },
   {
     "id": "item-tnasdigvy",
@@ -3682,7 +4212,8 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/H2a145d0b94e14e6f8304f3591cd31391K.jpg_300x300.jpg",
     "rating": "4.3",
-    "reviews": 27
+    "reviews": 27,
+    "ageRange": "9-12"
   },
   {
     "id": "item-6g1c2942u",
@@ -3694,7 +4225,9 @@ const PRODUCTS_DATA = [
     "category": "board",
     "image": "https://s.alicdn.com/@sc04/kf/Hebedcf15f41d416f857066bd2ca30594P.jpg_300x300.jpg",
     "rating": "4.5",
-    "reviews": 88
+    "reviews": 88,
+    "ageRange": "0-2",
+    "badge": "Safe for 3+"
   },
   {
     "id": "item-pd3phu4w2",
@@ -3706,7 +4239,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H3def7abb20594e11994e9a2bdd1b4956U.jpg_300x300.jpg",
     "rating": "4.4",
-    "reviews": 29
+    "reviews": 29,
+    "ageRange": "0-2",
+    "badge": "STEM"
   },
   {
     "id": "item-q2g2qnf8h",
@@ -3718,7 +4253,9 @@ const PRODUCTS_DATA = [
     "category": "outdoor",
     "image": "https://s.alicdn.com/@sc04/kf/H5dfe57b689184d5d861e949df1dc8dbdk.jpg_300x300.jpg",
     "rating": "4.8",
-    "reviews": 115
+    "reviews": 115,
+    "ageRange": "0-2",
+    "badge": "Best Seller"
   },
   {
     "id": "item-p29sj30hj",
@@ -3730,7 +4267,8 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/H454b990840ae4f7488e12a815c8ef691g.jpg_300x300.jpg",
     "rating": "4.7",
-    "reviews": 98
+    "reviews": 98,
+    "ageRange": "6-8"
   },
   {
     "id": "item-zdb04jmee",
@@ -3742,7 +4280,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H53844652de364719a2a0bd7b0878a455e.jpg_300x300.jpg",
     "rating": "4.6",
-    "reviews": 228
+    "reviews": 228,
+    "ageRange": "6-8",
+    "badge": "STEM"
   },
   {
     "id": "item-jw2lkmdg7",
@@ -3754,7 +4294,9 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/Hc07ff82f52e249bbbd65acb2cd9ed0d1R.jpg_300x300.jpg",
     "rating": "4.9",
-    "reviews": 435
+    "reviews": 435,
+    "ageRange": "6-8",
+    "badge": "Best Seller"
   },
   {
     "id": "item-f1dv83c2e",
@@ -3766,7 +4308,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/Hf972813b6cb34668aa8bfdf90ab72627l.jpg_300x300.jpg",
     "rating": "4.8",
-    "reviews": 249
+    "reviews": 249,
+    "ageRange": "3-5",
+    "badge": "Best Seller"
   },
   {
     "id": "item-loc4o1j8q",
@@ -3778,7 +4322,9 @@ const PRODUCTS_DATA = [
     "category": "outdoor",
     "image": "https://s.alicdn.com/@sc04/kf/H6a2f42db50c740469cfca02475d18bed6.jpg_300x300.jpg",
     "rating": "4.5",
-    "reviews": 387
+    "reviews": 387,
+    "ageRange": "0-2",
+    "badge": "Safe for 3+"
   },
   {
     "id": "item-xftkzu7jm",
@@ -3790,7 +4336,9 @@ const PRODUCTS_DATA = [
     "category": "creative",
     "image": "https://s.alicdn.com/@sc04/kf/H1fd1f514859c4f30bd6810bf754d6e0bf.png_300x300.png",
     "rating": "4.3",
-    "reviews": 77
+    "reviews": 77,
+    "ageRange": "6-8",
+    "badge": "Eco-Friendly"
   },
   {
     "id": "item-rmc4s7qbx",
@@ -3802,7 +4350,8 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/Hc6af0188ef6f48e7a2ccac656a328deb8.png_300x300.png",
     "rating": "4.2",
-    "reviews": 500
+    "reviews": 500,
+    "ageRange": "3-5"
   },
   {
     "id": "item-fplvw4yft",
@@ -3814,7 +4363,9 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/Heac3271ecb3e4b4e9690096aa42fd2246.jpg_300x300.jpg",
     "rating": "4.8",
-    "reviews": 372
+    "reviews": 372,
+    "ageRange": "9-12",
+    "badge": "Best Seller"
   },
   {
     "id": "item-wxryzqfti",
@@ -3826,7 +4377,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H2e786e1a051143169205db5098ae8affp.jpg_300x300.jpg",
     "rating": "4.9",
-    "reviews": 344
+    "reviews": 344,
+    "ageRange": "0-2",
+    "badge": "Best Seller"
   },
   {
     "id": "item-c7e1vqzeh",
@@ -3838,7 +4391,9 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/Hef4e53c607ba4940aa03864ba859798fq.jpg_300x300.jpg",
     "rating": "4.5",
-    "reviews": 66
+    "reviews": 66,
+    "ageRange": "6-8",
+    "badge": "Eco-Friendly"
   },
   {
     "id": "item-bl1j1t92u",
@@ -3850,7 +4405,9 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/H01921fd4b0804677bb2584b0210cc1abe.jpg_300x300.jpg",
     "rating": "4.9",
-    "reviews": 415
+    "reviews": 415,
+    "ageRange": "6-8",
+    "badge": "Best Seller"
   },
   {
     "id": "item-k8049q5fh",
@@ -3862,7 +4419,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H57c8e3aeb12c4797bb4cd3181a53cf1dr.jpg_300x300.jpg",
     "rating": "4.7",
-    "reviews": 41
+    "reviews": 41,
+    "ageRange": "6-8",
+    "badge": "STEM"
   },
   {
     "id": "item-gjxaucmk1",
@@ -3874,7 +4433,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/Ha063bc8d312541518997a8314e3bc1b0r.jpg_300x300.jpg",
     "rating": "4.7",
-    "reviews": 47
+    "reviews": 47,
+    "ageRange": "6-8",
+    "badge": "STEM"
   },
   {
     "id": "item-c37bcjmw1",
@@ -3886,7 +4447,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H35eee0a54de8405298d969c526dc06a2m.jpg_300x300.jpg",
     "rating": "4.5",
-    "reviews": 506
+    "reviews": 506,
+    "ageRange": "3-5",
+    "badge": "STEM"
   },
   {
     "id": "item-nvw2k4gol",
@@ -3898,7 +4461,9 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/H293087b80b0a44e89cd6114f657adea9z.jpg_300x300.jpg",
     "rating": "4.7",
-    "reviews": 255
+    "reviews": 255,
+    "ageRange": "0-2",
+    "badge": "Safe for 3+"
   },
   {
     "id": "item-msc903kg1",
@@ -3910,7 +4475,9 @@ const PRODUCTS_DATA = [
     "category": "board",
     "image": "https://s.alicdn.com/@sc04/kf/H68e4e19dce694d20ba74763964a5dc05q.jpg_300x300.jpg",
     "rating": "4.9",
-    "reviews": 273
+    "reviews": 273,
+    "ageRange": "3-5",
+    "badge": "Best Seller"
   },
   {
     "id": "item-t865azlkk",
@@ -3922,7 +4489,9 @@ const PRODUCTS_DATA = [
     "category": "creative",
     "image": "https://s.alicdn.com/@sc04/kf/Hb0b78cc621a54a28858d67d9d829460e0.jpg_300x300.jpg",
     "rating": "4.0",
-    "reviews": 238
+    "reviews": 238,
+    "ageRange": "6-8",
+    "badge": "Eco-Friendly"
   },
   {
     "id": "item-y5t9cwbnx",
@@ -3934,7 +4503,8 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/H2fe71245245a4159ab857d6813d9d307g.jpg_300x300.jpg",
     "rating": "4.2",
-    "reviews": 323
+    "reviews": 323,
+    "ageRange": "6-8"
   },
   {
     "id": "item-bg87q6et6",
@@ -3946,7 +4516,9 @@ const PRODUCTS_DATA = [
     "category": "outdoor",
     "image": "https://s.alicdn.com/@sc04/kf/H5504f6a6cd294fb89267f453edaa54f28.jpg_300x300.jpg",
     "rating": "4.9",
-    "reviews": 350
+    "reviews": 350,
+    "ageRange": "0-2",
+    "badge": "Best Seller"
   },
   {
     "id": "item-hjed6jt16",
@@ -3958,7 +4530,8 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/Hffef07f94b00429090773f3ee78cdfd2i.png_300x300.png",
     "rating": "4.4",
-    "reviews": 325
+    "reviews": 325,
+    "ageRange": "9-12"
   },
   {
     "id": "item-0bl6c39jt",
@@ -3970,7 +4543,9 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/H78aa030da2c441ceb417bf4e03c98426O.png_300x300.png",
     "rating": "4.0",
-    "reviews": 404
+    "reviews": 404,
+    "ageRange": "0-2",
+    "badge": "Safe for 3+"
   },
   {
     "id": "item-701z82j73",
@@ -3982,7 +4557,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/Hc257f6f3769845cb9b5dbdea57d7b9d4f.jpg_300x300.jpg",
     "rating": "4.9",
-    "reviews": 38
+    "reviews": 38,
+    "ageRange": "0-2",
+    "badge": "Best Seller"
   },
   {
     "id": "item-5zo9t2g9e",
@@ -3994,7 +4571,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/Hb5be5e0653184848be9506d5eed0854er.jpg_300x300.jpg",
     "rating": "4.4",
-    "reviews": 86
+    "reviews": 86,
+    "ageRange": "9-12",
+    "badge": "STEM"
   },
   {
     "id": "item-40xjbfr6m",
@@ -4006,7 +4585,9 @@ const PRODUCTS_DATA = [
     "category": "outdoor",
     "image": "https://s.alicdn.com/@sc04/kf/Hab2a81d2303e49788e0374a94fe02e2dd.jpg_300x300.jpg",
     "rating": "4.6",
-    "reviews": 55
+    "reviews": 55,
+    "ageRange": "0-2",
+    "badge": "Safe for 3+"
   },
   {
     "id": "item-qe6lip8nl",
@@ -4018,7 +4599,9 @@ const PRODUCTS_DATA = [
     "category": "board",
     "image": "https://s.alicdn.com/@sc04/kf/H72216ec082ba415a9615766efcffa563v.jpg_300x300.jpg",
     "rating": "4.3",
-    "reviews": 113
+    "reviews": 113,
+    "ageRange": "0-2",
+    "badge": "Safe for 3+"
   },
   {
     "id": "item-sw3629ftg",
@@ -4030,7 +4613,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/Hb57bdc899ea84a01a7a75bd293541feaM.jpg_300x300.jpg",
     "rating": "4.3",
-    "reviews": 113
+    "reviews": 113,
+    "ageRange": "0-2",
+    "badge": "STEM"
   },
   {
     "id": "item-2qq601nqm",
@@ -4042,7 +4627,9 @@ const PRODUCTS_DATA = [
     "category": "creative",
     "image": "https://s.alicdn.com/@sc04/kf/H61ace8c23b9440c2954086c02eb30b06d.jpg_300x300.jpg",
     "rating": "4.8",
-    "reviews": 107
+    "reviews": 107,
+    "ageRange": "6-8",
+    "badge": "Best Seller"
   },
   {
     "id": "item-t3wylk5l4",
@@ -4054,7 +4641,8 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/H0c427a557f3b492d8a841ef5bc3c8c2fT.jpg_300x300.jpg",
     "rating": "4.7",
-    "reviews": 67
+    "reviews": 67,
+    "ageRange": "6-8"
   },
   {
     "id": "item-bm3eqiy5j",
@@ -4066,7 +4654,9 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/Hf802758d463548238b76984daac458977.jpg_300x300.jpg",
     "rating": "4.8",
-    "reviews": 348
+    "reviews": 348,
+    "ageRange": "6-8",
+    "badge": "Best Seller"
   },
   {
     "id": "item-zknfvq2i8",
@@ -4078,7 +4668,9 @@ const PRODUCTS_DATA = [
     "category": "outdoor",
     "image": "https://s.alicdn.com/@sc04/kf/H0668b160281e43918fd4a8f0121f6ebaX.jpg_300x300.jpg",
     "rating": "4.5",
-    "reviews": 505
+    "reviews": 505,
+    "ageRange": "0-2",
+    "badge": "Safe for 3+"
   },
   {
     "id": "item-x1os9zv0j",
@@ -4090,7 +4682,9 @@ const PRODUCTS_DATA = [
     "category": "board",
     "image": "https://s.alicdn.com/@sc04/kf/Haa660cd6144c49aeb49e7cb3fe1a8208s.jpg_300x300.jpg",
     "rating": "4.8",
-    "reviews": 384
+    "reviews": 384,
+    "ageRange": "0-2",
+    "badge": "Best Seller"
   },
   {
     "id": "item-fepi19dwo",
@@ -4102,7 +4696,9 @@ const PRODUCTS_DATA = [
     "category": "outdoor",
     "image": "https://s.alicdn.com/@sc04/kf/H5c874536fcab434a804165b9fceaa034D.jpg_300x300.jpg",
     "rating": "4.1",
-    "reviews": 341
+    "reviews": 341,
+    "ageRange": "3-5",
+    "badge": "Eco-Friendly"
   },
   {
     "id": "item-fc9h0mqq3",
@@ -4114,7 +4710,8 @@ const PRODUCTS_DATA = [
     "category": "plush",
     "image": "https://s.alicdn.com/@sc04/kf/H30377caca06347ad8790ab75356bcdf3E.png_300x300.png",
     "rating": "4.2",
-    "reviews": 472
+    "reviews": 472,
+    "ageRange": "6-8"
   },
   {
     "id": "item-37lncckxc",
@@ -4126,7 +4723,9 @@ const PRODUCTS_DATA = [
     "category": "board",
     "image": "https://s.alicdn.com/@sc04/kf/H3c831dd2dfdd4716ae59b29b6755e2bd7.jpg_300x300.jpg",
     "rating": "5.0",
-    "reviews": 453
+    "reviews": 453,
+    "ageRange": "6-8",
+    "badge": "Best Seller"
   },
   {
     "id": "item-x9om2ykwp",
@@ -4138,7 +4737,9 @@ const PRODUCTS_DATA = [
     "category": "outdoor",
     "image": "https://s.alicdn.com/@sc04/kf/Haf381ea74c044e7a994da572107dd52df.jpg_300x300.jpg",
     "rating": "4.8",
-    "reviews": 493
+    "reviews": 493,
+    "ageRange": "3-5",
+    "badge": "Best Seller"
   },
   {
     "id": "item-x81dggmes",
@@ -4150,7 +4751,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/H740bd2216e8e475785cfb7b5aaff64eb0.jpg_300x300.jpg",
     "rating": "4.1",
-    "reviews": 186
+    "reviews": 186,
+    "ageRange": "6-8",
+    "badge": "STEM"
   },
   {
     "id": "item-bposeena3",
@@ -4162,7 +4765,8 @@ const PRODUCTS_DATA = [
     "category": "creative",
     "image": "https://s.alicdn.com/@sc04/kf/H75dea98c2c9b458b9f9927447b388e0bP.jpg_300x300.jpg",
     "rating": "4.5",
-    "reviews": 133
+    "reviews": 133,
+    "ageRange": "3-5"
   },
   {
     "id": "item-b1o4w6o5b",
@@ -4174,7 +4778,9 @@ const PRODUCTS_DATA = [
     "category": "creative",
     "image": "https://s.alicdn.com/@sc04/kf/H0557861e009d45bd941868632a5d7f92o.jpg_300x300.jpg",
     "rating": "4.9",
-    "reviews": 458
+    "reviews": 458,
+    "ageRange": "3-5",
+    "badge": "Best Seller"
   },
   {
     "id": "item-yw0xpy2k6",
@@ -4186,7 +4792,9 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/Hf4c0729038f041aaa3f9be6b1fb04752R.png_300x300.png",
     "rating": "4.9",
-    "reviews": 138
+    "reviews": 138,
+    "ageRange": "0-2",
+    "badge": "Best Seller"
   },
   {
     "id": "item-y7ty378gg",
@@ -4198,7 +4806,8 @@ const PRODUCTS_DATA = [
     "category": "educational",
     "image": "https://s.alicdn.com/@sc04/kf/Ha56d894ab91342e688fef81d11b34012s.jpg_300x300.jpg",
     "rating": "4.8",
-    "reviews": 79
+    "reviews": 79,
+    "ageRange": "0-2",
+    "badge": "Best Seller"
   }
 ];
-if (typeof module !== 'undefined') module.exports = PRODUCTS_DATA;
