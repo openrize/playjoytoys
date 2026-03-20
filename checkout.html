@@ -827,7 +827,7 @@
             return true;
         }
 
-        function placeOrder() {
+        async function placeOrder() {
             let valid = true;
             valid &= validateField('firstName', document.getElementById('firstName').value.trim().length > 1);
             valid &= validateField('lastName', document.getElementById('lastName').value.trim().length > 1);
@@ -837,34 +837,51 @@
             valid &= validateField('state', document.getElementById('state').value !== '');
             valid &= validateField('zip', /^\d{5}$/.test(document.getElementById('zip').value));
 
-            const activeTab = document.querySelector('.payment-tab.active');
-            const payType = activeTab?.textContent?.trim();
-            if (payType?.includes('Credit')) {
-                const rawNum = document.getElementById('cardNumber').value.replace(/\s/g, '');
-                valid &= validateField('cardName', document.getElementById('cardName').value.trim().length > 1);
-                valid &= validateField('cardNumber', rawNum.length === 16);
-                valid &= validateField('cardExp', /^\d{2}\/\d{2}$/.test(document.getElementById('cardExp').value));
-                valid &= validateField('cardCvv', /^\d{3,4}$/.test(document.getElementById('cardCvv').value));
-            }
-
             if (!valid) {
                 const firstErr = document.querySelector('.error');
                 firstErr?.scrollIntoView({ behavior: 'smooth', block: 'center' });
                 return;
             }
 
-            // Simulate order processing
+            // ── Send cart to backend and redirect to Stripe Checkout ──────────
             const btn = document.getElementById('placeOrderBtn');
             btn.disabled = true;
-            btn.innerHTML = '⏳ Processing Order...';
+            btn.innerHTML = '⏳ Redirecting to Secure Checkout...';
             btn.style.opacity = '0.7';
 
-            setTimeout(() => {
-                Cart.clear();
-                const orderId = 'PJ-' + Math.random().toString(36).slice(2, 8).toUpperCase();
-                document.getElementById('orderNumber').textContent = 'Order ID: ' + orderId;
-                document.getElementById('successOverlay').classList.add('show');
-            }, 1800);
+            try {
+                const cartItems = Cart.get().map(i => ({ id: i.id, qty: i.qty }));
+
+                if (cartItems.length === 0) {
+                    alert('Your cart is empty. Please add items before checking out.');
+                    btn.disabled = false;
+                    btn.innerHTML = '🔒 Place Order — <span id="btnTotal">$0.00</span>';
+                    btn.style.opacity = '1';
+                    return;
+                }
+
+                const response = await fetch('/api/checkout', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ items: cartItems })
+                });
+
+                const data = await response.json();
+
+                if (data.success && data.url) {
+                    // Redirect to Stripe's secure hosted checkout page
+                    window.location.href = data.url;
+                } else {
+                    throw new Error(data.error || 'Checkout failed. Please try again.');
+                }
+            } catch (err) {
+                console.error('Checkout error:', err);
+                alert('❌ ' + err.message);
+                btn.disabled = false;
+                btn.innerHTML = '🔒 Place Order — <span id="btnTotal"></span>';
+                btn.style.opacity = '1';
+                renderSummary();
+            }
         }
 
         // Initial render
