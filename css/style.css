@@ -1065,8 +1065,9 @@ img {
 
 .price-original {
   font-size: 0.8rem;
-  color: var(--text-muted);
-  text-decoration: line-through;
+  color: var(--text-secondary);
+  text-decoration: none;
+  font-weight: 600;
 }
 
 .btn-add-cart {
@@ -1855,8 +1856,9 @@ img {
 
 .price-old {
   font-size: 1.2rem;
-  color: var(--text-muted);
-  text-decoration: line-through;
+  color: var(--text-secondary);
+  text-decoration: none;
+  font-weight: 600;
 }
 
 .price-save {

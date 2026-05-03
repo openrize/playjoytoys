@@ -27,9 +27,9 @@
                 <li><a href="contact.html">Contact</a></li>
             </ul>
             <div class="nav-actions">
-                <div class="nav-cart" id="navCart">🛒<div class="cart-count" id="cartCount">0</div>
+                <div class="nav-cart" title="Contact us" id="navCart">🛒<div class="cart-count" id="cartCount">0</div>
                 </div>
-                <a href="products.html" class="btn btn-primary" style="padding:10px 22px;font-size:0.9rem;">Shop Now</a>
+                <a href="products.html" class="btn btn-primary" style="padding:10px 22px;font-size:0.9rem;">View Portfolio</a>
                 <div class="hamburger" id="hamburger"><span></span><span></span><span></span></div>
             </div>
         </div>
@@ -70,8 +70,8 @@
                         style="margin-top:20px;padding:16px 20px;background:rgba(0,200,83,0.08);border:1px solid rgba(0,200,83,0.2);border-radius:var(--radius-sm);display:flex;align-items:center;gap:10px">
                         <span style="color:var(--accent-green);font-size:1rem">✅</span>
                         <div>
-                            <div style="font-weight:800;color:var(--accent-green);font-size:0.9rem">In Stock</div>
-                            <div style="font-size:0.8rem;color:var(--text-muted)">Ships within 24 hours</div>
+                            <div style="font-weight:800;color:var(--accent-green);font-size:0.9rem">Portfolio item</div>
+                            <div style="font-size:0.8rem;color:var(--text-muted)">Contact us for availability</div>
                         </div>
                     </div>
 
@@ -96,9 +96,9 @@
                     </div>
 
                     <div class="product-detail-price">
-                        <span class="price-big">$34.99</span>
-                        <span class="price-old">$49.99</span>
-                        <span class="price-save">Save 30%</span>
+                        <span class="price-big">Contact</span>
+                        <span class="price-old">Email: openrize@gmail.com</span>
+                        <span class="price-save">Phone: +1 (224) 377 9043</span>
                     </div>
 
                     <p class="product-detail-desc">
@@ -141,17 +141,16 @@
                             <span class="qty-value" id="qty">1</span>
                             <button class="qty-btn" onclick="changeQty(1)">+</button>
                         </div>
-                        <button class="btn btn-primary btn-lg" id="cartBtn" onclick="addToCart()">🛒 Add to
-                            Cart</button>
+                        <button class="btn btn-primary btn-lg" id="cartBtn" onclick="addToCart()">🛒 Contact for Details</button>
                         <button class="btn btn-outline" style="width:48px;height:52px;padding:0;justify-content:center;"
                             id="wishBtn" onclick="toggleWish()">♡</button>
                     </div>
 
                     <!-- Meta -->
                     <div class="product-meta">
-                        <div class="meta-item">✅ <span>Free shipping over $49</span></div>
-                        <div class="meta-item">↩️ <span>30-day easy returns</span></div>
-                        <div class="meta-item">🔒 <span>Secure checkout</span></div>
+                        <div class="meta-item">✅ <span>Email: openrize@gmail.com</span></div>
+                        <div class="meta-item">📞 <span>Phone: +1 (224) 377 9043</span></div>
+                        <div class="meta-item">🔒 <span>Portfolio — contact for pricing</span></div>
                     </div>
 
                     <!-- Age & Safety -->
@@ -194,7 +193,7 @@
                         <div class="product-rating"><span class="stars">★★★★★</span><span
                                 class="rating-count">(186)</span></div>
                         <div class="product-footer">
-                            <div class="product-price"><span class="price-current">$24.99</span></div><button
+                            <div class="product-price" style="display:flex;flex-direction:column;gap:4px;align-items:flex-start;"><span class="price-current">Contact</span><span class="price-original" style="font-size:0.78rem;">Email: openrize@gmail.com</span><span class="price-original" style="font-size:0.78rem;">Phone: +1 (224) 377 9043</span></div><button
                                 class="btn-add-cart"
                                 onclick="addToCartRelated(this, {id:'abc-puzzle', name:'Wooden ABC Puzzle', price:24.99, originalPrice:34.99, emoji:'🧩', category:'Puzzles'})">🛒</button>
                         </div>
@@ -208,7 +207,7 @@
                         <div class="product-rating"><span class="stars">★★★★☆</span><span
                                 class="rating-count">(94)</span></div>
                         <div class="product-footer">
-                            <div class="product-price"><span class="price-current">$42.99</span></div><button
+                            <div class="product-price" style="display:flex;flex-direction:column;gap:4px;align-items:flex-start;"><span class="price-current">Contact</span><span class="price-original" style="font-size:0.78rem;">Email: openrize@gmail.com</span><span class="price-original" style="font-size:0.78rem;">Phone: +1 (224) 377 9043</span></div><button
                                 class="btn-add-cart"
                                 onclick="addToCartRelated(this, {id:'telescope', name:'Junior Telescope Kit', price:42.99, originalPrice:59.99, emoji:'🔭', category:'STEM'})">🛒</button>
                         </div>
@@ -222,7 +221,7 @@
                         <div class="product-rating"><span class="stars">★★★★★</span><span
                                 class="rating-count">(211)</span></div>
                         <div class="product-footer">
-                            <div class="product-price"><span class="price-current">$38.99</span></div><button
+                            <div class="product-price" style="display:flex;flex-direction:column;gap:4px;align-items:flex-start;"><span class="price-current">Contact</span><span class="price-original" style="font-size:0.78rem;">Email: openrize@gmail.com</span><span class="price-original" style="font-size:0.78rem;">Phone: +1 (224) 377 9043</span></div><button
                                 class="btn-add-cart"
                                 onclick="addToCartRelated(this, {id:'circuit-kit', name:'Build & Circuit Kit', price:38.99, originalPrice:54.99, emoji:'💡', category:'Engineering'})">🛒</button>
                         </div>
@@ -254,7 +253,7 @@
     </script>
     <script src="js/cart.js"></script>
     <script>
-        // Add to cart wrapper for main product
+        // Contact for Details wrapper for main product
         function addToCart() {
             const product = {
                 id: 'stem-kit',
@@ -269,7 +268,7 @@
 
             const btn = document.getElementById('cartBtn');
             const originalText = btn.innerHTML;
-            btn.textContent = `✓ Added ${qty} to Cart!`;
+            btn.textContent = `✓ Contact sent (${qty} noted)`;
             btn.style.background = 'var(--accent-green)';
             setTimeout(() => {
                 btn.innerHTML = originalText;
@@ -277,7 +276,7 @@
             }, 2000);
         }
 
-        // Add to cart wrapper for related products
+        // Contact for Details wrapper for related products
         function addToCartRelated(btn, product) {
             Cart.add(product);
             const originalText = btn.textContent;
@@ -309,3 +308,5 @@
 </body>
 
 </html>
+
+

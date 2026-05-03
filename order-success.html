@@ -1,133 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Order Confirmed! – PlayJoy Toys</title>
-    <meta name="description" content="Your PlayJoy Toys order has been confirmed. Thank you for your purchase!" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="icon" type="image/png" href="favicon.png" />
-    <style>
-        .success-page {
-            min-height: 80vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            padding: 40px 24px;
-        }
-        .success-card {
-            background: var(--bg-card);
-            border: 1px solid var(--border);
-            border-radius: var(--radius-lg);
-            padding: 60px 48px;
-            max-width: 560px;
-            width: 100%;
-        }
-        .success-icon {
-            width: 100px;
-            height: 100px;
-            border-radius: 50%;
-            background: linear-gradient(135deg, #00C853, #00695C);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 3rem;
-            margin: 0 auto 28px;
-            box-shadow: 0 0 50px rgba(0, 200, 83, 0.4);
-            animation: pop 0.6s cubic-bezier(0.17, 0.89, 0.32, 1.49) forwards;
-        }
-        @keyframes pop {
-            from { transform: scale(0); }
-            to   { transform: scale(1); }
-        }
-        .order-detail-row {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 10px 0;
-            border-bottom: 1px solid var(--border);
-            font-size: 0.9rem;
-        }
-        .order-detail-row:last-child { border-bottom: none; }
-        .order-detail-row span:first-child { color: var(--text-muted); }
-        .order-detail-row span:last-child { color: white; font-weight: 700; }
-        .success-actions { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; margin-top: 32px; }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thanks for visiting | PlayJoy Toys</title>
+  <meta name="description" content="PlayJoy Toys portfolio — contact for product details and pricing." />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <style>
+    .success-page { min-height: 80vh; display: flex; align-items: center; justify-content: center; text-align: center; padding: 40px 24px; }
+    .success-card { background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius-lg); padding: 48px 40px; max-width: 520px; width: 100%; }
+  </style>
 </head>
 <body>
-    <nav class="navbar scrolled" id="navbar">
-        <div class="nav-container">
-            <a href="index.html" class="nav-logo">
-                <div class="logo-icon">🧸</div>Play<span>Joy</span> Toys
-            </a>
-        </div>
-    </nav>
-
-    <div class="success-page">
-        <div class="success-card">
-            <div class="success-icon">✓</div>
-            <div style="font-size:1.8rem;margin-bottom:8px">🎉 🎊 🎈</div>
-            <h1 style="font-family:'Fredoka One',cursive;color:white;margin-bottom:12px;font-size:2rem">Order Confirmed!</h1>
-            <p style="color:var(--text-secondary);margin-bottom:28px">
-                Thank you for your purchase! Your toys are being packed with love and will be on their way soon. 🧸
-            </p>
-
-            <div id="orderDetails" style="background:var(--bg-dark);border-radius:var(--radius-sm);padding:16px 20px;margin-bottom:28px;text-align:left">
-                <div class="order-detail-row">
-                    <span>Order ID</span>
-                    <span id="orderId" style="font-size:0.8rem;font-family:monospace">Loading...</span>
-                </div>
-                <div class="order-detail-row">
-                    <span>Amount Paid</span>
-                    <span id="orderAmount" style="color:var(--primary)!important">-</span>
-                </div>
-                <div class="order-detail-row">
-                    <span>Confirmation Email</span>
-                    <span id="orderEmail">-</span>
-                </div>
-            </div>
-
-            <p style="font-size:0.82rem;color:var(--text-muted);margin-bottom:0">
-                Need help? Contact us at <a href="mailto:openrize@gmail.com" style="color:var(--primary)">openrize@gmail.com</a>
-            </p>
-
-            <div class="success-actions">
-                <a href="products.html" class="btn btn-primary">🛍️ Continue Shopping</a>
-                <a href="index.html" class="btn btn-outline">🏠 Back to Home</a>
-            </div>
-        </div>
+  <nav class="navbar scrolled">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo"><div class="logo-icon">🧸</div>Play<span>Joy</span> Toys</a>
     </div>
+  </nav>
 
-    <script src="js/cart.js"></script>
-    <script>
-        // Clear the cart after successful payment
-        Cart.clear();
-
-        // Show order details from Stripe session (pulled via URL param)
-        async function loadOrderDetails() {
-            const params = new URLSearchParams(window.location.search);
-            const sessionId = params.get('session_id');
-
-            if (!sessionId) {
-                document.getElementById('orderId').textContent = 'N/A';
-                return;
-            }
-
-            try {
-                const res = await fetch(`/api/checkout/session/${sessionId}`);
-                const data = await res.json();
-                if (data.success) {
-                    document.getElementById('orderId').textContent = sessionId.slice(0, 24) + '...';
-                    document.getElementById('orderAmount').textContent = '$' + data.session.amount_total;
-                    document.getElementById('orderEmail').textContent = data.session.customer_email || 'Check your email';
-                }
-            } catch (e) {
-                document.getElementById('orderId').textContent = sessionId.slice(0, 24) + '...';
-            }
-        }
-
-        loadOrderDetails();
-    </script>
+  <div class="success-page">
+    <div class="success-card">
+      <h1 style="font-family:'Fredoka One',cursive;color:white;margin-bottom:12px;font-size:1.75rem">Thanks for visiting</h1>
+      <p style="color:var(--text-secondary);margin-bottom:20px">
+        This site runs in <strong style="color:white">portfolio mode</strong>. Online checkout is not available.
+      </p>
+      <p style="color:var(--text-secondary);margin-bottom:8px"><strong style="color:white">Contact</strong></p>
+      <p style="margin-bottom:6px"><a href="mailto:openrize@gmail.com" style="color:var(--primary)">openrize@gmail.com</a></p>
+      <p style="margin-bottom:24px"><a href="tel:+12243779043" style="color:var(--primary)">+1 (224) 377 9043</a></p>
+      <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap">
+        <a href="products.html" class="btn btn-primary">View products</a>
+        <a href="index.html" class="btn btn-outline">Home</a>
+      </div>
+    </div>
+  </div>
+  <script src="js/cart.js"></script>
 </body>
 </html>

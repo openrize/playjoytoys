@@ -26,9 +26,9 @@
                 <li><a href="contact.html">Contact</a></li>
             </ul>
             <div class="nav-actions">
-                <div class="nav-cart">🛒<div class="cart-count">0</div>
+                <div class="nav-cart" title="Contact us">🛒<div class="cart-count">0</div>
                 </div>
-                <a href="products.html" class="btn btn-primary" style="padding:10px 22px;font-size:0.9rem;">Shop Now</a>
+                <a href="products.html" class="btn btn-primary" style="padding:10px 22px;font-size:0.9rem;">View Portfolio</a>
                 <div class="hamburger" id="hamburger"><span></span><span></span><span></span></div>
             </div>
         </div>
@@ -58,8 +58,8 @@
                 </div>
                 <select class="form-select" style="width:180px" id="sortSelect" onchange="filterProducts()">
                     <option value="Best Selling">Sort: Best Selling</option>
-                    <option value="Price: Low to High">Price: Low to High</option>
-                    <option value="Price: High to Low">Price: High to Low</option>
+                    <option value="Name: A-Z">Name: A-Z</option>
+                    <option value="Name: Z-A">Name: Z-A</option>
                     <option value="Best Rated">Best Rated</option>
                     <option value="Newest First">Newest First</option>
                 </select>
@@ -76,7 +76,7 @@
             <div class="filter-bar" style="margin-bottom:20px">
                 <button class="filter-btn active" onclick="filterCat(this,'all')">All Types</button>
                 <button class="filter-btn" onclick="filterCat(this,'educational')">🔬 Educational</button>
-                <button class="filter-btn" onclick="filterCat(this,'outdoor')">⚽ Outdoor</button>
+                <button class="filter-btn" onclick="filterCat(this,'outdoor')">âš½ Outdoor</button>
                 <button class="filter-btn" onclick="filterCat(this,'plush')">🧸 Plush</button>
                 <button class="filter-btn" onclick="filterCat(this,'creative')">🎨 Creative</button>
                 <button class="filter-btn" onclick="filterCat(this,'board')">🎲 Board Games</button>
@@ -140,7 +140,7 @@
                         badgeHtml = `<span class="product-badge ${badgeClass}" style="top:10px;right:10px;left:auto;background:var(--primary)">⭐ ${p.badge}</span>`;
                     }
                     
-                    let saleBadge = (p.price && p.originalPrice && p.price < p.originalPrice * 0.7) ? '<span class="product-badge sale">💰 Sale</span>' : '';
+                    let saleBadge = '';
                     let safeCategory = p.category || 'toy';
                     let safeName = p.name || 'Toy';
                     let safeDesc = p.fullName ? p.fullName.substring(0, 60) : safeName;
@@ -162,11 +162,12 @@
                                 <span class="rating-count">(${p.reviews || 0})</span>
                             </div>
                             <div class="product-footer">
-                                <div class="product-price">
-                                    <span class="price-current">$${p.price || '0.00'}</span>
-                                    <span class="price-original">$${p.originalPrice || ''}</span>
+                                <div class="product-price" style="display:flex;flex-direction:column;gap:4px;align-items:flex-start;">
+                                    <span class="price-current">Contact</span>
+                                    <span class="price-original" style="font-size:0.78rem;">Email: openrize@gmail.com</span>
+                                    <span class="price-original" style="font-size:0.78rem;">Phone: +1 (224) 377 9043</span>
                                 </div>
-                                <button class="btn-add-cart" onclick='addToCart(this, ${JSON.stringify(p).replace(/'/g, "&#39;").replace(/"/g, "&quot;")})'>🛒</button>
+                                <button class="btn-add-cart" title="Contact us" onclick='addToCart(this, ${JSON.stringify(p).replace(/'/g, "&#39;").replace(/"/g, "&quot;")})'>🛒</button>
                             </div>
                         </div>
                     </div>
@@ -262,8 +263,8 @@
                     return matchCat && matchAge && matchSearch;
                 });
 
-                if (sort === 'Price: Low to High') filteredProducts.sort((a,b) => (a.price||0) - (b.price||0));
-                else if (sort === 'Price: High to Low') filteredProducts.sort((a,b) => (b.price||0) - (a.price||0));
+                if (sort === 'Name: A-Z') filteredProducts.sort((a,b) => (a.name||'').localeCompare(b.name||''));
+                else if (sort === 'Name: Z-A') filteredProducts.sort((a,b) => (b.name||'').localeCompare(a.name||''));
                 else if (sort === 'Best Rated') filteredProducts.sort((a,b) => (b.rating||0) - (a.rating||0));
                 else if (sort === 'Best Selling') filteredProducts.sort((a,b) => (b.reviews||0) - (a.reviews||0));
                 
@@ -297,3 +298,5 @@
 </body>
 
 </html>
+
+
