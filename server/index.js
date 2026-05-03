@@ -11,7 +11,15 @@ app.use(cors());
 app.use(express.json());
 
 // ── Serve the static frontend files ──────────────────
-app.use(express.static(path.join(__dirname, '..')));
+app.use(
+  express.static(path.join(__dirname, '..'), {
+    setHeaders(res, filePath) {
+      if (filePath.endsWith('.html')) {
+        res.setHeader('Content-Type', 'text/html; charset=utf-8');
+      }
+    },
+  })
+);
 
 // ── API Routes ────────────────────────────────────────
 app.use('/api/products', require('./routes/products'));
@@ -36,6 +44,7 @@ app.get('/api/health', (req, res) => {
 
 // ── Fallback: send index.html for all other routes ────
 app.get('*', (req, res) => {
+  res.setHeader('Content-Type', 'text/html; charset=utf-8');
   res.sendFile(path.join(__dirname, '..', 'index.html'));
 });
 
