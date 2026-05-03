@@ -1,10 +1,10 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>PlayJoy Toys | Portfolio — Safe, Fun & Educational Toy Showcase</title>
+  <title>PlayJoy Toys | Portfolio &mdash; Safe, Fun & Educational Toy Showcase</title>
   <meta name="description"
     content="PlayJoy Toys portfolio: browse toy concepts by category and age. Contact openrize@gmail.com or +1 (224) 377 9043 for pricing and details." />
   <meta name="keywords"
@@ -18,7 +18,7 @@
 
   <!-- ===== STICKY ANNOUNCEMENT BAR ===== -->
   <div class="announcement-bar" style="background:var(--primary);color:var(--bg-dark);text-align:center;padding:8px;font-weight:600;font-size:0.9rem;z-index:1001;position:relative;">
-    Portfolio showcase — Contact: openrize@gmail.com · +1 (224) 377 9043
+    Portfolio showcase &mdash; Contact: openrize@gmail.com &middot; +1 (224) 377 9043
   </div>
 
   <!-- ===== NAVBAR ===== -->
@@ -67,9 +67,9 @@
     <div class="container">
       <div class="hero-grid">
         <div class="hero-content">
-          <div class="hero-badge">&#127775; Portfolio showcase — Openrize</div>
-          <h1>Fun & Educational <span class="gradient-text">Toys</span> — Curated for Families</h1>
-          <p class="hero-sub">Browse a wide showcase of safe, durable concepts across ages 0–12. Pricing is contact-only;
+          <div class="hero-badge">&#127775; Portfolio showcase &mdash; Openrize</div>
+          <h1>Fun & Educational <span class="gradient-text">Toys</span> &mdash; Curated for Families</h1>
+          <p class="hero-sub">Browse a wide showcase of safe, durable concepts across ages 0&ndash;12. Pricing is contact-only;
             reach out anytime for details.</p>
           <div class="hero-actions">
             <a href="products.html" class="btn btn-primary btn-lg">View featured work</a>
@@ -196,7 +196,7 @@
       <div class="section-header">
         <div class="badge">&#128293; Featured on this portfolio</div>
         <h2>Featured <span class="gradient-text">Products</span></h2>
-        <p>A sample of the catalog — tap contact on any card for email and phone.</p>
+        <p>A sample of the catalog &mdash; tap contact on any card for email and phone.</p>
       </div>
       <div class="products-grid" id="featuredGrid">
         <!-- Dynamic content will be injected here -->
@@ -235,7 +235,7 @@
             <div class="why-feature">
               <div class="feature-icon" style="background:rgba(124,77,255,0.15)" aria-hidden="true">&#128231;</div>
               <h4>Direct contact</h4>
-              <p>Questions about an item? Email or call — we reply within one business day.</p>
+              <p>Questions about an item? Email or call &mdash; we reply within one business day.</p>
             </div>
           </div>
         </div>
@@ -289,7 +289,7 @@
             <div class="author-avatar" style="background:rgba(255,107,53,0.2);color:var(--primary)">M</div>
             <div class="author-info">
               <strong>M. Patel</strong>
-              <span><span aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</span> · Portfolio note</span>
+              <span><span aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</span> &middot; Portfolio note</span>
             </div>
           </div>
         </div>
@@ -301,19 +301,19 @@
             <div class="author-avatar" style="background:rgba(0,176,255,0.2);color:var(--accent-blue)">J</div>
             <div class="author-info">
               <strong>J. Singh</strong>
-              <span><span aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</span> · Portfolio note</span>
+              <span><span aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</span> &middot; Portfolio note</span>
             </div>
           </div>
         </div>
         <div class="testimonial-card">
           <div class="quote-icon">"</div>
           <p class="testimonial-text">The board game brought our whole family together for game night! Quality is
-            amazing — follow-up for quotes has always been quick.</p>
+            amazing &mdash; follow-up for quotes has always been quick.</p>
           <div class="testimonial-author">
             <div class="author-avatar" style="background:rgba(124,77,255,0.2);color:var(--secondary)">R</div>
             <div class="author-info">
               <strong>R. Thompson</strong>
-              <span><span aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</span> · Portfolio note</span>
+              <span><span aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</span> &middot; Portfolio note</span>
             </div>
           </div>
         </div>
@@ -327,7 +327,7 @@
       <div class="newsletter-inner">
         <div class="badge" style="margin:0 auto 16px">&#128231; Stay in touch</div>
         <h2>Get <span class="gradient-text">updates</span></h2>
-        <p>Leave your email for occasional portfolio updates — or email us directly at openrize@gmail.com.</p>
+        <p>Leave your email for occasional portfolio updates &mdash; or email us directly at openrize@gmail.com.</p>
         <div class="newsletter-form">
           <input type="email" placeholder="Enter your email address..." id="newsletterEmail" />
           <button class="btn btn-primary" onclick="subscribeNewsletter()">Notify me</button>
@@ -341,7 +341,7 @@
     <div class="container">
       <div class="bottom-cta">
         <h2>Ready to explore the catalog?</h2>
-        <p>Open the full product grid — contact info is on every item.</p>
+        <p>Open the full product grid &mdash; contact info is on every item.</p>
         <a href="products.html" class="btn btn-white btn-lg">View portfolio products</a>
       </div>
     </div>
@@ -415,6 +415,19 @@
     const PHONE_GLYPH = '\u260E';
     const CHECK = '\u2713';
 
+    function emojiToHtmlEntities(str) {
+      if (!str) return '';
+      let out = '';
+      for (let i = 0; i < str.length; ) {
+        const cp = str.codePointAt(i);
+        const w = cp > 0xffff ? 2 : 1;
+        if (cp > 127) out += '&#' + cp + ';';
+        else out += str[i];
+        i += w;
+      }
+      return out;
+    }
+
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
@@ -432,7 +445,7 @@
           <div class="product-card">
             <span class="product-badge hot">Portfolio</span>
             <div class="product-img">
-              ${p.image ? `<img src="${p.image}" alt="${p.name}" style="width:100%;height:100%;object-fit:cover;border-radius:15px;">` : p.emoji}
+              ${p.image ? `<img src="${p.image}" alt="${p.name}" style="width:100%;height:100%;object-fit:cover;border-radius:15px;">` : emojiToHtmlEntities(p.emoji)}
               <button type="button" class="product-wishlist">${WISH_EMPTY}</button>
             </div>
             <div class="product-info">
@@ -528,7 +541,7 @@
     function subscribeNewsletter() {
       const email = document.getElementById('newsletterEmail').value;
       if (email) {
-        alert('Thanks — portfolio demo only; email openrize@gmail.com for real inquiries.');
+        alert('Thanks - portfolio demo only; email openrize@gmail.com for real inquiries.');
         document.getElementById('newsletterEmail').value = '';
       } else {
         alert('Please enter a valid email address.');

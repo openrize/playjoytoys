@@ -14,8 +14,15 @@ app.use(express.json());
 app.use(
   express.static(path.join(__dirname, '..'), {
     setHeaders(res, filePath) {
-      if (filePath.endsWith('.html')) {
+      const lower = filePath.toLowerCase();
+      if (lower.endsWith('.html')) {
         res.setHeader('Content-Type', 'text/html; charset=utf-8');
+      } else if (lower.endsWith('.js')) {
+        res.setHeader('Content-Type', 'application/javascript; charset=utf-8');
+      } else if (lower.endsWith('.css')) {
+        res.setHeader('Content-Type', 'text/css; charset=utf-8');
+      } else if (lower.endsWith('.json')) {
+        res.setHeader('Content-Type', 'application/json; charset=utf-8');
       }
     },
   })
